@@ -1,523 +1,296 @@
-Câblage
-(Wiring)
-Action qui consiste à connecter les divers éléments d’un système de communication.
+Darknet
+(Réseau sombre ?)
+Le terme Darknet a été médiatisé récemment dans le cadre du démantèlement de réseaux de cybercriminels ou de pédopornographies. Ainsi, le terme a été associé auprès du public à une forme d’Internet caché où se retrouvent les criminels. Le terme est pourtant plus ancien et caractérisait initialement un réseau non directement atteignable depuis ARPANET* (ossature initiale d’Internet). Aujourd’hui on peut définir le Darknet comme un ensemble de réseaux pairs à pairs distribués anonymes. Ces réseaux sont ainsi créés par des utilisateurs qui souhaitent partager librement sans subir la surveillance d’Internet. L’usage de ces réseaux est généralement développé dans les milieux contestataires où au sein des communautés underground. Pour autant, le Darknet offre également des possibilités pour développer la liberté d’expression et l’échange d’information dans les pays pratiquant une censure violente de l’Internet, il est donc également  utilisé par des journalistes et des citoyens engagés. Ainsi, le Darknet n’est pas si noir…
+DARPA - Defense Advanced Research Projects Agency
+La DARPA est une agence du département de la défense américain. L’agence est principalement en charge de la re-cherche et du développement de nouvelles technologies pour une application militaire. Héritier du National De-fense Defense Research Committee (1940), la DARPA a pris sa forme actuelle en 1958 créée en réaction au lance-ment du satellite Russe Spoutnik. Les premiers axes de re-cherche touchent principalement le domaine spatial (dont déjà la défense anti-missiles) et le nucléaire. La DARPA finance également des projets plus originaux et futuristes, dans le domaine de l’intelligence artificielle par exemple. En matière de réseaux et d’informatique l’agence est à l’origine du projet ARPANET* lancé en 1969 et qui préfi-gure l’architecture décentralisée de l’Internet.
+Voir ARPANET.
 
-Cache
-(Cache) 
-Le cache ou mémoire cache est une composante de la mémoire, habituellement plus rapide mais plus limité en taille, qui stocke des données de façon transparente et transitoire afin qu’elles soient retrouvées plus rapidement. Un processeur contient habituellement plusieurs niveaux de cache, de rapidité décroissante et de capacité croissante. La mémoire cache, d’accès plus rapide que la mémoire centrale, est utilisée pour stocker temporairement les données d’une opération arithmétique ou logique.
-Dans le cas de la navigation Internet, les données sont stockées localement au sein d'un cache, elles peuvent avoir été consultées préalablement et sont ainsi immédiatement disponible en cas de nouvelles requêtes (ce qui évite d’effectuer une nouvelle résolution DNS*). 
-CALID – Centre d’Analyse et de Lutte Informatique Défensive
-Unité militaire française en charge de la cyberdéfense des réseaux du ministère de la défense. La mission englobe également les forces projetées. Les équipes analysent en temps réels les événements collectés par des sondes réseaux déployées.
+Data center 
+(Centre de traitement de données) 
+Lieu physique regroupant un ensemble d’ordinateurs et des systèmes de télécommunications afin de stocker, trai-ter et diffuser des informations. Sa fonction principale est d’assurer une bonne connexion réseau et un haut niveau de disponibilité des ressources. Les datacenters sont, par exemple, un élément essentiel des entreprises de l’Internet au premier rang desquelles figure Google. Ces centres regroupent des centaines ou des milliers de ma-chines, principalement des serveurs qui sont disposés sur des « racks ». Leur besoin en énergie est considérable, pour d’une part alimenter les serveurs mais surtout assu-rer la climatisation des salles.
 
-Canal caché
-(Covert channel)
-Un canal caché est un canal de communication qui permet à un processus malveillant de transférer des informations en exploitant un mécanisme qui n’est pas censé servir à la communication. Par exemple : protocoles de signalisation, bits de bourrage, gigue de temps, etc.
+Data mining
+(Exploration des données – Analyse intelligente des données)
+L’exploitation de données, ou fouille de données, est un ensemble de processus et de technologies qui vise à déga-ger une information d’une quantité importante de don-nées. Le data mining s’impose avec l’apparition de bases de données importantes et la numérisation constante de nombreux segments d’activités (commerce, santé, éner-gie, éducation). Les applications du data mining sont nombreuses et débouchent sur de l’analyse statistique et prédictive. Ainsi, est-il possible de déterminer des com-portements de consommation, de séquencer le génome humain, de prévoir des pics de trafic routier ou encore d’améliorer la gestion des stocks d’une entreprise. Dans le domaine du marketing , « Le data mining client est un processus de management des données client qui opère à partir des données élémentaires pour produire de l’information, de la connaissance en vue d’une action bien déterminée vis à vis des clients »[Michel Jambu, 2000].
 
-Canal de fréquence
-(Frequency channel – channel)
-Un canal de fréquence est une partie du spectre des fréquences comprise entre deux fréquences spécifiées et destinée à être utilisée pour une transmission. Il peut être caractérisé par sa fréquence centrale et la largeur de bande associée.
+Data scientist
+Fonction liée à l’émergence des données de masse dans le monde de l’entreprise. Le data scientist (l’expression ne connaît pas encore de traduction en français) est ainsi responsable de l’analyse et de la gestion des données de masse au sein de sa structure. Mais au-delà, il est chargé de « créer de la valeur » à partir de ces données, il utilise ainsi des compétences issues du monde de la statistique mais il doit élargir son profil avec de la connaissance mé-tier, de la communication, et des compétences techniques. Il n’existe pas à proprement parler de formation à cette fonction dont le périmètre est encore en pleine évolution.
+Voir Big data.
 
-Canal de transmission
-(Channel)
-En télécommunication, un canal de transmission désigne un ensemble de moyens nécessaires pour assurer une transmission de signaux dans un seul sens entre deux points. On parle également de voie de transmission. Ainsi plusieurs voies de transmission peuvent partager un même support physique (câble).
+Datagramme
+(Datagram)
+Élément structuré de données réseaux. L’usage du terme est réservé traditionnellement au protocole de communi-cation de la couche liaison de données du modèle OSI*, ou couche accès réseau du modèle TCP/IP*. Pour les pro-tocoles de plus haut niveau on parlera de « paquet* » pour le protocole IP, de « segment » pour TCP*. 
+Un datagramme contient des données (on parlera de charge* utile ou payload*) ainsi qu’un en-tête permettant l’acheminement et le traitement du datagramme sur le ré-seau (adresse origine, adresse destination, etc.) et des in-formations de contrôle. Le datagramme IP est la « brique élémentaire » des échanges sur les réseaux TCP/IP.  Voir également TCP*.
+Ci-dessous, la description du format d’un datagramme du protocole IP (communément appelé paquet IP).
 
-
-
-CAPEC – Common Attack Pattern Enumeration and Classification
-Développé par le MITRE*, le CAPEC est une typologie très large des différents modèles d’attaques connues. CAPEC se veut un outil au profit, entre autre, des analystes en charge de la cybersécurité permettant de mieux comprendre les modes d’action des attaquants. On peut effectuer des recherche par domaine d’attaque (exemple : social engineering*, supply chain, Software…) ou par mécanisme d’attaque (exemple : flooding, sniffing…). Chaque mécanisme fait l’objet d’une fiche descriptive où l’on retrouve la description de l’attaque, les prérequis nécessaires, les mécanismes de protection éventuels… La base est accessible en ligne à l’adresse : http://capec.mitre.org/ — Voir STIX*.
-
-Capture The Flag - CTF
-(Capture du drapeau)
-En sécurité informatique, un CTF est un challenge qui consiste, seul ou en équipe, à s’introduire dans un système d’information désigné et accomplir une action qui prouve l’intrusion. 
-
-Caractérisation
-(Characterization)
-Pour un composant électronique, la caractérisation est l’action de vérifier la conformité d’un produit à ses spécifications par un ensemble de tests physiques ou électriques. 
-
-Carte électronique
-(Electronic board)
-En électronique, il s’agit d’un circuit imprimé équipé de composants.
-
-Carte fille
-(Daughter board – Daughtercard)
-Carte électronique enfichée sur une autre carte, en général la carte mère.
-Carte mère
-(Mother board – mothercard)
-Carte électronique qui sert de support aux composants principaux d’un ensemble électronique et éventuellement aux cartes filles.
-
-Carte réseau
-(NIC – Network Interface Card)
-Eléments physiques (composants électroniques) reliés sur circuit imprimé dont la fonction est d’assurer l’interface* entre la machine à laquelle elle appartient et l’ensemble des autres équipements connectés sur le même réseau.
-
-Carte SIM
-(Subscriber Identity Mobile card)
-Carte à puce présente dans les téléphones mobiles (existe également sous format « micro » ou « nano »). Elle contient des informations qui permettent l’identification de l’usager sur son réseau ainsi que des paramètres d’accès. Elle contient un processeur et trois types de mémoire (ROM* – EPROM – RAM*). La carte SIM contient ainsi les données obligatoires (information administratives, IMSI*, information de localisation, liste des fréquences radio à utiliser, les derniers réseaux utilisés, la clé de chiffrement Kc), les données de sécurité (clé d’authentification Ki, code CHV1 ou PIN*) et les données facultatives (raccourcis numéros, opérateur, types de messages acceptés…). 
-
-CASE - Common Application Services Elements
-Au niveau application du modèle OSI* (soit la dernière des sept couches du modèle), les CASE regroupent des ensembles normalisés de protocoles utilisables par des applica-
-tions. Connu aujourd’hui sous l’acronyme ACSE – Application Common Service Elements.
+32 bits
+Version 
+(4 bits)	Longueur d'en-tête 
+(4 bits)	Type de service 
+(8 bits)	Longueur totale 
+(16 bits)
+Identification 
+(16 bits)	Dra-peau 
+(3 bits)	Dé-ca-lage fragment 
+(13 bits)
+Durée de vie (8 bits)
+Protocole (8 bits) 	Somme de contrôle en-tête (16 bits)
+Adresse IP source (32 bits)
+Adresse IP destination (32 bits)
+Données
 
 
-CBAC - Context-Based Access Control
-Le CBAC est une application intégrée aux matériels Cisco (routeurs*) qui permet le filtrage avancé de sessions de paquets. La CBAC s’obtient par la configuration des listes de contrôle d’accès (ACL*), il est alors possible de refuser le transfert du trafic et son traitement par l’équipement.
+Débit
+(Flow – rate)
+Exprimé en Bit* par seconde, ou en bauds, le débit cor-respond à la quantité d’information transmise par unité de temps dans un media. Dans les transmissions numé-riques on distingue alors le débit montant du client vers le serveur (upload*) et descendant du serveur vers le client (download*). Par commodité on exprime souvent le débit en Mo/s soit avec un facteur huit par rapport au Mbit/s (rappel un octet = 8 bits)
+Voir Bit, Bande passante. 
 
-CBC - Cipher Block Chaining 
-(Chiffrement par enchaînement des blocs)
-Mode de chiffrement par blocs utilisé par l’algorithme DES*. Avec CBC, chaque bloc de données chiffrées est l’opérande d’une opération sur le bloc de données suivant avant le chiffrement de ce dernier, rajoutant ainsi de la complexité aux données chiffrées finales.
-Voir Chiffrement.
+Déception (manœuvre de)
+(Deception)
+Dans la terminologie militaire une manœuvre de décep-tion est un ensemble de mesures visant à induire l’ennemi en erreur. Ces manœuvres utilisent des trucages, de la dé-sinformation des falsifications, en vue d’inciter l’adver-saire à réagir d’une manière préjudiciable à ses propres intérêts . Un exemple parfaitement illustratif de ma-nœuvre de déception est l’opération Fortitude qui fut conduite par les forces Alliés durant l’année 1944 et qui avait pour objectif de laisser penser à un débarquement dans la région du Pas de Calais et non en Normandie.
 
-CBR - Constant Bit Rate 
-(Taux d’échantillonnage fixe)
-Trafic à débit constant. Utilisée pour transmettre des flux numérisés comme la voix ou la vidéo. Un CBR signifie donc qu’une piste audio ou vidéo est encodée avec un taux d’échantillonnage constant. Ce mode est à opposer au VBR* variable bit rate. 
-Voir VBR.
+Déchiffrement
+(Decryption) 
+Transformation d'un message chiffré en un message clair (donc intelligible) à l’aide de la clé de déchiffrement. Il est ainsi assez courant de confondre déchiffrement et décryp-tement alors que la première action suppose d’avoir la clé et que la seconde est le résultat d’un long processus et de multiples tentatives. Ce processus, pas toujours détermi-niste, est appelé cryptanalyse*. 
 
-CDN - Content Delivery Network
-(Réseau de distribution de contenus)
-Le CDN ou réseau de livraison de contenus est une architecture permettant d’accélérer la diffusion du trafic vers un client en « rapprochant » les contenus de l’usager. Le CDN s’appuie sur un réseau de serveurs sur lesquels l’information initiale est stockée en cache*. Ce système assure aux sites très fréquentés une meilleure gestion des pics d’affluence, une meilleure répartition du trafic de consultation, et une utilisation optimale de la bande passante*.
+Décrypter 
+(Decipher)
+Action qui consiste à retrouver un texte clair à partir du chiffré sans disposer de la clé secrète associée.
 
-CEI – Commission Electrotechnique Internationale
-(IEC -  International Electrotechnical Commission)
-La CEI est l’organisme international de normalisation pour les domaines de l’électricité, électronique et des nanotechnologies. Créée en 1906, elle rassemble 60 états membres et 23 associés qui édictent des normes reconnues dans une centaine de pays. On lui doit ainsi la normalisation d’unités de mesure comme le Gauss et l’Hertz.
-
-Cellule
-(Cell)
-La cellule en télécommunication fait référence à une zone élémentaire d’un réseau de radio communication à laquelle est affectée un ensemble de fréquences non réutilisables. La cellule désigne ainsi la zone de couverture radio d’une station de base* (BTS). De cette définition découle l’expression « téléphone cellulaire » employée lors des premiers déploiements de la téléphonie mobile dans les années 90.
-Le terme cellule désigne également un paquet* comprenant un nombre fixe d’éléments binaires dans un mode le transfert asynchrone*. La cellule est donc l’unité de transport du protocole ATM*.
-
-Centre de commutation radio mobile
-Voir MSC.
-
-CERT - Computer Emergency Response Team
-Les CERT ou centre de réponse d’urgence aux incidents informatiques, sont des organismes chargés d’assurer, entre autre, la réponse aux incidents de sécurité informatiques détectés. Leurs fonctions dépassent ce cadre car ils établissent et diffusent des bases de données qui répertorient les vulnérabilités. Ils assurent également une fonction de prévention en diffusant des « guides de bonnes pratiques ». Enfin, ils contribuent à une meilleure connaissance de la menace en échangeant leurs informations avec d’autres CERT. Certains CERT ont une vocation privée (industriels, grands groupes), sectorielle, locale ou nationales.
-Le premier a été créé aux Etats-Unis par la DARPA* en 1988 à la suite de l’incident du ver Morris. En France, plusieurs organismes font fonction de CERT. Ainsi, le CERT-FR (successeur du CERTA) dépend de l’ANSSI et a pour principal périmètre les administrations françaises, le CERT-RENATER est le CERT de la communauté des membres du GIP RENATER (Réseau National de télécommunications pour la Technologie, l'Enseignement et la Recherche), le CERT Société Générale est celui du groupe bancaire du même nom, sans oublier les industriels qui offrent des prestations de réponse à incident.
-Le terme CERT est une marque déposée par l’université Carnegie Mellon aux Etats-Unis, son utilisation est en principe soumise à une autorisation et à un enregistrement. Le terme générique associé est CSIRT (Computer Security Incident Response Team).
-
-Certificat
-(Certificate) 
-Un certificat est un message indiquant qu’une clé publique* appartient bel et bien à une personne (ou un système). Ce message est signé numériquement à l’aide de la clé privée* d’une, ou de plusieurs parties de confiance (autorité de certification* - AC).
-Dans le cadre d’un échange électronique (entre un particulier et un serveur de vente en ligne par exemple), un certificat numérique peut être utilisé. Ce certificat est alors un document certifiant l’identité de l’émetteur ou du récepteur (il spécifie également, la date d’expiration du certificat, l’algorithme utilisé et l’autorité de certification). Le vol ou l’usurpation de certificat est donc un mode d’action très efficace pour conduire une attaque car il permet à l’attaquant d’obtenir des droits légitimes.
-Les certificats sont essentiels pour l’établissement d’une session* chiffrée entre un client et un serveur (déclaration d’imposition en ligne par exemple). D’autres sont en revanche utilisés pour l’identification de certains équipement réseau comme des firewall* ou des routeurs* (dans le cas de certificats IPSEC*).
-Voir Autorité de certification, Chiffrement, signature électronique.
-
-Certification de sécurité
-Délivrée pour la France par l’ANSSI, une certification de sécurité porte sur des produits de sécurité (matériels ou logiciels). Elle atteste de la conformité d’un produit de sécurité à un niveau de sécurité donné. Il s’agit d’une évaluation à l’état de l’art réalisée en fonction d’une cible de sécurité et d’un niveau de sécurité visé. Elle est matérialisée par un rapport de certification et un certificat tous deux signés par le Directeur Général de l’Agence. Le catalogue des produits de sécurité certifiés, accompagnés de leur cible de sécurité et de leur rapport de certification est publié sur le site Web de l’Agence. On parle de certification « premier niveau » (CSPN) ou de certification « Critères Communs* ». Cette certification est délivrée par l’ANSSI sur la base des travaux dévaluation menés par un CESTI (Centre d’Evaluation de la Sécurité des Technologies de l’Information). Les CESTI sont des laboratoires accrédités par le COFRAC (Comité Français d’Accréditation) et agréés par l’ANSSI. Le catalogue des CESTI est publié sur le site Web de l’Agence. Au sein de l’ANSSI, c’est le Centre National de Certification de la Sous-direction Expertise qui remplit ces missions.
-
-Certification de sécurité de premier niveau – CSPN
-La Certification de Sécurité de Premier Niveau (CSPN) mise en place par l’ANSSI en 2008 consiste en des tests en « boîte noire » effectués en temps (2 mois) et charge (25 ou 35 hommes x jours) contraints. La CSPN est une alternative aux évaluations Critères Communs, dont le coût et la durée peuvent être un obstacle, lorsque le niveau de confiance visé est moins élevé.
-
-Chapeau blanc – chapeau noir 
-(whitehat - blackhat)
-Terminologie utilisée pour désigner différents groupes de hackers* en fonction de leurs intentions. Ainsi, whitehat désigne un hacker cherchant à améliorer la sécurité d’un système, les éditeurs concernés sont prévenus puis les failles découvertes publiées. A l’inverse, le blackhat cherche à nuire, et à générer des profits des découvertes qu’il peut faire. Cette distinction est évidemment très réductrice et fait l’objet de nombreuses polémiques sur la toile.
-Le terme blackhat désigne également une société organisatrice de conférences de sécurité informatique. Ces conférences très originales et attendues par la communauté de la sécurité regroupent de nombreux experts dont plusieurs hackers de renom. Chaque conférence est le lieu privilégié pour de nouvelles révélations sur ce qu’il est possible de faire (hacker un système de navigation, une voiture…) et présenter des « preuves de concepts » qui seront ensuite discutées. Cet événement se tient annuellement à Las Vegas en marge d’une autre conférence de sécurité plus académique la Defcon*. Amsterdam et Tokyo accueillent également une blackhat.
-
-Chaos Computer Club (CCC)
-Le Chaos Computer Club est une association de hackers* née dans les années 80 à Berlin, qui milite pour la liberté de l’information et de la communication. Le CCC est ainsi une plateforme de dialogue et d’échange pour hackers principalement active en Europe. L’histoire du groupe est entourée de zones d’ombre en raison des liens (réels ou supposés) de ses membres avec certains services de renseignement (des membres du CCC auraient revendu au KGB des données dérobées sur un site de l’OTAN en 1989). Un congrès annuel également baptisé CCC (Chaos Computer Congres) a lieu à Berlin ou Hambourg et réunit de nombreux experts en sécurité.
-
-Cheval de Troie
-(Trojan) 
-En informatique, un cheval de Troie est un programme malveillant* caché dans un autre réputé sûr aux yeux de l’utilisateur. Un cheval de Troie peut voler des mots de passe, copier des données sensibles, ouvrir une brèche dans un réseau en autorisant des accès à des parties protégées. Le cheval de Troie n’est pas nécessairement un virus* car il n’a pas forcément vocation à se reproduire pour infecter d’autres machines. Le mode de propagation le plus classique demeure la messagerie électronique en utilisant une pièce jointe infectée. Il existe deux types de chevaux de Troie qui diffèrent essentiellement sur le mode de prise de contrôle par le hacker. En connexion directe (peu fréquent) il est nécessaire de disposer de l’adresse IP* de la cible afin d’établir la liaison, en mode remote connexion c’est l’ordinateur de la victime qui va se connecter de façon autonome à l’ordinateur du pirate.
-
-Chien de garde 
-(watchdog)
-Association informelle, individus ou ONG, qui pratiquent une veille thématique ayant pour objectif de dénoncer les abus ou les détournements. Leurs activités touchent ainsi le comportement des entreprises (dénonçant l’usage d’enfants ou les conditions de travail précaires), les gouvernements et les médias. Le groupe « copwatch » par exemple, surveille en permanence le comportement des forces de police aux Etats-Unis, filmant les interpellations et dénonçant les comportements inappropriés.
-En informatique industrielle, un chien de garde désigne un dispositif électronique ou logiciel qui s’assure qu’un processus de traitement ne demeure pas bloqué à une étape particulière. Il vérifie ainsi que certaines conditions de fonctionnement sont remplies et peut donc contribuer à la défense d’un système d’information ou de production. 
-
-Chiffrement
-(Encryption) 
-Le chiffrement est un processus cryptographique qui vise à modifier une information afin de la rendre inintelligible, tout en permettant un retour à sa forme initiale. Il s’agit donc de dissimuler le sens d’un message afin d’augmenter sa confidentialité. Dans ce cadre le chiffrement est l’action qui consiste à transformer un message clair en un autre qui sera dit chiffré. L’action inverse est appelée déchiffrement.
-La sécurité du chiffrement réside dans la détention d’un élément secret, la clé. Les méthodes de chiffrement différent de la stéganographie* où le message est simplement « caché » sur un autre support mais demeure intelligible.
+DECT - Digital Enhanced Cordless Telecommunication
+DECT est une norme pour la radiocommunication numé-risée point à point [EN 300 175]. Elle est principalement utilisée pour la téléphonie sans-fil numérique qui équipe les particuliers comme les entreprises. La norme prévoit le transfert entre cellule ce qui permet dans le cadre pro-fessionnel par exemple de se déplacer dans des espaces plus grands en configurant plusieurs points d’accès dans un bâtiment. Cette souplesse est la conséquence de l’utilisation d’une bande de fréquence dédiée (1880-1900 Mhz) et relativement peu utilisée.
 
 
 
+Défacement - défaçage - défiguration
+(Defacing)
+Les sites Web représentent des cibles de choix pour les at-taquants qui souhaitent obtenir une forme de reconnais-sance au sein de leur communauté. Les défigurations con-sistent à modifier le contenu d’un site. La modification peut être visible (modification de la page d’accueil) ou plus discrète. Dans ce dernier cas, seul les utilisateurs ex-périmentés et les administrateurs découvriront que des contenus ont été modifiés. 
+Des opérations de défacement ont été conduites par des hackers russes contre les sites gouvernementaux géorgiens en 2008 et plus récemment par l’Armée Syrienne Electro-nique (SEA) contre des sites d’information occidentaux. Le défacage est un mode d’action régulièrement employé par des groupes cherchant à produire un effet médiatique immédiat.
+
+Défaut
+(Default) 
+Une valeur attribuée automatiquement par un pro-gramme ou un ordinateur et qui demeure jusqu'à ce que l'utilisateur établisse un autre réglage. 
+
+DEFCON  - DEFense CONdition
+Le DEFCON désigne le niveau d’alerte des forces améri-caines, il est établi sur une échelle de 1 à 5. Le DEFCON 1 correspondant au plus haut niveau d’alerte et le DEFCON 5 au niveau normal de préparation du temps de paix.
+La DEFCON est aussi une conférence de sécurité informa-tique qui rassemble des hackers* du monde entier. Elle se tient annuellement à Las Vegas dans le prolongement de la black hat*.
 
 
-Pour aller plus loin…
 
+Défense en profondeur
+(In depth defense - defense in depth)
+Le concept de défense en profondeur puise son origine dans la tactique militaire. Il s’agit de protéger un lieu par la mise en place de lignes de défense* successives et auto-nomes. Ce concept sera ensuite utilisé plus largement dans tous les domaines liés à la sureté (industrie, trans-port). Le concept se développe progressivement dans le milieu de la sécurité des systèmes d’information et néces-site encore des ajustements. Le Mémento de la défense en profondeur de l’ANSSI propose la définition suivante.
+La défense en profondeur du système d'information est une défense globale et dynamique, coordonnant plusieurs lignes de défense couvrant toute la profondeur du sys-tème. Le terme profondeur doit être compris au sens le plus large, c’est à dire dans l’organisation du SI, dans sa mise en œuvre et enfin dans les technologies utilisées. Il s’agit alors de permettre des actions de neutralisation des atteintes contre la sécurité, à moindre coût, grâce à une gestion des risques, un système de renseignement, une planification des réactions et l'enrichissement permanent grâce au retour d'expérience. Cette défense en profondeur a un double but : i) renforcer la protection du système d'information par une approche qualitative permettant de vérifier la complétude et la qualité du dispositif, ii) don-ner un moyen de communication fort permettant aux dé-cideurs et aux utilisateurs de prendre conscience de la gravité des incidents de sécurité .
 
-Une petite histoire de chiffre, du monoalphabétique au carré de Vigenère
+Déni de service
+(Denial of service - DOS)
+Voir DOS.
 
+Dématérialisation
+(Dematerialization)
+La dématérialisation est l’opération qui consiste à rem-placer les supports physiques de stockage ou de transport de l’information par des moyens numériques. En France les marchés publics passés avec l’administration sont dé-matérialisés, il y a possibilité de conclure des marchés par voie électronique.
+Ce processus de dématérialisation pose toutefois de nou-velles contraintes aux structures ou entreprises qui le met-tent en œuvre. En effet, il suppose de mettre en place des moyens de stockage et d’archivage permanents et redon-dants, de disposer d’un système fiable de signature numé-rique* (afin de garantir l’identité* des émetteurs de do-cuments) et d’une politique de sécurité* adaptée. 
 
-La dissimulation de l’information est un phénomène ancien, les premières techniques de chiffrement connues remontent ainsi à l’antiquité. David Khan dans son ouvrage, « la guerre des codes secrets » considère qu’une inscription d’un scribe égyptien datant de 1900 av JC et utilisant des hiéroglyphes non conformes à l’usage classique est la première trace de chiffrement de l’histoire qui nous soit parvenue. Pus tard vers 1500 av.JC, des tablettes mésopotamiennes chiffrées contenant des formules pour la réalisation de vernis de poteries ont été réalisées par des artisans babyloniens [Khan,1980]. Le premier exemple de chiffre de substitution est développé par des scribes hébreux pour la transcription du livre de Jérémie entre 600 et 500 av JC. Ce code simple, dit d’Atbash (ville où il aurait été imaginé) est une substitution simple monoalphabétique de l’alphabet hébreux. Ainsi, la première lettre est remplacée par la dernière, la seconde par l’avant dernière et ainsi de suite. Suivant un principe similaire de substitution, le code Cesar apparaît entre 60 et 40 av JC et fut largement utilisé par son créateur Jules César. Son principe réside dans un simple décalage fixe. Ainsi pour un décalage de deux, la lettre A du message clair devient C dans le message chiffré. 
-Le premier chiffre polyalphabétique est mis au point par Leon Battista Alberti en 1466 qui développa également un cadran permettant de réaliser le chiffrement plus rapidement. Il rédige en outre ce qui semble être le premier traité de cryptanalyse* occidental dans lequel il analyse la fréquence d’utilisation des lettres et en déduit des méthodes pour décrypter les messages. D’autres sources attribuent l’invention du chiffre polyalphabétique à Giovan Battista Bellaso dans son traité publié en 1553. Giovani Battista della Porta (1535 - 1615) est pour sa part l’inventeur de la substitution bigrammatique (deux lettres sont représentées par un seul symbole) mais réalise surtout la première classification des principes majeurs cryptographiques : substitution et transposition. L’Italie de la renaissance est bien le creuset de la cryptographie moderne.
-Blaise de Vigenère, diplomate français du XVIème siècle développe une méthode de chiffrement polyalphabétique originale qui résiste à l’analyse des fréquences. Vigenère en s’inspirant visiblement des travaux de Bellaso et della Porta, publie le traité des chiffres en 1586 dans lequel il présente sa méthode. La véritable originalité de la technique est qu’elle introduit pour la première fois une notion de clé de chiffrement raffinée avec un procédé dit autoclave*, c’est à dire où la clé de chiffrement utilise le texte clair. Ainsi, le concept de Vigenère consiste à utiliser le chiffre de César mais avec un décalage qui dépend de la lettre utilisée (qui est donnée par la clé). Pour réaliser ces différentes substitutions on réalise une table composée de 26 alphabets dans l’ordre mais décalés d’une lettre à chaque ligne. 
-Le code de Vigenère n’a été cassé qu’en 1863 par un officier prussien.
+Démultiplexage
+(Demultiplexing)
+Action de restituer les signaux à partir d’un signal compo-site obtenu par multiplexage .
+Voir Multiplexage.
 
+Dépassement ou débordement de mémoire
+(Buffer overflow)
+Le buffer overflow est une technique d’exploitation de vulnérabilité dans le code d’un programme qui ne vérifie pas correctement la taille de certaines données qu’il ma-nipule .
+En langage C, par exemple, certaines fonctions comme strcpy (copie d’une chaine de caractères) ne contrôlent pas que la zone de mémoire de destination soit de taille suffisante pour accueillir les données à copier. Il est alors possible d’écraser (ou de déborder) des zones mémoire du processus en cours d’exécution, en entrant plus de données que ce que la zone mémoire de destination pou-vait contenir. Pour exploiter une telle vulnérabilité, il s’agira de parvenir à écraser la zone de mémoire qui con-tient l’adresse de la prochaine instruction à exécuter pour le  processus, permettant ainsi à l’attaquant de contrôler le flot d’exécution du programme en cours et ainsi lui offrir la possibilité d’exécuter son propre code.
+Des mesures correctrices existent pour éviter ces dépas-sements de mémoire tampon. Il convient par exemple d’utiliser la fonction strlcpy au lieu de strcpy car elle prend en paramètre la taille de la zone mémoire de desti-nation, et peut ainsi vérifier que les données à copier ne débordent pas.
+Le buffer overflow est la vulnérabilité la plus courante (et donc la plus exploitée par les attaquants informatiques). Les éditeurs de logiciels, de compilateurs, de systèmes d’exploitation et de matériel informatique ont donc mis en place des mécanismes de protection tel que les restric-tions d’usage des zones mémoires (bit « NX » pour les processeurs Intel) par exemple, mais également des outils de vérification lors de la compilation de code ( outil « ca-nari » dans le compilateur GCC). 
 
-Chroot Jail
-Dans un système Unix, un chroot (contraction de change et root, changement de racine) est une opération qui réduit l’arborescence du système de fichiers à un de ses sous-ensemble, pour un processus donné. Au sein d’un environnement « chroot » on ne peut remonter à la racine du système de fichiers initial. Il s’agit donc d’une arborescence de fichiers modifiée qui masque la visibilité du système de fichiers complet à un processus. Le mécanisme jail (prison), introduit par le système FreeBSD, contraint quant à lui un processus à s’exécuter au sein d’un environnement (fichier, bibliothèques logicielles, droits d’accès, etc.) minimaliste reproduisant celui du système d’exploitation* initial.
+DES - Data Encryptions Standard
+Algorithme de chiffrement symétrique par bloc. DES, dé-crit dans les années 70, est considéré aujourd’hui comme obsolète. Il utilise des clés de 56 bits, et manipule des blocs de données de 64 bits suivant un processus itératif de transformation après avoir subit une permutation ini-tiale. Les implémentations de DES sont vulnérables à la cryptanalyse (notamment différentielle) et son usage est aujourd’hui limité, il est remplacé par le triple DES et AES.
+Voir Triple DES, AES.
 
-Cible
-(target)
-Le mot cible désigne le système ou l’équipement qui est visé par une attaque informatique. En marketing il désigne le public visé par une campagne de publicité ou un message particulier. Dans ce cadre il est synonyme d’audience. 
-La notion de cible est essentielle dans les opérations numériques car elle se distingue de l’adversaire au sens classique du terme. La cible est une représentation matérielle de cet adversaire, un objet physique sur lequel va porter l’action mais dont on attend des effets ailleurs et typiquement sur l’adversaire. 
+Désinformation
+(Disinformation)
+Selon la terminologie militaire française, la désinforma-tion est une manœuvre consistant à tromper l'ennemi en lui fournissant délibérément des informations erronées dans le but de lui faire modifier, éventuellement, son dis-positif militaire .
+Les outils numériques (en particulier les médias sociaux) se prêtent parfaitement à la mise en œuvre de ce type de manœuvre par leur simplicité d’usage, leur rapidité de diffusion et leur capacité à toucher des audiences impor-tantes.
 
-Circuit
-(Circuit)
-En télécommunication, un circuit est un ensemble de deux voies de transmission associées pour assurer une transmission dans les deux sensentre deux points. Il s’agit plus généralement d’un ensemble de ressources qui met en relation un émetteur et un récepteur, ces ressources n’appartiennent qu’au couple émetteur – récepteur.
+Détection
+(Detection)
+En sécurité informatique, une détection consiste à recher-cher et identifier dans une masse de données issues du système d’information, celles qui sont caractéristiques d’un incident de sécurité (tentative d’attaque, communi-cation vers un serveur de commande et de contrôle connu, exécution de code malveillant, etc.). En théorie du signal, la détection est une étape du traitement du signal.
+Voir IDS, Logiciel malveillant.
 
-Circuit virtuel
-(Virtual circuit)
-Dans un réseau de données exploité en commutation de paquets*, un circuit virtuel est un ensemble de moyens fournis par le réseau, qui assurent un transfert de données entre stations équivalant à celui qui serait assuré par commutation de circuits*.
+Détection d’erreur
+La détection d’erreur regroupe les opérations qui consis-tent à identifier les informations numériques erronées après transmission et réception. Les erreurs sont généra-lement générées par les mécanismes de transmission.
 
-Circuit virtuel commuté
-(Switched virtual circuit)
-Circuit virtuel établi et libéré à l’initiative d’un des correspondants.
+Détournement de DNS
+(DNS Tunneling)
+Le détournement de DNS est un type d’exploitation du DNS* qui consiste à utiliser le trafic DNS comme un canal caché* pour contourner les mécanismes de sécurité clas-siques (firewall*). Ainsi, un programme malveillant ins-tallé sur un poste client pourra communiquer vers son donneur d’ordre (le serveur de commande et de contrôle) en encapsulant son trafic dans des requêtes DNS. Ces der-nières ne sont que très rarement filtrées et ainsi, un canal de communication discret existe entre la machine infectée et le pirate.
+Détournement de nom de domaine
+(Pharming) 
+Le détournement de domaine, ou encore pharming en anglais, est un type d’attaque du DNS* qui consiste à redi-riger les requêtes internet des utilisateurs vers un faux domaine (site Web) généralement piégé. L’objectif de cette opération consiste à récupérer des informations personnelles de l’utilisateur ainsi redirigé (information de connexion comme, login et mot de passe). Mise en œuvre, un détournement DNS est une attaque du type « homme du milieu » (man in the middle*) 
+Ce type d’attaque est également appelé clonage de ser-veur DNS (DNS Pharming), l’ANSSI en donne alors la définition suivante : activité malveillante visant à modi-fier un serveur DNS (serveur de noms de domaine), dans le but de rediriger un nom de domaine vers une adresse IP différente de l’adresse légitime. En croyant aller sur un site connu, l’internaute navigue en réalité sur un site fac-tice. Le trafic envoyé au domaine souhaité (organisme bancaire, messagerie électronique, etc.) peut être capturé par un utilisateur malveillant, qui, par exemple, a déjà co-pié des pages du domaine visé à l’adresse nouvellement indiquée par le DNS. La personne qui se connecte au do-maine risque alors d’entrer des informations confiden-tielles sur le site factice, même si elle a pris la précaution de renseigner l’adresse correcte.
 
-Clavardage 
-(Chat) 
-Terme utilisé en français du Québec pour désigner une conversation en ligne. Le terme utilisé en France est l’anglicisme : chater. Pour pratiquer le « clavardage », le français du Québec nous offre un autre terme dédié : le clavardoir (chat room) le français utilise lui le bien moins poétique : chat.
+DHCP - Dynamic Host Configuration Protocol
+Le protocole DHCP assure l’affectation et la configuration dynamique du paramétrage IP* des éléments d’un réseau. Concrètement, à la connexion d’une nouvelle machine dans un réseau IP, cette dernière doit disposer d’une adresse unique dans ce réseau (et appartenant au même réseau logique que toutes les autres machines), d’un masque de sous-réseau, d’une adresse de DNS* (pour pouvoir effectuer les résolutions de noms d’hôtes) et une adresse de passerelle (qui permet de communiquer avec d’autres réseaux, comme ceux accessibles via Internet par exemple). Sans adresse initiale, la nouvelle machine va donc envoyer un message général (broadcast*) sur tout le sous-réseau pour identifier le serveur DHCP (celui qui va lui fournir les informations nécessaires). Ce message, ap-pelé le DHCPDISCOVER, attend en réponse une proposi-tion d’adresse de la part du serveur DHCP. Ce dernier ré-pond donc avec un DHCPOFFER qui permet à la machine demandeuse de se préparer à la configuration. La ma-chine demandeuse répond alors avec un message DHCPREQUEST pour valider son adresse IP, normale-ment le serveur répond avec un message DHCPACK. A l’issue de ce dialogue la nouvelle machine dispose d’une configuration locale lui permettant de communiquer sur le réseau.
 
-Clé de chiffrement
-(Encryption key)
-En cryptographie, chiffrer consiste essentiellement en une modification d’une suite d’octet représentant l’information. Ces modifications sont des opérations mathématiques effectuées suivant un algorithme déterminé. Les algorithmes cryptographiques sont connus, il est donc nécessaire d’utiliser un paramètre d’entrée supplémentaire pour garantir le secret de l’opération. Ce paramètre essentiel est la clé de chiffrement. Il existe deux types de clé, fonction du type de système cryptographique utilisé. Le chiffrement reposant essentiellement sur des problèmes mathématiques (notamment arithmétiques pour les problèmes de factorisation), la longueur de la clé, exprimée en bits, permet d’évaluer la robustesse d’un système. Aucun système cryptographique n’est totalement « incassable », à l’exception de OTP* – One Time Pad, qui n’utilise pas de clé de chiffrement. Les clés symétriques ont une longueur minimale de 128 bits aujourd’hui et les clés asymétriques 1024. La longueur des clés doit augmenter en fonction de l’augmentation des capacités de calcul à disposition des attaquants. Cet aspect soulève deux problématiques liées aux clés de chiffrement en cryptographie :
-• La longueur des clés, qui est liée à la capacité à la casser ;
-• La périodicité de renouvellement qui est liée à la probabilité de compromission ou au volume de données échangé.
-	Clé symétrique :
-Les clés symétriques sont associées au mode de chiffrement symétrique. Dans ce cas lorsqu’Alice veut échanger un message avec Bob, il est nécessaire que les deux personnages disposent de la même clé. Alice chiffre avec sa clé et Bob déchiffre avec la même clé. Le secret est partagé entre Alice et Bob. Ainsi une clé symétrique sert aussi bien lors de l’étape de chiffrement que lors du déchiffrement. Ce mode cryptographique très utilisé pendant des siècles (et encore aujourd’hui) est très robuste et rapide en termes de calcul mais soulève un problème de taille : la distribution des clés. En effet si Alice veut communiquer avec Bob, il est nécessaire de partager la même clé, donc celle-ci doit être générée puis distribuée. Or cette étape est très risquée puisqu’il suffit alors à Max (acteur malveillant) d’intercepter une clé pour pouvoir lui aussi déchiffrer l’ensemble du trafic. Enfin cette technique ne garantit que la confidentialité des données, il n’y a pas d’authentification (preuve cryptographique que le message provient bien de l’émetteur prétendu).
-	Clés asymétriques : clé privée – clé publique
-Mis en œuvre dans le processus de chiffrement asymétrique, le principe réside dans la génération d’une paire de clés liées mathématiquement (la clé publique se dérive de la clé privée mais l’opération inverse est très complexe). Ainsi, la clé publique peut être copiée et diffusée alors que la clé privée sera conservée. Lors d’un échange, Alice chiffre son message avec la clé publique de Bob (librement disponible) et seul Bob sera en mesure de déchiffrer ce message avec sa clé privée. 
-Enfin, les modes mixtes (utilisés par exemple par SSL*) se justifient par le fait que le chiffrement asymétrique est beaucoup plus lent que le chiffrement symétrique. Ils consistent à chiffrer la clé symétrique au moyen d’un algorithme asymétrique en préalable à une transmission.
-Voir RSA.
-
-Clé USB à mémoire flash
-(Memory stick) 
-Carte mémoire amovible qui se branche sur le port* USB* — Universal Serial Bus. Alimentée directement par le port, elle ne dispose d’aucun élément mécanique contrairement à un disque dur. Très résistante, la clé USB a des capacités de stockage de plus en plus importantes (plusieurs gigas) et est très répandues. 
-Ce succès entraine également le fait que la clé USB est un vecteur courant de propagation de codes malveillants. Allant de machines en machines, sans précautions particulières, les clés USB accumulent généralement de nombreux virus qu’elles diffusent vers leurs hôtes au gré de leurs connexions. Certaines entreprises ou administrations ont donc interdit leur usage afin de limiter les infections ou les attaques ciblées. 
-Voir également USB.
-
-
-Client
-(Client)
-Le client, en informatique, regroupe les applications qui, sur une machine donnée, vont initier une connexion et effectuer des requêtes. Le client est, dans le mode « client-serveur », l’entité qui reçoit les données sollicitées ou accède à un service distant.
-
-Clonage de serveur DNS 
-(DNS Pharming)
-Voir Détournement de nom de domaine.
-
-Cloud computing 
-(Informatique en nuages ou infonuagique)
-Le journal Officiel du 6 juin 2010 donne du cloud computing la définition suivante : mode de traitement des données d'un client, dont l'exploitation s'effectue par l'internet, sous la forme de services fournis par un prestataire. L'informatique en nuage est une forme particulière de gérance de l'informatique, dans laquelle l'emplacement et le fonctionnement du nuage ne sont pas portés à la connaissance des clients. Le cloud computing est une organisation des systèmes d’information permettant l’utilisation à distance de ressources matérielles ou logicielles via l’Internet. Concrètement, les entreprises peuvent faire appel à un service distant, dédié, permettant d’héberger des données ou des applications métiers. L’offre de service s’étoffe, et de plus en plus d’internautes font aujourd’hui appel à ce type de service pour le stockage de contenus multimédia (photo, vidéo, musique). Un cloud est dit public quand les ressources sont partagées entre plusieurs entreprises ou clients, privé lorsque les ressources sont mutualisées au sein d’une même entreprise, communautaire ou encore hybride (combinaison avec une technologie commune pour garantir l’interopérabilité).
-
-CMS - Content Management System 
-(Système de gestion de contenu)
-Le CMS ou système de gestion de contenu est une suite logicielle utilisée pour la conception et l’administration de sites Web. Il offre différentes fonctionnalités dont le workflow, qui permet la mise en ligne de documents, le travail collaboratif, la structuration de contenu et la gestion des mises à jour. Les CMS sont l’objet de nombreuses attaques et sont souvent à l’origine des intrusions par l’exploitation de leurs vulnérabilités. Les principaux CMS à ce jour sont : SPIP, MAMBO, JOOMLA, TYPO3.
-
-
-CNIL - Commission Nationale Informatique et Liberté
-La Commission nationale informatique et liberté est une autorité française indépendante composée de parlementaires de fonctionnaires et de personnes qualifiées. Créée par la loi n° 78-17 du 6 janvier 1978 modifiée dite "informatique et libertés", la CNIL a pour mission essentielle de veiller à la protection des données personnelles, et au respect de la loi.
-Sa mission est donc de veiller à ce que l’informatique soit au service du citoyen et qu’elle ne porte atteinte ni à l’identité humaine, ni aux droits de l’homme, ni à la vie privée, ni aux libertés individuelles ou publiques. Elle exerce ses missions conformément à la loi informatique et libertés qui la qualifie d'autorité administrative indépendante.
-Dans le cadre de sa mission elle recense les fichiers, effectue des contrôles et garantit le droit d’accès des citoyens sur les données les concernant. 
-
-Code
-(Code)
-Ensemble de règles qui permettent de convertir de l’information afin de la rendre exploitable, copiable, transportable. Ainsi, la principale fonction d’un code est de représenter une information dans le but de pouvoir la transmettre. L’écriture est un code qui répond à cette définition.
-En informatique, on parle généralement de code source, il s’agit ici d’une suite d’instructions qui seront exécutées par le microprocesseur de l’ordinateur une fois compilée. Un code source se présente sous la forme d’un texte écrit dans un langage de programmation (exemple C++, Java*, Python). Ces textes ne sont pas directement exploitables par le processeur et doivent être convertis en suite de 0 et de 1, le code binaire*.
-Voir Compiler, Assembleur.
-
-Code malveillant
-(Malware)
-Un code malveillant est un programme s’installant dans un système d’information à l’insu des utilisateurs légitimes, en vue de porter atteinte à l’un des piliers de la sécurité (confidentialité, intégrité, disponibilité). 
-Voir Logiciel malveillant.
- 
-Commentaire
-(Comment)
-Message dont la plupart des internautes pourraient se passer… Le commentaire est en général publié en réponse à un article ou un post de blog. Il peut être « modéré », c’est à dire passé au filtre d’un modérateur qui est chargé de supprimer les contenus haineux ou diffamatoires. En règle générale le commentaire est l’aliment préféré des Trolls*.
-
-Communauté 
-(Community)
-Regroupement informel d’individus autour d’un sujet d’intérêt commun. Le terme est très répandu dans le monde numérique où l’on rencontre des communautés d’utilisateurs de systèmes particuliers, des communautés de développeurs… la nature du lien qui rassemble une communauté est assez spécifique, on peut ainsi appartenir à plusieurs communautés en même temps de façon non exclusive. L’appartenance à une communauté repose sur la volonté individuelle et rarement sur un processus formel de sélection, d’adhésion ou de cotisation.
-
-Commutation de circuits
-(Circuit switching)
-La commutation de circuits est une technique de communication réseau dans laquelle un chemin est construit entre l’émetteur et le récepteur en s’appuyant sur les liaisons d’un réseau commuté. Le circuit est créé pour chaque transmission puis libéré pour permettre les autres communications (exemple de la téléphonie fixe RTC*). 
+Diffie-Hellman
+Portant le nom de ses deux créateurs, la méthode DH est, en cryptographie, une méthode d’échange de clés* dans un système à clé publique*. Cette technique permet donc à deux utilisateurs (Alice* et Bob*) d’échanger des clés via un support non sécurisé. L’IETF* standardise la méthode pour l’Internet en 1999 dans la RFC*2631.
+Le principe repose sur des notions d’arithmétique élé-mentaires et l’existence de fonctions dites « à sens unique ». Ainsi, il est facile d’élever un nombre à une puissance mais il est beaucoup plus difficile de faire l’opération inverse. Ce problème dit du calcul du loga-rithme discret devient particulièrement difficile avec des nombres très grands dans des ensembles mathématiques possédant des propriétés limitées. Dans l’échange Diffie-Hellman c’est un nombre choisi en commun et élevé à la puissance « n » qui sera transmis sur le canal non sécuri-sé. Ainsi, il sera très difficile à Eve* de retrouver le nombre partagé entre Alice et Bob car il lui faudra factori-ser le grand nombre intercepté.
 
 Pour aller plus loin
-
-
-Dans un réseau à commutation de circuit, il est donc nécessaire d’établir la connexion lors de chaque appel. Dans cette phase, l’émetteur envoie une requête (demande de connexion) vers le nœud le plus proche du réseau. Ce dernier analyse la requête et réserve un canal vers le nœud suivant. De proche en proche un circuit est établi par les canaux réservés jusqu’à la station réceptrice.
-Le circuit permet alors la transmission des données. L’une ou l’autre des stations peut prendre l’initiative de cesser la communication (libération de la ligne).
-
-Commutation de paquets
-(Packet switching)
-Mode d’acheminement de messages dans un réseau de télécommunication, où les messages sont préalablement découpés en paquets munis d’une adresse ; dans les nœuds du réseau, ces paquets sont reçus, mis en mémoire et retransmis sur la ou les voies de transmission appropriées ; à l’arrivée, le message est reconstitué à partir des paquets reçus. Dans ce cas, un paquet n’occupe une voie que pendant sa durée de transmission, la voie étant ensuite disponible pour la transmission d’autres paquets appartenant soit au même, soit à d’autres messages.
-La commutation de paquets est apparue pour faire face aux contraintes de la transmission de données. En effet, la commutation de circuit, en réservant la totalité de la ressource au profit d’une seule voie de transmission, ne permet pas de supporter la charge liée à l’interconnexion de plusieurs équipements informatiques. La commutation de paquets est par ailleurs plus résiliente dans la mesure où elle ne dépend pas de la fiabilité d’un seul circuit et que des mécanismes de contrôle peuvent être implémentés. Pour les réseaux locaux, la commutation a permis d’étendre la taille des réseaux et d’augmenter les débits.
-Voir TCP.
-
-Communications électroniques
-(Electronic communications)
-En France, la loi du 9 juillet 2004 présente les communications électroniques comme : les émissions, transmissions, ou réceptions de signes, de signaux, d’écrits, d’images ou de son par voies électromagnétiques.
-
-Compiler
-(Compile)
-Action qui consiste à traduire un programme écrit dans un langage évolué (code* source) en un programme en langage machine en vue de son exécution. La compilation est effectuée à l’aide d’un programme spécifique, le compilateur. 
-Voir Assembleur, Code.
-
-Compromission
-(Compromission)
-Une compromission est une atteinte à l’intégrité ou à la confidentialité d’un objet désigné (information, ordinateur, individu). L’IGI 1300 en donne, pour le domaine du secret de la défense nationale, la définition suivante, prise de connaissance, certaine ou probable, d’une information ou support protégé par une ou plusieurs personnes non autorisées. 
-
-Computer Network Operations - CNO
-(Opérations Informatiques)
-Terminologie utilisée par la doctrine américaine de combat dans le cyberespace*, les CNO regroupent le Computer Network Attack* (CNA) ainsi que le Computer Network Exploitation* (CNE) mais également le Computer Network Defense (CND). 
-Le terme de Computer Network Operations (CNO) a été remplacé, depuis 2009 par celui plus large de Cyberspace Opérations (CO). Il s’agit, selon la définition de la Joint terminology for cyberspace operations [CM-0856-09 1 Sep 09] de l’emploi de capacités cyber dans le but premier d’atteindre des objectifs dans ou par le cyberespace. De telles opérations comprennent les opérations en réseau CNO et les activités qui visent à défendre ou agir dans le spectre global de l’information.
-
-Computer Network Attack - CNA
-(Lutte informatique offensive – lutte informatique active)
-Terminologie utilisée par la doctrine américaine de combat dans le cyberespace*, le CNA désigne suivant la Joint terminology for cyberspace operations [CM-0856-09 1 Sep 09] une catégorie de feux utilisés à des fins offensives et conduit en utilisant des ordinateurs en réseau dans le but de perturber, interdire, dégrader, manipuler ou détruire des informations dans le système d’information cible ou dans un réseau, ou le réseau et le système lui-même. L’effet final n’est pas nécessairement porté sur le système visé, mais peut appuyer un effort plus large tel que des opérations d’information ou de contre-terrorisme, i.e altérer ou mystifier des communications particulières ou créer un accès ou interdire l’accès aux communications adverses ou à leurs flux logistiques.
-Note : cette définition modifie la précédente définition de CNA en 1) l’identifiant clairement à une forme de « feu » offensif, 2) établissant la différence entre CNA et les counter-cyber ops qui ciblent préférentiellement l’usage du cyberespace par l’adversaire, et 3) identifiant le CNA comme un élément essentiel des opérations d’information et des efforts qui lui sont reliés.
-
-Computer Network Defense - CND
-(Lutte Informatique Défensive - LID)
-Terminologie utilisée par la doctrine américaine de combat dans le cyberespace*, le CND désigne suivant la Joint terminology for cyberspace operations [CM-0856-09 1 Sep 09] l’ensemble des actions qui utilisent les réseaux informatiques dans l’objectif de détecter, analyser et répondre aux intrusions, attaques et autres tentatives d’accès non autorisés.
-
-Computer Network Exploitation - CNE
-(Action d’exploitation informatique)
-Concept développé dans la doctrine américaine de combat dans le cyberespace*, le Computer Network Exploitation (CNE) vise à développer les capacités de collecte d’information par l’exploitation de réseaux d’ordinateurs afin de recueillir des données sur des cibles ou sur les systèmes d’information adverses. La terminologie française parle pour sa part d’actions d’exploitation informatique*.
-Voir Action d’exploitation informatique.
-
-Concentrateur
-(Hub)
-Un concentrateur est un équipement réseau qui concentre et distribue les communications de données*. Un concentrateur n’assure pas de routage* ni de commutation et répète la trame* reçue sur l’ensemble de ses ports*. Il Différent ainsi du Switch*.
-
-Confiance, tiers de confiance
-(Trust – trusted third party TTP)
-La confiance est au cœur des problématiques de sécurité informatique. Le réseau n’est en définitive que le support des échanges entre machines et donc indirectement entre personnes physiques. L’échange implique la confiance. Dans toute transaction électronique (de la simple connexion à un site à l’achat en ligne en passant par les mécanismes de contrôle industriel) l’usager doit pouvoir se fier aux données qu’il reçoit. Lorsqu’un système est attaqué, la première victime est la confiance que les utilisateurs accordent à leur système d’information. Comment alors garantir la confiance dans l’ère numérique ? Comment et qui peut incarner ce rôle sans toutefois devenir omnipotent ?
-La cryptographie* nous permet de penser des mécanismes de confiance par l’intermédiaire des signatures électroniques* par exemple. Dans ce cadre, un tiers de confiance* est une autorité habilitée qui met en œuvre ces signatures. Ce tiers peut être une autorité de certification* (en charge de la politique de gestion des certificats, dite politique de certification), une autorité d’enregistrement* (qui s’assure de l’identité du demandeur d’une signature électronique) ou encore un opérateur de certification (qui met en œuvre la gestion des certificats). En France, la FNTC (fédération nationale des tiers de confiance) regroupe les tiers de confiance et des acteurs du monde de l’économie numérique. La FNTC est donc une fédération de professionnels qui vise à structurer et normaliser les échanges et les moyens techniques associés.
-Voir Autorité de certification, Certificat, Signature électronique.
-
-Confidentialité
-(Confidentiality)
-La confidentialité est une notion essentielle en sécurité informatique, elle en est même le premier objectif. Aujourd’hui, la sécurité informatique poursuit trois objectifs principaux:
-• la confidentialité des informations ;
-• l’intégrité* ;
-• la disponibilité (ou accessibilité).
-On rajoute souvent à ces objectifs, la non-répudiation (qui permet de garantir que l’on ne puisse nier une action ou une transaction) ainsi que l’authentification*. Dans ce cadre, la confidentialité vise à s’assurer que seules les personnes autorisées peuvent accéder à l’information, pour les autres elle sera inintelligible ou inaccessible. Dans un système d’information, la confidentialité est atteinte par l’utilisation de la cryptographie* et la mise en place d’une politique de sécurité qui détermine des droits d’accès et leur gestion. 
-La confidentialité est attachée à une donnée, elle la caractérise par rapport à l’ensemble des utilisateurs. Dans le langage commun on parle ainsi « d’informations confidentielles » pour souligner leur caractère « secret », c’est à dire non disponible au public. 
-L’instruction générale interministérielle 1300 en donne ainsi la définition suivante : caractère réservé d'une information ou d’un traitement dont l’accès est limité aux seules personnes admises à la (le) connaître pour les besoins du service, ou aux entités ou processus autorisés. 
-
-Conflit
-(Conflict)
-Le conflit, qu’il se matérialise dans le monde physique ou numérique se caractérise par une violente opposition entre au moins deux parties. L’opposition peut naître d’intérêts ou d’opinions divergents et dégénérer en conflit. La forme la plus violente du conflit est l’agression armée. 
-Dans le domaine réseau, un conflit peut apparaître lorsque deux équipements ont la même adresse IP* au sein d’un même réseau (on parle également de collision). On parle alors de conflit d’adressage, le réseau ne peut plus fonctionner normalement car la distribution des paquets ne peut se faire. Les conflits d’adressage résultent généralement de problèmes de configuration réseau (DHCP*, passerelle par défaut). Voir Adresse IP, Routage.
-Connecteur
-(Socket)
-Un connecteur est un mécanisme logiciel de communication entre processus informatiques, souvent utilisé entre une application et un réseau.
-
-Connexion
-(log in, log on)
-Une connexion est une procédure qui permet à un utilisateur d’accéder à une ressource informatique. Ce mécanisme peut regrouper les phases d’identification (l’utilisateur déclare qui il est) et d’authentification (l’utilisateur prouve qu’il est bien celui qu’il prétend être). Voir également Authentification.
-
-Constat d’audit
-Résultats de l’évaluation des preuves d’audit* recueillies par rapport aux critères d’audit. Voir Audit, Preuve d’audit.
-
-Contenu 
-(Content – User Generated Content)
-Le contenu désigne l’information véhiculée par un flux réseau. Ainsi, on distingue généralement le contenu du contenant (enveloppe, information supplémentaire rajoutée pour permettre l’acheminement de l’information).
-En revanche, le contenu engendré par les usagers (User Generated Content) désigne un media participatif (en général sur Internet) où le produit final est directement le résultat de contributions d’usagers qui sont également les utilisateurs finaux du média (les wiki* par exemple).
-
-Contournement de la politique de sécurité
-Toute action ayant pour conséquence la mise en échec des règles ou des mécanismes de sécurité mis en place.
-Contrôle d’accès
-(Access Control)
-Voir NAC – Network Access Control.
-
-Contrôle parental 
-(Parental Controls) 
-Le contrôle parental désigne un ensemble d’outils mis à la disposition des parents pour paramétrer leurs équipements afin d'éviter que les enfants n'accèdent à certains contenus Internet jugé inappropriés. Les outils de contrôle parental sont ainsi proposés par les fournisseurs d’accès, les navigateurs internet, éditeurs de logiciels, etc.
-
-Convention d’audit
-Accord écrit entre un commanditaire et un prestataire d’audit pour la réalisation d’un audit. Cette convention décrit au minimum le périmètre de l’audit (délimite les systèmes et implantations physiques concernés par l’audit), ainsi que les règles desécurité liées à l’audit (protection des systèmes pendant l’audit, protection du rapport d’audit, etc.).
-Voir Audit.
-
-Convergence
-(Convergence)
-Caractéristique des évolutions technologiques qui se traduit par une fusion entre l’informatique, les télécommunications et l’audiovisuel. La convergence désigne ainsi le phénomène de rapprochement, rendu possible par la numérisation, entre les industries des télécommunications, de l’informatique et du « multimédia ».
-
-
-
-Cookie 
-(Témoin de connexion)
-Un cookie est un fichier texte envoyé par un serveur et stocké sur un client* (votre machine) afin de conserver des informations liées au contexte de navigation. Cet outil permet, entre autre, de faciliter la navigation sur des sites déjà visités, le cookie peut en effet conserver vos paniers d’achats en cours (pour le commerce électronique), dans certaines conditions des éléments d’identification (identifiants – mots de passe)…
-La gestion des cookies est un élément important en sécurité informatique car ils contiennent des éléments d’identification (donc des données personnelles) mais également car ils peuvent être utilisés afin de conduire la première phase d’une attaque informatique (ils fournissent en effet des informations sur les usages internet d’une cible et permettent d’établir un premier profil de cible). Si la plupart des navigateurs aujourd’hui permettent d’accepter ou de refuser les cookies les refuser systématiquement peut dégrader l’accès à certains sites ou certaines applications. Il convient donc de  faire preuve de mesure. Il est également recommandé de supprimer régulièrement les cookies, ceux-ci étant parfois conservés indéfiniment.
- 
-Corruption 
-(Corruption)
-Loin de la définition juridique, la corruption est ici une caractéristique d’un système ou d’une donnée soulignant son altération. Ainsi, en sécurité informatique une donnée corrompue est une donnée dont l’intégrité, la confidentialité ou encore la disponibilité a été modifiée, dégradée par rapport à son état souhaité ou initial. Ainsi, une donnée altérée chiffrée ou compressée ne pourra généralement pas être déchiffrée/décompressée.
-
-Couche physique
-(Physical layer)
-La couche physique est la couche inférieure du modèle OSI*. Dans ce modèle, cette couche assure la fonction de transmission physique du signal (signal électrique ou optique), elle génère et reçoit les bits* qu’elle transmet sous la forme d’impulsions (lumineuse, électrique, électromagnétique). Cette couche regroupe également les mécanismes d’établissement de la connexion.
-La description du cyberespace* s’appuie également sur la notion de couche physique. Dans ce cadre, la couche physique soutient la couche logique ou logicielle sur laquelle se greffe la couche sémantique ou sociale (voir description du cyberespace* en couche).
-
-Pour aller plus loin
-
-
-Appelée également couche matérielle, la couche physique fait référence au modèle OSI* utilisé dans la théorie des réseaux. Elle comprend les appareils terminaux (ordinateurs, téléphone, tablettes, systèmes électroniques), et toutes les infrastructures nécessaires à l’interconnexion (câbles, relais, routeurs, architecture de cœur de réseau). Il faut également inclure sur cette couche les lieux de stockage de l’information, les systèmes de contrôle et de supervision, les objets connectés, etc.
-Sur cette couche sont donc regroupées les structures techniques qui seront ciblées par les opérations numériques. Ces dernières sont de fait totalement liées à un territoire géographique, et dépendent pour leur fonctionnement de ressources externes en énergie et eau (pour les systèmes de climatisation principalement). Cet enracinement géographique de la couche physique du cyberespace a une conséquence majeure pour les opérations : il est possible d’obtenir un effet sans pour autant utiliser de moyens « numériques ». L’affrontement dans le cyberespace ou pour la domination du cyberespace peut également avoir un volet tout à fait conventionnel.
-La couche physique est également porteuse d’enjeux industriels et écologiques de long terme. Support des infrastructures de télécommunications, la couche physique peut voir s’affronter des puissances dans le cadre de la diffusion commerciales des équipements clés du réseau.
-Coupe-feu
-(Firewall)  Voir Firewall.
-
-Courrier électronique (courriel)
-(E-mail Electronic Mail)
-Le courriel est un service qui assure les échanges de messages électroniques entre individus par l’intermédiaire d’un réseau informatique. Le courriel se compose de texte, d’image, de vidéos ou de fichiers informatiques. Pour pouvoir communiquer il est nécessaire de s’appuyer sur un client* de messagerie (généralement assuré par le fournisseur d’accès internet) ou sur un webmail (qui permet d’accéder à sa boite de messagerie par l’intermédiaire d’un navigateur internet). L’adresse de messagerie (ou adresse email) est un élément essentiel du service qui s’appuie également sur des protocoles de routage dédiés.
-Ainsi, le protocole SMTP* (Simple Mail Transfer Protocol) est un protocole qui permet de transférer le courrier entre deux serveurs en connexion point à point. S’appuyant sur le protocole TCP* pour le transport des données, SMTP fonctionne en mode connecté (port* 25 par défaut ou SMTP authentifié sur port 587). SMTP est décrit une première fois par la RFC 821 en 1982 puis RFC 2821 en 2001.
-L’autre famille de protocoles de messagerie est regroupée sous l’acronyme POP* (post office protocol). La version courante est la troisième on parle donc de POP3. Ce protocole est utilisé pour aller récupérer du courrier sur le serveur de messagerie et le rapatrier vers un client (votre machine). Une fois rapatriés sur une machine, les messages peuvent être lus même hors connexion. POP utilise le port 110 par défaut et est défini par la RFC 1939.
-Enfin, le protocole IMAP (Internet Message Acces Protocol), décri par la RFC 3501, est également un protocole de récupération de courrier à l’image de POP mais qui dispose de fonctionnalités plus étendues (gestion de plusieurs boîtes, tri du courrier). Il utilise le port TCP 143. 
-Voir SMTP, POP3.
-
-CPE - Common Platform Enumeration
-CPE est une initiative du MITRE* dont les premières spécifications datent de 2007. La CPE a pour objectif la mise au point d’un système de nommage afin de désigner les différents composants d’un système informatique (un serveur, un système d’exploitation, etc.). 
-
-CPL - Courant Porteur en Ligne
-(Power Line Communication)
-Le principe du CPL consiste à utiliser les lignes de courant domestiques pour faire transiter des informations. Le CPL superpose un signal de haute fréquence sur le courant électrique déjà présent (50 Hz). Il permet de créer des réseaux locaux (à l’intérieur d’un logement par exemple) pour faire communiquer des équipements électroniques.
-
-Creative Commons (CC)
-Organisation à but non lucratif, Creative Commons propose des licences permettant de libérer les créations du droit de propriété intellectuelle. Selon la présentation du site français de l’association, « Creative Commons est une organisation à but non lucratif qui a pour dessein de faciliter la diffusion et le partage des œuvres tout en accompagnant les nouvelles pratiques de création à l’ère numérique. »
-Il existe plusieurs licences Creative Commons, « elles viennent en complément du droit applicable, elles ne se substituent pas au droit d’auteur. Simples à utiliser et intégrées dans les standards du Web, ces autorisations non exclusives permettent aux titulaires de droits d’autoriser le public à effectuer certaines utilisations, tout en ayant la possibilité de réserver les exploitations commerciales, les œuvres dérivées et les conditions de redistribution. »
-
-Créneau temporel
-(Time slot)
-Désigne un intervalle de temps à occurrence cyclique qu’il est possible de reconnaître et de définir sans ambiguïté. L’expression est notamment utilisée dans la technologie GSM* dans le cadre du multiplexage* temporel. Dans ce contexte, chaque cellule du réseau dispose d’un certain nombre de fréquences (ou de canaux) à répartir entre utilisateurs, qui sont elles même divisées en slot. 
-
-Critère d’audit
-Ensemble des référentiels, guides, procédures ou exigences applicables à la sécurité du système d’information audité.
-Voir également Audit*, Constat d’audit*, Prestataire d’audit*.
-
-Critères communs (CC)
-(Common criteria)
-Référentiel normé par l’ISO 15408 pour l’évaluation des propriétés de sécurité des produits et systèmes des technologies de l’information.
-Les CC définissent notamment différents niveaux de profondeur dans l’évaluation permettant ainsi d’atteindre des niveaux d’assurance plus ou moins élevés dans la sécurité du produit : les EAL (Evaluation Assurance Level). Plus le niveau visé est élevé, plus les contraintes en termes d’éléments de preuve que doit fournir le développeur au laboratoire sont importantes et plus les coûts d’évaluation sont conséquents. Une évaluation CC dure en moyenne entre 6 et 18 mois (selon le type de produit, le niveau visé et la maturité du développeur) et nécessite des moyens financiers importants.
-
-Cross Site Scripting - XSS
-(Injection de code indirecte)
-Type d’attaque qui consiste à injecter du code malveillant sur un site Web dynamique. On peut ainsi faire exécuter du code par un navigateur qui visite la page Web. Ce type d’attaque permet de dérober des identifiants de connexion (session*), et des redirections vers des sites compromis etc.
-
-Crowdfunding
-(Financement participatif)
-Mode de financement de projets qui utilise les possibilités de mise en relation liées au Web participatif et aux réseaux sociaux. Ainsi, un projet personnel, qu’il soit artistique, humanitaire, caritatif ou entrepreneurial peut, par l’intermédiaire de plateforme de crowdfunding recevoir des financements privés d’une multitude d’internautes. Plusieurs modèles de crowdfunding existent, certain avec contrepartie, d’autre limités dans le temps etc. Ce mode de financement est particulièrement développé dans le domaine de la création de start-up et est un marqueur de la culture numérique.
-Ce mode de financement est relativement jeune (moins d’une dizaine d’années) et est en forte croissance depuis deux ans en France. Ainsi, 152 millions d'Euros ont été levés par les 46 plateformes de crowdfunding qui ont communiqué leur collecte pour 2014. C'est deux fois plus qu'en 2013, où les fonds versés par les internautes avaient atteint 78,3 millions d'euros, un montant qui avait quasiment triplé par rapport à 2012. Le don, avec 38,2 millions d'euros collectés, l'investissement en capital (25,4 millions) et le prêt, rémunéré ou non, (88,4 millions) affichent des croissances respectives de 97, 146 et 84% sur une année.
-
-Crowdsourcing
-(Production participative)
-Le crowdsourcing désigne le phénomène qui consiste à faire appel à l’ensemble des internautes pour réaliser une tâche ou générer des contenus* (voir Contenus et User Generated Content). Le principe s’appuie sur les outils développés depuis l’émergence du Web 2.0 (participatif). Il existe plusieurs sortes de crowdsourcing et plusieurs stratégies pour réaliser une tâche. Ainsi, on peut faire appel à une ressource spécialisée pour contribuer à un projet, ou au contraire laisser ouvert la participation. Par ailleurs, le projet peut être scindé en micro-tâches à répartir entre participants ou peut-être réalisé en parallèle par plusieurs contributeurs. 
-Le crowdsourcing a des applications nombreuses et contribue à la réappropriation de l’espace public par les citoyens. En France, l’association Regards citoyens a ainsi fait appel à plus de 8000 contributeurs pour saisir sous un format intelligible et exploitable les déclarations de patrimoines des parlementaires (manuscrites et parfois illisibles).
-
-Cryptanalyse 
-(Cryptanalysis)
-Processus de déchiffrement de données protégées au moyen de cryptographie sans être en possession des clés de chiffrement.
-
-Cryptographie 
-(Cryptography)
-Discipline incluant les principes, moyens et méthodes de transformation des données, dans le but de cacher leur contenu, d’empêcher que leur modification ne passe inaperçue et/ou d’empêcher leur utilisation non autorisée (ISO 7498-2). La conversion de l'information brute (ou claire) en cette nouvelle forme protégée s’appelle alors le chiffrement*, le retour dans une forme intelligible et originale est le déchiffrement*. 
-
-Cryptologie 
-(Cryptology)
-Science englobant la cryptographie et la cryptanalyse. 
-
-CSIRT - Computer Security Incident Response Team
-Voir CERT.
-
-CSS – Cascading Style Sheets
-(Feuilles de styles en cascade)
-En conception de page Web, le CSS est un langage qui permet de décrire la présentation et la mise en page de documents HTML* (et XML*). Interprétées par les navigateurs, les pages CSS associées aux pages HTML permettent de définir totalement l’apparence d’une page. Si l’on peut insérer du CSS dans un code HTML, il est recommandé de rédiger les deux de façon séparée. Les CSS sont aujourd’hui un standard du W3C*.
-
-CTR - Common Technical Regulation
-Ensemble de règles techniques qui fixent les modalités d’accès au réseau des terminaux mobiles. Les CTR sont applicables à l’ensemble des pays membres de l’Union Européenne.
-
-Curation
-(Curation – data curation – content curation)
-Le terme curation est un anglicisme pour décrire les activités et les logiciels qui visent à mieux appréhender les phénomènes d’infobésité*. La curation consiste donc à présenter sous forme pertinente des contenus issus de différentes sources (sites Internet, blogs, réseaux sociaux). Cette forme de sélection thématique vise à agréger l’ensemble des informations utiles sur une même plateforme et éviter la perte de temps liée à la consultation aléatoire de sources. Voir Donnée.
-
-CVE - Common Vulnerability Enumeration
-Les CVE sont un standard de nommage des vulnérabilités lancées en 1999 dont le principe est d’associer une référence unique à chaque vulnérabilité découverte. Ainsi, la CVE-2015-1637 fait l’objet du bulletin de sécurité de Microsoft MS 15-031 (en date du 10 mars 2015) et décrit une vulnérabilité dans Schannel qui pourrait permettre un contournement de la fonctionnalité de sécurité. Le site CVE Details présente chaque CVE en détail ainsi que son score CVSS* associé.
-Voir CVSS.
-
-CVSS – Common Vulnerability Scoring System
-CVSS est un système de notation utilisé pour évaluer le niveau de dangerosité d’une vulnérabilité. Chaque référence CVE* fait l’objet d’une note CVSS qui repose sur trois métriques principales : 
-• la métrique de base : porte sur la vulnérabilité elle-même, comment la vulnérabilité est exploitée (local, à distance), mais également la difficulté à exploiter cette vulnérabilité ;
-• la métrique temporelle : qui caractérise l’existence d’un code d’exploitation ; 
-• la métrique environnementale : qui porte notamment sur les éventuels dommages collatéraux de l’exploitation de la vulnérabilité.
-Un calculateur en ligne est disponible sur le site du NIST.
-
-CWE - Common Weakness Enumeration
-Projet du MITRE* qui consiste à lister l’ensemble des types de vulnérabilités que l’on peut retrouver dans différents logiciels. Ainsi la CWE – 16 porte, par exemple, sur les vulnérabilités liées à la configuration (indépendamment du logiciel). La fiche liste les méthodes de détection et les CVE associées.
-Voir https://cwe.mitre.org/ qui présente le projet et https://nvd.nist.gov/cwe.cfm qui liste les CWE.
-Cyber
-(Cyber) 
-Préfixe issu de la contraction du terme cybernétique. Ce dernier apparaît en 1948 dans une publication de Norber Wiener et est défini comme une science qui s’intéresse à l’étude des processus de commande et de communication chez les êtres vivants, dans les machines et les systèmes sociologiques et économiques. Wiener découvrira plus tard que le terme avait déjà été utilisé par Ampère au début du XIXème siècle dans un cadre diffèrent. Le mot dérive du grec κῠβερνήτης (kubernêtês) « pilote, gouverneur ». Le préfixe est très largement utilisé à partir des années 2000 pour évoquer toute question se rapportant de près ou de loin à l’usage d’Internet, des télécommunications et au traitement automatique de l’information. Sans périmètre clair de définition, tout devient « cyber » et permet de rendre populaire des disciplines techniques parfois ardues (la sécurité des systèmes d’information, l’architecture de réseau, les processus de traitement industriels). Ainsi, parle-t-on de cybercriminalité* pour évoquer l’usage des nouvelles technologies de l’information pour commettre des délits, de cyberattaques* et de cyberdéfense*. Enfin, les réseaux sociaux ont permis l’émergence du cyberharcélement*. La multiplication de l’usage du préfixe cyber s’accompagne parfois d’un phénomène de rejet de la part des experts techniques qui n’y voient que l’expression de l’ignorance et un moyen de paraître « à la mode ». 
-
-Cyberattaque
-(Cyber Attack) 
-La notion de cyberattaque n’est pas juridiquement définie, au contraire de « l’accès ou du maintien de manière frauduleuse  dans un système automatisé de traitement de données». Dans la terminologie militaire française on la présente comme une action volontaire, offensive et malveillante, menée au travers du cyberespace et destinée à provoquer un dommage (en disponibilité, intégrité ou confidentialité) aux informations ou aux systèmes qui les traitent, pouvant ainsi nuire aux activités dont ils sont le support. Elaborée dans le but d’atteindre un objectif, une cyberattaque peut être ponctuelle ou s’inscrire dans la durée. Elle peut alors être évolutive et capable de s’adapter aux mesures défensives qu’elle rencontre. Dans ce cas, une cyberattaque pourrait donc être une forme d'attaque informatique, qui vise à endommager, détruire, modifier ou subtiliser tout ou partie d’un système de traitement automatique de données. La cyberattaque est conduite via des moyens numériques qui peuvent être qualifiés d’armes informatiques. Dans ce cadre, une arme informatique est un code malveillant, spécifiquement développé afin de produire un effet visant à neutraliser ou perturber le fonctionnement normal d’une cible. Le mode de transmission ou d’infection importe peu (clé USB, Wifi, site Internet…), c’est l’intention spécifique du développeur qui confère le statut d’arme au code malveillant [BOYER, 2014]. L’arme informatique n’est donc que l’outil de la cyberattaque, elle même n’étant qu’une forme particulière de combat numérique.
-
-
-Cybercommand 
-(Cybercommand)
-L’United States Cyber Command (USCYBERCOM) est un sous commandement interarmées des forces américaines, placé sous l’autorité de l’US Strategic Command. Actif depuis le 21 mai 2010 et placé initialement sous le commandement du général Keith B. Alexander (alors également directeur de la NSA) puis de l’amiral Rogers en 2014, il a pour mission de :
-Planifier, coordonner, intégrer, synchroniser et conduire des activités pour : diriger les opérations et la défense de certains réseaux d’information du Département de la Défense, et préparer et, au besoin, conduire, tout le spectre d’opérations militaires du cyberespace dans le but de permettre des actions dans tous les domaines, assurer la liberté d’action des États-Unis et de leurs alliés dans le cyberespace, et la dénier à leurs adversaires.
-Il compte au début de l’année 2013 environ 900 personnes et devrait voir ses effectifs croître très nettement dans les années à venir.
-
-Cybercriminalité 
-(Cybercriminality)
-Actes contrevenants aux traités internationaux ou aux lois nationales, utilisant les réseaux ou les systèmes d’information comme moyen de réalisation d’un délit ou d’un crime, ou les ayant pour cible. 
-
-Cyberdéfense 
-(Cyberdefence)
-Ensemble des mesures techniques et non techniques permettant à un État de défendre dans le cyberespace* les systèmes d’information jugés essentiels.
-Pour le ministère français de la Défense, ensemble des activités qu’il conduit afin d’intervenir militairement ou non dans le cyberespace pour garantir l’efficacité de l’action des forces armées, la réalisation des missions confiées et le bon fonctionnement du ministère. 
-
-Cyberdéfense militaire
-(Millitary Cyberdefence)
-Au sein du ministère de la défense français, le concept de cyberdéfense militaire est présenté comme, l’ensemble des actions défensives ou offensives conduites dans le cyberespace en préparation ou dans la planification et la conduite des opérations militaires, notamment pour garantir l’efficacité de l’action des forces armées et le bon fonctionnement du ministère.
-Note : La cyberdéfense militaire complète les mesures de protection des réseaux, des systèmes et de l’information (cyberprotection*, ou SSI) par une capacité d’opérations dans le cyberespace et une capacité de gestion de crise cybernétique, couplées aux capacités de résilience des systèmes d’information.
-
-Cyberdissuasion 
-(Cyberdetterence)
-Le débat stratégique s’est très tôt intéressé au parallèle entre la dissuasion nucléaire et le concept de cyberguerre. En évoquant le spectre d’un Hiroshima numérique, ou encore en développant de scénarios catastrophe dans lesquels des pays entiers étaient plongés dans le chaos par des vagues de cyberattaques*, la pensée stratégique a d’abord cru à l’apparition d’une nouvelle forme de guerre s’appuyant sur des armes (numériques) dont la puissance des effets serait comparables à une explosion nucléaire. Quel peut-être alors le sens d’une cyberdissuasion ? Peut-on dissuader dans le cyberespace ? S’il est clair qu’une forme de dissuasion émerge, notamment dans le discours sur les capacités offensives et défensives, on peut douter de son efficacité face à certains adversaires moins sensibles à des formes de rétorsion numériques. Par ailleurs, le problème de l’attribution* demeure central dans un mécanisme de dissuasion. Cette dernière doit être appliquée sur une structure identifiée (Etat, groupe, voire individus). Le modèle de la cyberdissuasion comme simple transposition de la théorie classique de la dissuasion nucléaire semble donc défaillant. On ne peut en revanche nier la contribution du domaine cyber à la dissuasion générale. Disposer de capacités (offensives et défensives) dans ce domaine participe à renforcer la posture globale de défense d’un Etat.
-
-
-Cyberespace 
-(Cyberspace)
-Il existe plusieurs définitions du terme cyberespace, chacune insistant sur un volet particulier ou une notion spécifique en fonction de l’organisme rédacteur. En France, l’ANSSI* en donne la définition suivante : Espace de communication constitué par l’interconnexion mondiale d’équipements de traitement automatisé de données numériques. 
-Les Armées retiennent pour leur part : Le cyberespace est un domaine global constitué du réseau maillé des infrastructures des technologies de l’information (dont internet), des réseaux de télécommunications, des systèmes informatiques, des processeurs et des mécanismes de contrôle intégrés. Il inclut l’information numérique transportée ainsi que les opérateurs des services en ligne. 
-Enfin, Olivier Kempf dans son Introduction à la cyberstratégie : Le cyberespace est l’espace constitué des systèmes d’informatiques de toute sorte connectés en réseaux et permettant la communication technique et sociale d’informations par des utilisateurs individuels ou collectifs. 
-
-Les trois niveaux du cyberespace
-
-
-Même s’il n’est pas complètement borné juridiquement, le cyberespace est toutefois structuré autour de trois niveaux qui sont tous soumis à des droits spécifiques : 
-La couche physique*, qui comprend les systèmes porteurs d’Internet et les infrastructures réseaux. Sur cette couche apparaissent les serveurs racines, les data center, les réseaux de téléphonie mobile, les câbles sous-marins et les fibres optiques terrestres. Cette couche physique dépend pour une large part des législations nationales. Les compagnies opérant les infrastructures de la couche physique sont liées aux pratiques et réglementations des États qui les accueillent. Cette couche peut être attaquée soit via le réseau soit par des vecteurs plus classiques. Ces installations sont en général jugées d’importances vitales et font l’objet de mesures de sécurité particulières de la part des États. Les besoins en énergie et les accès physiques sont les principales vulnérabilités de cette couche ;
-la couche logique, englobe pour sa part l’ensemble des programmes permettant d’accéder au réseau, d’effectuer des requêtes, d’obtenir des services et d’assurer le transport des données (routage). Les logiciels sont, par ailleurs, les éléments fondamentaux de cette couche et permettent d’utiliser la puissance de calcul d’un système électronique en vue de lui faire effectuer les actions prescrites. Le mot logiciel est apparu en France au début des années 70 pour servir de traduction au terme anglais « software ». Typiquement on les classe suivant deux catégories distinctes, les logiciels systèmes et les logiciels applications. Concernant cette couche particulière, la législation est balbutiante mais les instances de régulation œuvrent pour harmoniser cet espace. C’est bien évidement sur cette couche que l’on compte les vulnérabilités les plus classiques et où les hackers et les spécialistes de développement de solutions sécurisées se livrent une bataille quotidienne. Loin de l’image romanesque, les enjeux de la sécurisation de la couche logique sont énormes et les préjudices financiers qui peuvent en découler difficilement chiffrables ;
-la couche cognitive, qui s’attache au contenu, à l’information qui est véhiculée sur les pages Internet ou à l’aide des diverses formes d’interaction possible sur le  Web 2.0. Cette couche est la couche « haute » du cyberespace celle où se mêlent les perceptions de la réalité et les capacités de gestion de la connaissance. Le développement de cette couche s’est d’abord effectué au travers des systèmes de messagerie (mail, Webmail) et des contenus de pages adressées puis a connu une mutation profonde avec l'émergence de réseaux sociaux (myspace, facebook*...) et du microblogging (twitter). Les vulnérabilités de cette couche sont légion. En premier lieu, le nombre de pages interdit un contrôle systématique de la part des hébergeurs et laisse donc ouverte la possibilité de diffuser à peu près tout et n’importe quoi. Par ailleurs, les capacités de duplication de l’information permettent une « traçabilité » accrue des usagers des réseaux. Les infractions liées à l’usurpation d’identité ou les atteintes à la réputation en ligne (e-réputation) ont atteint un niveau préoccupant. Les législations nationales s’adaptent difficilement à cette couche par nature « supra-nationale » et où la distinction entre vie privée et vie publique n’est pas toujours clairement fixée. Dans ce domaine, les bonnes intentions ne franchissent que rarement les frontières...
-
-
-Cyberguerre 
-(Cyberwar)
-Il n’existe pas à proprement parler de définition de la « cyberguerre ». Cette notion est souvent confondue avec les cyberattaques. Ainsi, les intrusions informatiques et les vols de données sont régulièrement qualifiés de « cyberguerre ». Dans Cyberstratégie, l’art de la guerre numérique, nous proposions la définition suivante : 
-La cyberguerre (guerre numérique) regroupe l’ensemble des actions militaires visant à la maîtrise du cyberespace afin, soit d’y conduire des opérations spécifiques soit de préparer l’exploitation vers un autre espace de conflit (terre, air, mer). Dans ce cas, la guerre numérique agit comme un démultiplicateur de forces au profit des armées. Elle est conduite par des services de l’État et prend des formes diverses qui embrassent les trois couches du cyberespace : physique, logique et cognitive.
-Selon cette approche, la cyberguerre est donc un domaine réservé de l’action étatique, elle est conduite par des forces armées (donc dans un cadre légal strict). Ces opérations visent le contrôle du milieu et sont intégrées à l’action globale sur les trois couches du cyberespace. Ainsi, les actions conduites par des groupes d’activistes plus ou moins doués techniquement, ne rentrent pas dans ce cadre stricto sensu. 
-
-Cyberharcèlement 
-(Cyberstalking) 
-Forme de harcèlement en ligne (généralement via des réseaux sociaux) qui comprend l’usage du dénigrement répété et des menaces.
-Des premiers cas de suicide d’adolescents ayant été victimes de cette forme de harcèlement ont été signalés dès 2013 amenant les autorités de plusieurs pays à prendre en compte ces phénomènes.
-
-Cyberprotection
-(Cyberprotection)
-Ensemble des mesures techniques et non techniques de protection permettant à un système d’information de résister à des évènements susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité des données stockées, traitées ou transmises, et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. 
-Synonyme :
-Sécurité des systèmes d’information* (SSI).
-
-Cyberrésilience
-(Cyber résilience)
-La résilience se définit comme la capacité d’une organisation à faire face à des évènements (incident ou agression), à leur résister et à se rétablir. Appliquée au cyberespace, elle est appelée cyberrésilience et (se) définit comme la capacité d’un système d’information à résister à une panne ou une cyberattaque et à revenir à son état initial après l’incident.
-
-Cybersécurité
-(Cybersecurity)
-État recherché pour un système d’information lui permettant de résister à des événements issus du cyberespace susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité desconfidentialités des données stockées, traitées ou transmises et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. La cybersécurité fait appel à des techniques de sécurité des systèmes d’information et s’appuie sur la lutte contre la cybercriminalité et sur la mise en place d’une cyberdéfense.
-
-Cybersquat
-(Cybersquatting)
-Le cybersquat est une pratique qui consiste à acquérir des noms de domaines d’une marque, d’un pseudonyme, ou proche afin d’en tirer un profit (matériel ou moral).  Ainsi, un particulier peut enregistrer un nom de domaine* s’appuyant sur le nom d’une personnalité ou d’une entreprise en vue de lui revendre (spéculation au nom de domaine). Pour l’heure cette pratique n’est pas sanctionnée au pénal en France mais peut faire l’objet d’une plainte dans le cadre du respect de la propriété intellectuelle. Le cybersquat peut aussi être utilisé pour nuire à l’image d’une personnalité. Cette pratique est courante en politique et exponentielle en période électorale. Ainsi, le domaine sarkozy2017.fr et hollande2017.fr ont été enregistrés dès le mois d’octobre 2011.
+Un peu de mathématiques…
+
+Rappel sur les nombres premiers et le modulo :
+Un nombre est dit premier si et seulement si c’est un entier naturel qui n’admet que deux diviseurs entiers positifs (1 et lui-même). Les nombres premiers sont essentiels en arithmé-tique car le théorème de factorisation unique (ou théorème fondamental de l’arithmétique) stipule que : tout entier stric-tement positif peut être écrit comme un produit de nombres premiers d’une unique façon, à l’ordre près des facteurs.
+Une autre notion est essentielle dans la méthode Diffie-Hellman, il s’agit du reste de la division euclidienne : cette opération est appelé modulo. Ainsi, si a et n sont deux entiers naturels, on notera a mod n le reste de la division euclidienne de a par n. 
+
+Le déroulement de l’échange entre Alice et Bob :
+Pour engager leur échange, Alice et Bob doivent préalable-ment choisir un nombre premier p et une base g.
+- Alice choisit un nombre secret a (une clé secrète)
+- Alice effectue le calcul ga mod p (donc élève g à la puis-sance a, puis calcule le reste de la division euclidienne de ga par p). Le résultat de ce calcul, noté A est envoyé à Bob sur le canal non sécurisé.
+- De son côté Bob choisit également un nombre entier se-cret b, il effectue un calcul identique à Alice avec cet entier : gb mod p et transmet vers Alice le résultat de son calcul noté B.
+- Alice reçoit B et calcule k=(B)a mod p qui deviendra la clé de chiffrement (clé secrète partagée)
+- Bob effectue de son côté le calcul k=(A)b mod p.
+Alice et Bob ont maintenant calculés une clé de chiffrement commune (clé secrète partagée) car (B)a mod p = (gb mod p)a mod p = gab mod p = (ga mod p )b mod p = (A)b mod p !
+Ainsi pour un observateur malveillant, présent à l’écoute sur le canal de communication (Eve ou Max), et ayant intercepté cet échange il sera extrêmement difficile (au sens mathéma-tique) de factoriser A et B pour espérer en déduire la clés commune k. Ainsi la sécurité de la méthode repose sur la dif-ficulté de calculer k à partir de gamod p et de gbmod p lorsque p est grand car la fonction f(x) = gx mod p est une fonction à sens unique.
+
+Les limites du Diffie Hellman ?
+Si les mathématiques qui sous tendent la méthode sont so-lides, la procédure d’échange de clé Diffie Hellman est toute-fois sensible aux attaques dites homme du milieu* (man in the middle). En effet si Eve ne peut, par la simple interception des échanges « casser » la clé, il lui suffit de calculer sa propre clé k1 et de la transmettre à Alice puis une clé k2 pour la transmission vers Bob. Lorsqu’Alice croyant communiquer avec Bob envoie son message chiffré, Eve le déchiffre, puis le chiffre à nouveau vers Bob. De ce fait, Eve intercepte la totali-té du flux chiffré entre Alice et Bob.
+
+Diffusion de Rayleigh
+(Rayleigh scattering)
+Phénomène physique présent dans les transmissions par fibres optiques. La diffusion de Rayleigh entraîne, en rai-son de l’hétérogénéité des matériaux, des pertes lorsque la longueur de la fibre est importante (pertes linéiques) ain-si qu’une réfraction vers la source du signal (rétrodiffu-sion).
+
+Dispersion
+(Dispersion)
+Lors de la transmission par fibre, la dispersion représente la différence de temps de parcours dans une même fibre. Le phénomène entraine une limitation de la bande pas-sante*. Il existe plusieurs type de dispersion en fonction des modes (polarisation, chromatique, chromatique déca-lée).
+
+Disponibilité 
+(Availability)
+La disponibilité d’un système traduit généralement son accessibilité au moment voulu. C’est un paramètre essen-tiel de la qualité de service. En matière de sécurité infor-matique, la disponibilité est un des critères de la sécurité (avec la confidentialité, l’intégrité et la non-répudiation). Il s’agit alors de la propriété d’un objet qui est accessible et qui fonctionne de la façon souhaitée pour les autres ob-jets avec lesquels il doit interagir.
+
+Disque dur
+(Hard disk) 
+Le disque dur est un disque magnétique qui permet de conserver les données sur les ordinateurs et autres sup-ports électroniques. Le disque dur, inventé en 1956 par Reynold Johnson, a vu ses capacités de stockage augmen-ter exponentiellement pour atteindre aujourd’hui plu-sieurs Téra-octets. Le système étant mécanique (le disque tourne sur un lecteur entre 3 600 et 15 000 tours par mi-nutes) ce système demeure fragile et sensible aux chocs. 
+
+Distribué 
+(Distributed)
+Dans une architecture réseau distribuée, une même fonc-tion peut être assurée par plusieurs nœuds. Le mode dis-tribué s’oppose au mode centralisé où, par exemple, le traitement d’une information est réalisé par un seul et unique équipement.
+
+DLCI- Data Link Channel Identifier
+(Identifieur de voie logique)
+Dans un réseau commuté de type « relayage de trames » ou frame relay*, le DLCI permet l’acheminement des trames au niveau de chaque commutateur. Au sein du ré-seau, l’adressage est donc réalisé par l’intermédiaire du champ DLCI, ce champ étant modifié au passage de chaque nœud du réseau.
+
+DLL- Dynamic Link Library 
+(Bibliothèque de liens dynamiques)
+La DLL est une librairie de fonctions exécutables ou de données qui peuvent être utilisées par des applications Windows. Ce mécanisme permet de stocker des fonctions communes dans des composants logiciels réutilisables, qui seront appelés par les programmes qui en ont besoin. Ceci allège la taille des logiciels (par opposition à une compilation statique).  
+
+DMZ - Demilitarized zone
+(Zone démilitarisée)
+Terminologie clairement empruntée au registre militaire, la DMZ dans un réseau représente la partie située entre le LAN* (réseau interne) et le WAN* (réseau externe). La DMZ est donc une interface entre l’extérieur et l’intérieur d’un système d’information, une zone intermédiaire qui peut contenir différents équipements comme des pare-feu, un serveur Web et un serveur de messagerie.
+
+DNS - Domain Name System
+(Système de noms de domaine)
+Le système de noms de domaine permet aux utilisateurs une navigation plus simple sur Internet en associant un nom à une adresse IP*. Chaque ordinateur relié à Internet dispose d’une adresse unique appelée « adresse IP » (adresse de protocole Internet). Étant donné que les adresses IP (qui sont codées sur 4 ou 6 octets) sont diffi-ciles à mémoriser, le DNS permet d’utiliser à la place une série de lettres familières (le nom de domaine). Le sys-tème de noms de domaine est dit « hiérarchisé », son sommet est appelé « racine » et on le figure par un point. Chaque domaine peut être subdivisé en sous-domaines, les sous-domaines immédiatement sous la « racine » sont appelés Top Level Domain (TLD) ou domaines de pre-mier niveau. Les autres domaines particuliers sont :
+gTLD pour generic TLD il s’agit des .com .org ;
+ccTLD pour contry code TLD regroupant les extensions pays (.fr, .uk etc).
+Le système de nommage, outre la subdivision de do-maines, met en œuvre également un système de déléga-tion. Une délégation indique que les informations rela-tives au sous-domaine considéré sont enregistrées sur un autre serveur. Ainsi sur un serveur particulier, il existe un ensemble de domaines et sous-domaines associés qui se-ront non délégués. Cet ensemble est appelé zone. Une telle organisation hiérarchique avec délégation est essentielle dans le processus de résolution de nom de domaine qui permet d’accéder à une ressource.
+
+DNSSEC
+Extension sécurisée du protocole DNS.
+
+Domaine
+(Domain)
+Un domaine (Internet) est une entité qui représente un ensemble de machines reliées au réseau qui présentent les mêmes caractéristiques. Ainsi, le domaine est une entité logique permettant la gestion de plusieurs machines. Le système de noms de domaine (DNS) est organisé de façon hiérarchique et permet ainsi une gestion décentralisée des ressources.
+Voir également DNS et Nom de domaine.
+
+Domotique
+La domotique regroupe l’ensemble des technologies utili-sées pour assurer la gestion et le pilotage de nombreux services liés à l’habitat. S’appuyant sur le concept de « maison connectée », la domotique offre aujourd’hui des solutions de pilotage et de supervision de la sécurité (alarmes, vidéosurveillance), de l’efficacité énergétique, de l’entretien des espaces verts, de la maintenance de cer-tains équipements, etc.
+
+Données 
+(Data)
+En théorie de l’information, une donnée est une descrip-tion élémentaire d’une réalité. Cette description est géné-ralement codée pour favoriser son classement, sa conser-vation et sa manipulation. La définition officielle parle alors d’une représentation d’une information sous une forme conventionnelle destinée à faciliter son traitement .
+Les données sont aujourd’hui au cœur des enjeux du cy-berespace, leur quantité, leur stockage, leur sécurité, leur valeur, autant de sujets qui ne trouvent pas de réponses simples et intuitives. Les données peuvent ainsi être « ou-vertes », « personnelles », « massives », « structurées ou non », il existe même des « métadonnées* »… 
+
+Données massives
+(Big data)
+Voir Big data.
+
+Données ouvertes
+(Open data)
+Données qu'un organisme met à la disposition de tous sous forme de fichiers numériques afin de permettre leur réutilisation. Les données ouvertes n'ont généralement pas de caractère personnel, elles sont accessibles dans un format favorisant leur réutilisation (qui peut être sou-mise à conditions) .
+
+Données personnelles
+(Personnal data)
+Elément permettant d’identifier ou rendant identifiable une personne, directement ou non. Ainsi en France la Loi propose la définition suivante :
+Constitue une donnée à caractère personnel toute infor-mation relative à une personne physique identifiée ou qui peut être identifiée, directement ou indirectement, par référence à un numéro d’identification ou  à un ou plu-sieurs éléments qui lui sont propres .
+
+Données sensibles
+En droit français, les données sensibles ont une définition particulière liée à la notion de données personnelles (ou données à caractère personnel). Cette notion peut donc avoir un sens diffèrent lorsqu’elle est employée dans un contexte particulier (industrie, sécurité informatique, etc.). Ainsi, les données sensibles sont des données à ca-ractère personnel qui font apparaître, directement ou in-directement, les origines raciales ou ethniques, les opi-nions politiques, philosophiques ou religieuses ou l’appartenance syndicale des personnes, ou qui sont rela-tives à la santé ou à la vie sexuelle de celles-ci .
+
+Dorsale Internet 
+(Internet Backbone)
+De façon générale, une dorsale est la partie principale d'un réseau de télécommunication, celle qui dispose du plus grand débit, celle encore vers qui convergent les réseaux secondaires (affluents). Voir Backbone.
+
+DoS et DDoS :
+(Denial of service - Deny Of Service)
+Un déni de service est un acte de malveillance portant at-teinte à la disponibilité* d’un objet. Dans un contexte ré-seau, il s’agit de rendre indisponible, durant une certaine période, l’accès aux services ou ressources d’un serveur cible. Trivialement, la saturation du réseau est obtenue par génération d’un trafic important non désiré, d’origine malveillante provoquant alors l’indisponibilité totale ou partielle de la cible.
+Cette attaque peut être conduite depuis une source unique (mono source) ou utiliser de nombreux ordina-teurs (distribuée), le plus souvent à l’insu des utilisateurs légitimes. On parle alors de déni de service distribué (DDoS). 
+
+Downlink
+(Lien descendant)
+En télécommunication spatiale, le downlink (lien descen-dant) désigne une communication entre le satellite et une station sol.
+Voir Uplink.
+
+Download
+(Téléchargement)
+Voir Téléchargement, Télécharger.
+
+Doxing
+Le doxing est une pratique liée à la collecte, sur Internet, d’informations ciblées pouvant, par la suite, faire l’objet d’une révélation publique. La pratique a été rendue popu-laire par certains groupes d’activistes qui ont publié des données à caractère personnel. Ainsi, le collectif Anony-mous a, entre autres, divulgué, au mois de novembre 2014, les identités de membres du Ku Klux Klan. Le doxing est régulièrement utilisé pour dénoncer des utili-sateurs de réseaux sociaux qui postent des contenus à ca-ractère raciste ou discriminatoire.
+
+DPI - Deep Packet Inspection
+(Contrôle en profondeur des paquets)
+Le DPI est une technique de contrôle en profondeur des paquets de données échangés sur un réseau. Sur un équi-pement d’infrastructure réseau il permet de contrôler le contenu et les en-têtes de paquets (IP en général). Cette technique est utilisée pour générer des statistiques d’utilisation, la mise en œuvre de filtres (contrôle anti-spam), la détection des attaques mais également la lutte contre le « piratage » (propriété intellectuelle) et les sys-tèmes de censure et de contrôle de l’Internet.
+
+Drapeau
+(flag)
+Bit* de données utilisé pour décrire deux états (0 ou 1) afin de délimiter un bloc de données ou de spécifier l’état « activé » ou « désactivé » d’une fonction (également ap-pelé délimitateur ou fanion). Le terme flag est également utilisé pour  certains concours organisés par les hackers (capture the flag* – CTF), succession de défis à réaliser sur un système cible.
+Voir Capture the flag.
+
+DRM - Digital Right Management
+Système assurant la gestion numérique des droits d’auteurs. Les DRM limitent ainsi parfois la copie de cer-tains supports ou leur lecture sur un nombre déterminé de terminaux.
+
+DSL – Digital Subscriber Line
+(Ligne d’abonné numérique)
+Techniques qui permettent, sur un réseau filaire (ligne té-léphonique), la transmission de données numériques. Ces techniques permettent une meilleure exploitation des fils de cuivre en optimisant les possibilités de transmission sur l’ensemble du spectre. Il existe plusieurs mécanismes et l’on utilise souvent l’acronyme xDSL pour évoquer les différentes normes DSL. La plus courante étant ADSL*
+
+DSLAM - Digital Subscriber Line Multiplexer
+(Multiplexeur d’accès à la ligne d’abonné numérique)
+Le DSLAM est un équipement de multiplexage qui permet l’accès des abonnés aux services DSL par une ligne télé-phonique. Placé généralement dans les centraux télépho-niques NRA*, le DSLAM permet de regrouper le trafic DSL des abonnés qui y sont rattachés et de le transférer vers le réseau de l’opérateur internet.
+
+DSS - Digital Signature Standard)
+Ensemble standardisé d’algorithmes de signature numé-rique* adopté par le NIST* - National Institute of Stan-dards and Technology aux Etats-Unis. La dernière modi-fication a été adoptée le 19 juillet 2013 sous la référence FIPS 188-4.
+
+Dump
+(Cliché)
+Le verbe anglais to dump, a donné par extension l’expression dumper, action qui consiste à recopier le contenu (à un instant donné) d’une mémoire (ou d’un disque). Le résultat de cette action est également appelé un dump ou cliché suivant la terminologie française.
+
+Duplex
+(Duplex)
+Technique de transmission des informations qui permet d’échanger dans les deux sens de communication sur un même canal. On parlera de communication half-duplex lorsque la communication ne peut s’établir que dans un seul sens à la fois, et de full-duplex lorsqu’elle peut être menée dans les deux sens simultanément.
+
+Duqu
+Logiciel malveillant*, dont certaines caractéristiques se rapprochent de Stuxnet*, qui a été une première fois dé-couvert au mois de septembre 2011 par le laboratoire CrySyS Lab. Baptisé Duqu, car le cheval de Troie* créait des fichiers avec des extensions de type DQ dans leur nommage, son objectif est de collecter des informations sur les systèmes de contrôle industriels dans le but de conduire ultérieurement des attaques. Offrant une large gamme de services, il s’agit clairement d’un outil de « re-connais¬sance », étant du type RAT* (cheval de Troie). L’outil ne se reproduit pas mais semble, selon les re-cherches conduites pas Symantec, avoir visé un nombre très limité de machines et donc être particulièrement ci-blé. En dépit de sa première détection au mois de sep-tembre 2011, les analystes estiment que des attaques utili-sant cet outil ont pu être lancées dès le mois de décembre 2010 (rendant alors la filiation avec Stuxnet encore plus probable). Duqu se présente en effet comme un module adaptable avec une architecture assez souple. Les informa-tions ainsi collectées étaient ensuite placées et chiffrées dans un fichier compressé, stocké localement, avant d’être exfiltré. L’étude a révélé l’utilisation de fichiers photos au format JPG* pour conduire l’exfiltration de données. En revanche, Duqu présente une caractéristique notable d’auto-désinstallation. En effet, le trojan* était configuré pour fonctionner durant 36 jours avant de se désinstaller du système. Enfin, le vecteur d’attaque n’avait, une fois encore, rien d’extra¬ordinaire puisqu’à l’origine de la dif-fusion on retrouve une campagne de « spear-phishing* » ciblée avec un document Microsoft Word corrompu. Une fois la pièce jointe ouverte par l’utilisateur, deux fichiers exécutables sont déchiffrés, un lecteur (driver) et un mo-dule d’installation d’une bibliothèque de liens dyna-miques (DLL*). Le lecteur injecte alors le code qui exécute l’installation. Ce mécanisme utilise, à l’image de Stuxnet , une vulnérabilité du noyau Windows de type « zéro-day »*. 
+Enfin, au mois de juin 2015 une nouvelle variante a été découverte par le laboratoire Kaspersky dans ses propres systèmes d’information, mais également chez une cen-taine d’autres victimes (dont certaines en lien avec les né-gocia-
+tions sur le nucléaire iranien). Cette dernière variante est appelée Duqu 2.0.
+
+Duqu
+
+Au mois de septembre 2011, Duqu, un outil de cyberes-pionnage est détecté en Iran et au Soudan.
+Type de malware : RAT, Remote Access Trojan.
+	Objectif : Cyberespionnage.
+	Cible : Programme nucléaire iranien.
+	Date de création : estimée au mois de novembre 2010.
+	Date de détection : septembre 2011, par le laboratoire de cryptographie et de sécurité de l’université polytechnique et économique de Budapest  (CrySyS Lab). Symantec  et F-Secure ont également analysé cette attaque et produit des rapports très élaborés.
+	Versions connues : Une quinzaine.
+	Taille : 300 kb.
+	Caractéristiques principales : Duqu est rapidement pré-senté comme « très proche » de Stuxnet mais avec un objectif totalement différent. Symantec conclut dans son rapport qu’il s’agit ici du précurseur du futur Stuxnet. Duqu, serait donc une opération de reconnaissance avant une nouvelle opéra-tion de sabotage. Plusieurs systèmes de commande et de con-trôle (C&C) ont pu être identifiés en Inde, Belgique et Viet-nam. La localisation de ces serveurs n’apporte toutefois aucun élément sur la nationalité de l’attaquant.
