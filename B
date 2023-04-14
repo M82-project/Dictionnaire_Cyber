@@ -9,7 +9,7 @@ Les backdoors désignent des accès cachés sur un système ou sur une applicati
 
 
 Bad USB
-	à écrire :)
+	#à écrire :)
 
 Balayage de ports
 (Ports scanning)
@@ -58,7 +58,7 @@ Voir Défense en profondeur.
 
 
 Base 64
-à écrire :)
+#à écrire :)
 
 
 Base de données
