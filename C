@@ -6,6 +6,7 @@ Cache
 (Cache) 
 Le cache ou mémoire cache est une composante de la mémoire, habituellement plus rapide mais plus limité en taille, qui stocke des données de façon transparente et transitoire afin qu’elles soient retrouvées plus rapidement. Un processeur contient habituellement plusieurs niveaux de cache, de rapidité décroissante et de capacité croissante. La mémoire cache, d’accès plus rapide que la mémoire centrale, est utilisée pour stocker temporairement les données d’une opération arithmétique ou logique.
 Dans le cas de la navigation Internet, les données sont stockées localement au sein d'un cache, elles peuvent avoir été consultées préalablement et sont ainsi immédiatement disponible en cas de nouvelles requêtes (ce qui évite d’effectuer une nouvelle résolution DNS*). 
+
 CALID – Centre d’Analyse et de Lutte Informatique Défensive
 Unité militaire française en charge de la cyberdéfense des réseaux du ministère de la défense. La mission englobe également les forces projetées. Les équipes analysent en temps réels les événements collectés par des sondes réseaux déployées.
 
@@ -20,8 +21,6 @@ Un canal de fréquence est une partie du spectre des fréquences comprise entre 
 Canal de transmission
 (Channel)
 En télécommunication, un canal de transmission désigne un ensemble de moyens nécessaires pour assurer une transmission de signaux dans un seul sens entre deux points. On parle également de voie de transmission. Ainsi plusieurs voies de transmission peuvent partager un même support physique (câble).
-
-
 
 CAPEC – Common Attack Pattern Enumeration and Classification
 Développé par le MITRE*, le CAPEC est une typologie très large des différents modèles d’attaques connues. CAPEC se veut un outil au profit, entre autre, des analystes en charge de la cybersécurité permettant de mieux comprendre les modes d’action des attaquants. On peut effectuer des recherche par domaine d’attaque (exemple : social engineering*, supply chain, Software…) ou par mécanisme d’attaque (exemple : flooding, sniffing…). Chaque mécanisme fait l’objet d’une fiche descriptive où l’on retrouve la description de l’attaque, les prérequis nécessaires, les mécanismes de protection éventuels… La base est accessible en ligne à l’adresse : http://capec.mitre.org/ — Voir STIX*.
@@ -56,7 +55,6 @@ Carte à puce présente dans les téléphones mobiles (existe également sous fo
 CASE - Common Application Services Elements
 Au niveau application du modèle OSI* (soit la dernière des sept couches du modèle), les CASE regroupent des ensembles normalisés de protocoles utilisables par des applica-
 tions. Connu aujourd’hui sous l’acronyme ACSE – Application Common Service Elements.
-
 
 CBAC - Context-Based Access Control
 Le CBAC est une application intégrée aux matériels Cisco (routeurs*) qui permet le filtrage avancé de sessions de paquets. La CBAC s’obtient par la configuration des listes de contrôle d’accès (ACL*), il est alors possible de refuser le transfert du trafic et son traitement par l’équipement.
