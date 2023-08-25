@@ -10,6 +10,9 @@ Deux teams :
   Team rédaction
   Team review
   
-Team rédaction : Chaque contributeur apparient à un groupe et se voit attribuer une lettre ou un set de lettres pour rédaction. Vous pouvez également soumettre des entrées pour les autres sous-groupes
+Team rédaction : Chaque contributeur peut soumettre des entrées dans l'ensemble du projet. Vous créer une "pull request"
 
-Team review: Les contributions sont validées par un groupe de "peer reviewer"
+Team review: Les contributions sont validées par un groupe de "peer reviewer" et les "pull request" sont validées.
+
+easy !
+
