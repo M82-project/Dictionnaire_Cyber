@@ -1,5 +1,5 @@
 
-# Dictionnaire_Cyber_pourquoi_comment?
+# Dictionnaire Cyber: pourquoi_comment?
 
 Ce projet de dictionnaire est une mise à jour de l'ouvrage publié en 2016 "Dictionnaire de la cybersécurité et des réseaux" (NUVIS).
 Le projet consiste à revoir les définitions, les améliorer et proposer de nouvelles entrées. 
