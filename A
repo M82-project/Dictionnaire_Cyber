@@ -81,7 +81,6 @@ Voir également IP V4 et IP V6.
 
 Pour aller plus loin 
 
-
 Les classes d’adresse IP : face à l’augmentation rapide du nombre de réseau et d’adresse à distribuer, il a été nécessaire d’organiser la façon dont on attribuait ces adresses. En 1981, la RFC* 790, Assigned numbers, est publiée, elle organise le mécanisme d’adressage. Ainsi, une adresse IP est divisée en deux parties, l’une servant à identifier le réseau (net id) l’autre servant à identifier la machine (host id). Partant, cinq classes d’adresses sont définies :
 • Classe A : un octet pour définir l’adresse réseau : XXX.000.000.000.
 • Classe B : deux octets pour l’adresse réseau : XXX.XXX.000.000.
@@ -96,6 +95,9 @@ Pour assurer un niveau supplémentaire de répartition des adresses IP,    la no
 Adresse MAC
 (Medium Access Control address)
 L’adresse MAC est l’adresse unique qui identifie un matériel électronique de communication réseau compatible avec le standard* Ethernet* (typiquement, une carte réseau d’ordinateur). Elle est codée sur 6 octets. Cette adresse est attribuée dès la construction, et constitue l’adresse « matérielle » d’un objet connecté. L’adresse est divisée en deux champs : le premier identifie le constructeur de l’interface matérielle, et le second est un numéro séquentiel attribué par le constructeur. L’adresse MAC est aussi appelée adresse « physique », par opposition à l’adresse « logique » (par exemple l’adresse IP*) de l’équipement informatique associé.
+
+Adress munging
+Technique qui permet de camoufler une adresse mail et éviter d'être reconnu par les outils de recherche autonmatiques. Cette technique assure ainsi une protection minimale contre la moisson de courriel (mail harvesting) en substituant le symbole @ dans une adresse mail. nom.prenom@nom_de_domaine.fr devient par exemple nom.prenom_AT_non_de_domaine.fr. 
 
 Adresse URL 
 (Uniform Ressource Locator)
