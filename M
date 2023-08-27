@@ -17,7 +17,7 @@ Voir STIX, CAPEC.
 
 Mail Harvesting
 (Moisson de courriels)
-Action qui consiste à parcourir un grand nombre de res-sources publiques (pages internet, groupes de discussion, etc.), afin d’y collecter les adresses électroniques avec des intentions malveillantes .
+Action qui consiste à parcourir un grand nombre de res-sources publiques (pages internet, groupes de discussion, etc.), afin d’y collecter les adresses électroniques avec des intentions malveillantes (glossaire ANSSI) .
 
 Maillage
 (mesh)
