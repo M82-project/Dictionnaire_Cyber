@@ -80,6 +80,10 @@ Phishing
 (Hameçonnage)
 Voir Hameçonnage.
 
+Phreaking
+(Piratage téléphonique)
+Ensemble de techniques visant à pirater les standards téléphoniques et détourner les systèmes de facturation. Pour emmettre des appels sans avoir de faturation "Captain Crunch" imitait le signal sonore d'ouveture de ligne à l'aide d'un sifflet sur une fréquence de 2600Hz. Aujourd'hui le terme désigne les techniques qui permettent de détourner des lignes ou de monétiser des appels.
+
 Physique (couche)
 (Physical layer)
 Voir Couche physique.
