@@ -39,7 +39,6 @@ Adresse IP source (32 bits)
 Adresse IP destination (32 bits)
 Données
 
-
 Débit
 (Flow – rate)
 Exprimé en Bit* par seconde, ou en bauds, le débit cor-respond à la quantité d’information transmise par unité de temps dans un media. Dans les transmissions numé-riques on distingue alors le débit montant du client vers le serveur (upload*) et descendant du serveur vers le client (download*). Par commodité on exprime souvent le débit en Mo/s soit avec un facteur huit par rapport au Mbit/s (rappel un octet = 8 bits)
@@ -59,8 +58,6 @@ Action qui consiste à retrouver un texte clair à partir du chiffré sans dispo
 
 DECT - Digital Enhanced Cordless Telecommunication
 DECT est une norme pour la radiocommunication numé-risée point à point [EN 300 175]. Elle est principalement utilisée pour la téléphonie sans-fil numérique qui équipe les particuliers comme les entreprises. La norme prévoit le transfert entre cellule ce qui permet dans le cadre pro-fessionnel par exemple de se déplacer dans des espaces plus grands en configurant plusieurs points d’accès dans un bâtiment. Cette souplesse est la conséquence de l’utilisation d’une bande de fréquence dédiée (1880-1900 Mhz) et relativement peu utilisée.
-
-
 
 Défacement - défaçage - défiguration
 (Defacing)
@@ -123,6 +120,7 @@ La détection d’erreur regroupe les opérations qui consis-tent à identifier 
 Détournement de DNS
 (DNS Tunneling)
 Le détournement de DNS est un type d’exploitation du DNS* qui consiste à utiliser le trafic DNS comme un canal caché* pour contourner les mécanismes de sécurité clas-siques (firewall*). Ainsi, un programme malveillant ins-tallé sur un poste client pourra communiquer vers son donneur d’ordre (le serveur de commande et de contrôle) en encapsulant son trafic dans des requêtes DNS. Ces der-nières ne sont que très rarement filtrées et ainsi, un canal de communication discret existe entre la machine infectée et le pirate.
+
 Détournement de nom de domaine
 (Pharming) 
 Le détournement de domaine, ou encore pharming en anglais, est un type d’attaque du DNS* qui consiste à redi-riger les requêtes internet des utilisateurs vers un faux domaine (site Web) généralement piégé. L’objectif de cette opération consiste à récupérer des informations personnelles de l’utilisateur ainsi redirigé (information de connexion comme, login et mot de passe). Mise en œuvre, un détournement DNS est une attaque du type « homme du milieu » (man in the middle*) 
@@ -158,6 +156,9 @@ Si les mathématiques qui sous tendent la méthode sont so-lides, la procédure 
 Diffusion de Rayleigh
 (Rayleigh scattering)
 Phénomène physique présent dans les transmissions par fibres optiques. La diffusion de Rayleigh entraîne, en rai-son de l’hétérogénéité des matériaux, des pertes lorsque la longueur de la fibre est importante (pertes linéiques) ain-si qu’une réfraction vers la source du signal (rétrodiffu-sion).
+
+DISARM -  Disinformation Analysis and Risk Management
+La DISARM foundation développe et promeut des outils pour analyser et lutter contre la désinformation en s'inspirant des méthodologies développées en Cyber Threat Intelligence (CTI). Ainsi, la martice DISARM s'inspire-t-elle naturellement de MITRE ATT&CK en présentant les tactiques techniques et procedures (TTP) mises en oeuvre par les groupes conduisants des actions de désinformation (en ligne et dans les champs physiques).
 
 Dispersion
 (Dispersion)
