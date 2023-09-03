@@ -58,7 +58,7 @@ Voir Défense en profondeur.
 
 
 Base 64
-#à écrire :)
+Système d'encodage de l'information utilisé en informatique. Il repose sur un alaphet de 65 caractères dont le caractère (=) utilisé comme complèment à la fin du processus de codage du message. Avec ce système il est donc possible de représenter 6 bits par un caractère (exemple : 000000 codé en A, 000001 en B, etc.). Dans le processus d'encodage, chaque groupe de 24 bits est codé par une chaine de 4 caractères. (A poursuivre)
 
 
 Base de données
