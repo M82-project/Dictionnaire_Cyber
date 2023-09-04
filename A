@@ -275,9 +275,11 @@ Archive – archivage
 L’archivage est l’action qui consiste à réunir, organiser et conserver des données. Il se distingue de la sauvegarde qui elle duplique les données pour un stockage sur un support distinct dans une démarche de sécurité, afin de pouvoir les restaurer en cas d’incident. La sauvegarde impose un éloignement (géographique, support, etc.) des données afin que ces dernières ne soient pas susceptibles de subir les mêmes sinistres que les données originales.
 
 
-ARM
-
-	à écrire :)
+ARM - Advanced Risc Machine
+Les processeurs ARM sont une famille de processeurs qui diffère des processeurs x86. Ils proposent un jeu d'instructions réduit (RISC : Reduced Instruction Set Computer) ainsi qu'une architecture de type Harvard. 
+Cela signifie qu'il existe une séparation physique entre le bus d'adresses et le bus de données.
+Sont proposés des versions à coeur 32 bits et plus récemment 64 bits. L'architecture ARM constitue une propriété intellectuelle. Ce sont les fondeurs comme ST Microelectronics, qui implémentent les coeurs dans leurs microcontroleurs ou microprocesseurs.
+Le segment commercial visé est celui des Smartphones et des systèmes embarqués. En effet, les coeus ARM proposent des optimisations en consommation électrique qui offrent de bonnes performances.
 
 ARP – Address Resolution Protocol
 (Protocole de résolution d’adresse)
