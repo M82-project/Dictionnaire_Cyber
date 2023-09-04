@@ -238,7 +238,7 @@ Par ces relais ils informent la communauté des projets d’action et chaque int
 Ainsi, au mois de février 2011, au début des Printemps arabes, le collectif vise la Tunisie et lance #optunisia, la répression est féroce et le gouvernement arrête plusieurs blogeurs et activistes liés au mouvement. La même année, #oplybia est lancée sous la forme d’un forum visant à regrouper et échanger des informations sur la situation dans le pays et permettre aux activistes d’échanger de façon sécurisée. Enfin, plus récemment, c’est la lutte contre la propagande de l’Etat Islamique qui a mobilisé la communauté (#opisis).
 
 
-ANSI ?
+ANSI - American National Standards Institute
 	A écrire :)
 
 ANSSI - Agence Nationale de la Sécurité des Systèmes d’Information
@@ -277,8 +277,7 @@ L’archivage est l’action qui consiste à réunir, organiser et conserver des
 
 ARM - Advanced Risc Machine
 Les processeurs ARM sont une famille de processeurs qui diffère des processeurs x86. Ils proposent un jeu d'instructions réduit (RISC : Reduced Instruction Set Computer) ainsi qu'une architecture de type Harvard. 
-Cela signifie qu'il existe une séparation physique entre le bus d'adresses et le bus de données.
-Sont proposés des versions à coeur 32 bits et plus récemment 64 bits. L'architecture ARM constitue une propriété intellectuelle. Ce sont les fondeurs comme ST Microelectronics, qui implémentent les coeurs dans leurs microcontroleurs ou microprocesseurs.
+Cela signifie qu'il existe une séparation physique entre le bus d'adresses et le bus de données. Sont proposés des versions à coeur 32 bits et plus récemment 64 bits. L'architecture ARM constitue une propriété intellectuelle. Ce sont les fondeurs comme ST Microelectronics, qui implémentent les coeurs dans leurs microcontroleurs ou microprocesseurs.
 Le segment commercial visé est celui des Smartphones et des systèmes embarqués. En effet, les coeus ARM proposent des optimisations en consommation électrique qui offrent de bonnes performances.
 
 ARP – Address Resolution Protocol
