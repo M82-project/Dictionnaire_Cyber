@@ -39,7 +39,6 @@ Action de lutte informatique défensive - LID
 (Computer Network Defense)
 Dans le cadre des opérations dans le cyberespace*, action consistant à surveiller, analyser, détecter et réagir face à des attaques, intrusions ou perturbations qui pourraient compromettre, paralyser ou détruire nos systèmes, réseaux et données.
 
-
 Action de lutte informatique offensive – LIO
 (Computer Network Attacks - CNA)
 Dans le cadre des opérations dans le cyberespace*, action non physique entreprise dans le cyberespace contre des systèmes d’information ou des données pour les perturber, les modifier, les dégrader ou les détruire.
@@ -55,6 +54,9 @@ Dans la terminologie militaire française, ensemble des activités intentionnell
 Action d’information
 (Information Activity)
 Les actions d'information désignent les activités offensives et défensives portant sur les données, les contenus informationnels (messages et connaissances) ou les systèmes d’information. 
+
+Active Directory (AD)
+L'Active Directory est l’implémentation par Microsoft d’un annuaire LDAP. Un annuaire est une base de données centrale contenant l’ensemble des données et informations d’authentification des utilisateurs d’un réseau informatique (source Glossaire GLIMPS). L'accès à l'AD sur un système d'information est un des objectifs majeurs pour un attaquant. 
 
 Add-on
 (Additif – Module complémentaire - Plug-in)
