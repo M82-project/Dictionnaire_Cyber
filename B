@@ -9,7 +9,7 @@ Les backdoors désignent des accès cachés sur un système ou sur une applicati
 
 
 Bad USB
-	#à écrire :)
+Teme utilisé pour désigner un périphèrique malveillant exploitant une vulnérabilité dans le logiciel de controle du protocole USB. Ces attaques reposent sur le firmware du périphérique. Deux chercheurs allemands, Karsten Nohl et Jakob Lell ont étudié les faiblesses de la connectique USB et en ont fait une démonstration lors de la Black Hat de 2014.
 
 Balayage de ports
 (Ports scanning)
