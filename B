@@ -70,17 +70,14 @@ Voir SQL, Big data, Data minig.
 Bash - Bourne Again Shell
 Bash est un interpréteur de commandes (shell*) qui permet à un utilisateur d’interagir avec un système d’exploitation* par l’intermédiaire de lignes de commandes. Il permet par exemple, de passer des instructions au système d’exploitation (opérations de fichiers), mais il possède également les attributs d’un langage de programmation. Bash est un outil intégré dans la majorité des distributions* Linux et de nombreux autres systèmes (Mac OS X, systèmes embarqués). 
 
-
-BASIC (langage)
-à écrire :)
-
+BASIC (langage) - Beginner's All-purpose Symbolic Instruction Code
+Langage de programmation de haut niveau dont la première version La première version est diffusée en 1964 par John George Kemeny et Thomas Eugene Kurtz. Ce langage, populaire dans les années 70 et 80, connait une phase de décroissance à partir des années 90 avec le développement du Pascal et du C.
 
 BATX 
-	à écrire :)
+Acronyme pour Baidu, Alibaba, Tencent et Xiaomi, entreprises chinoises de télécommunication et du numérique concurentes des GAFAM (Google, Amazon, Facebook, Apple, Microsoft).
 
 BECN - Backward explicit congestion notification
 Dans un réseau Frame Relay*, le BECN est un bit* d’en-tête de trame* transmis par le destinataire pour avertir la source de problèmes de congestion. La source doit donc limiter ou réduire les envois vers la destination afin d’éviter l’engorgement du réseau et des pertes de paquets. Le FECN*, Forward Explicit Congestion Notification, est le mécanisme inverse.
-
 
 BGP - Border Gateway Protocol
 BGP est un protocole de routage* entre Systèmes Autonomes* (AS), il est défini par le standard RFC* 4271. BGP est donc responsable du routage sur Internet entre opérateurs, il échange des informations entre routeurs sur l’accessibilité entre AS (les préfixes*). Ces informations permettent aux routeurs de connaître les « parcelles » d’Internet accessibles à chaque AS. Les routeurs voisins BGP utilisent TCP* comme protocole de transport via une session* sur le port* 179.
@@ -162,7 +159,7 @@ Si le bitcoin connaît un tel développement, c’est qu’il présente des avan
 
 Blogue
 (blog)
-Journal personnel publié sur Internet dans lequel sont partagés des textes, des photos et des vidéos. L’accès est public.
+Journal personnel publié sur Internet dans lequel sont partagés des textes, des photos et des vidéos. L’accès est public. Avec l'émergence des réseaux sociaux et particulièrement à partir des années 2020, le blog perd en popularité au détriment du "micro blogging" sur les plateformes comme Twitter (X), Mastodon, BluSky, Threads. Cette tendance est elle-même en balance avec les usages micro-vidéo sur Instagram ou Tik Tok.
 
 
 Blogueur
