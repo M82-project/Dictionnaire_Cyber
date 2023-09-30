@@ -283,9 +283,11 @@ L’archivage est l’action qui consiste à réunir, organiser et conserver des
 
 
 ARM - Advanced Risc Machine
-Les processeurs ARM sont une famille de processeurs qui diffère des processeurs x86. Ils proposent un jeu d'instructions réduit (RISC : Reduced Instruction Set Computer) ainsi qu'une architecture de type Harvard. 
-Cela signifie qu'il existe une séparation physique entre le bus d'adresses et le bus de données. Sont proposés des versions à coeur 32 bits et plus récemment 64 bits. L'architecture ARM constitue une propriété intellectuelle. Ce sont les fondeurs comme ST Microelectronics, qui implémentent les coeurs dans leurs microcontroleurs ou microprocesseurs.
-Le segment commercial visé est celui des Smartphones et des systèmes embarqués. En effet, les coeus ARM proposent des optimisations en consommation électrique qui offrent de bonnes performances.
+Les processeurs ARM sont une famille de processeurs qui diffère des processeurs x86. Ils proposent un jeu d'instructions réduit (RISC : Reduced Instruction Set Computer) ainsi qu'une architecture de type Harvard.
+Cela signifie qu'il existe une séparation physique entre le bus d'adresses et le bus de données. Sont proposés des versions à cœur 32 bits et plus récemment 64 bits.
+L'architecture ARM constitue une propriété intellectuelle (IP). Le processeur ARM n'existe pas en soi, à l'instar des FPGA (Field Programmable Gate Array), l'IP est intégrée dans un composant plus global appelé SOC (System On Chip - Système sur puce). Ce sont les fondeurs comme ST Microelectronics, qui implémentent les cœurs dans leurs microcontrôleurs ou microprocesseurs.
+Le segment commercial visé est celui des Smartphones et des systèmes embarqués. En effet, les cœurs ARM proposent des optimisations en consommation électrique qui offrent de bonnes performances.
+
 
 ARP – Address Resolution Protocol
 (Protocole de résolution d’adresse)
