@@ -9,7 +9,11 @@ Les backdoors désignent des accès cachés sur un système ou sur une applicati
 
 
 Bad USB
-	#à écrire :)
+(Proposition FabSim)
+BadUSB est une attaque informatique utilisant des périphériques USB infectant le micrologiciel (firmware) des contrôleurs USB. Ces périphériques USB embarquent des composants programmables permettant de les transformer en vecteurs malveillants par compromission du micrologiciel des contrôleurs USB vulnérables et de piloter les fonctions de base de l’ordinateur cible.
+Par exemple, une clé USB embarquant un microcontrôleur Intel 8051, pourrait facilement être détournée, reconnue automatiquement et servir de vecteur d’attaque en émulant un clavier et en prenant le contrôle à distance d’un ordinateur.
+Révélée à la conférence Black Hat en 2014 par Karsten Nohl, Sascha Krißler et Jakob Lell, une 1ère parade a été proposée en 2017 sous forme d’un dongle agissant comme un pare-feu matériel.
+
 
 Balayage de ports
 (Ports scanning)
