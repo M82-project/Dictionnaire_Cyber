@@ -92,6 +92,12 @@ Lien
 En informatique, un lien est une partie de programme qui transfère la commande et transmet les paramètres entre deux tronçons de programme distincts. Dans un en-vi¬ronnement Web, un lien ou lien hypertexte* est une ré-férence qui permet de consulter un document lié à la page courante. 
 Dans un système d’exploitation* (OS), un lien (ou rac-courci) est un fichier qui contient l’adresse d’une res-source (autre fichier par exemple).
 
+LiFi
+(Light Fidelity)
+Le LiFi est une technologie de communication sans fil permettant de se connecter à Internet en haut débit par l’utilisation de la lumière visible. Signal réputé stable, sécurisé et sans danger pour la santé, il est généré par les pulsations du faisceau lumineux entre un émetteur (ampoule) connecté par fil au réseau (LAN, WAN, Internet) et un objet connecté (PC, tablette, ordiphone).
+Système de type VLC (Visible Light Communication, transmission par la lumière visible), ses couches protocolaires standardisées sont adaptées à des communications sans fil jusqu'à une dizaine de mètres.
+Le principe du Li-Fi repose sur le codage et l'envoi de données via la modulation d'amplitude des sources de lumière dans la partie visible du spectre électromagnétique [longueur d'onde entre 480 nm (670 THz, bleu-vert) et 650 nm (460 THz, orange-rouge)] sous forme de scintillations imperceptibles à l'œil.
+
 Ligne de défense
 (Ligne of défense)
 Le concept de défense en profondeur* d’un système d’information repose sur l’organisation successive de plu-sieurs lignes de défense. Ces dernières ne sont pas exclu-sivement des barrières* physiques mais comme le précise l’ANSSI dans son mémento sur la défense en profondeur :
