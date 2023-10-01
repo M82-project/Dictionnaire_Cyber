@@ -93,7 +93,7 @@ En informatique, un lien est une partie de programme qui transfère la commande 
 Dans un système d’exploitation* (OS), un lien (ou rac-courci) est un fichier qui contient l’adresse d’une res-source (autre fichier par exemple).
 
 LiFi
-(Light Fidelity)
+(Light Fidelity - LiFi)
 Le LiFi est une technologie de communication sans fil permettant de se connecter à Internet en haut débit par l’utilisation de la lumière visible. Signal réputé stable, sécurisé et sans danger pour la santé, il est généré par les pulsations du faisceau lumineux entre un émetteur (ampoule) connecté par fil au réseau (LAN, WAN, Internet) et un objet connecté (PC, tablette, ordiphone).
 Système de type VLC (Visible Light Communication, transmission par la lumière visible), ses couches protocolaires standardisées sont adaptées à des communications sans fil jusqu'à une dizaine de mètres.
 Le principe du Li-Fi repose sur le codage et l'envoi de données via la modulation d'amplitude des sources de lumière dans la partie visible du spectre électromagnétique [longueur d'onde entre 480 nm (670 THz, bleu-vert) et 650 nm (460 THz, orange-rouge)] sous forme de scintillations imperceptibles à l'œil.
