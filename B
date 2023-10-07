@@ -121,6 +121,7 @@ Bibande
 Dans la téléphonie mobile, un terminal bibande est un téléphone capable de fonctionner sur l’une ou l’autre des bandes de fréquences accordées au système GSM*. En Europe il s’agit des bandes autour de 900 et 1800 MHz.
 Voir GSM.
 
+Bien à double usage (à écrire)
 
 Bien informationnel (patrimoine informationnel)
 Expression issue du monde de l’intelligence économique et progressivement adoptée par le milieu de la sécurité. Le patrimoine informationnel de l’entreprise regroupe l’ensemble des informations qui peuvent présenter un intérêt pour un concurrent. Ces données recouvrent ainsi ce qui relève de la recherche et développement, les négociations contractuelles, les données administratives des employés, les données comptables… Le spectre est donc souvent assez large. Dans tous les cas, le patrimoine informationnel de l’entreprise doit faire l’objet de mesures de protection adaptées.
