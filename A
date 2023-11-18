@@ -168,6 +168,9 @@ Algorithme de choix du plus court chemin entre deux points d’un réseau, utili
 Algorithme de Karn
 Algorithme développé par Philippe Karn en 1987 qui permet d’améliorer la mesure du temps de transmission aller-retour de données sur un réseau. Il permet donc d’obtenir une mesure fiable du Round Trip delay Time (RTT)* lors d’une transmission via le protocole de transport TCP*.
 
+Algorithme de recommandation
+Programme informatique qui, en ligne, vous recommande des contenus parmi l'ensemble des contenus possibles, souvent sur la base de qu'il connait de vous. source : "Toxic Data" David Chavalarias.
+
 Algorithme de routage
 Méthode de résolution permettant d’établir les routes à suivre pour l’acheminement de paquets dans un réseau en fonction de critères de choix.
 Voir Routage, Table de routage.
