@@ -192,6 +192,9 @@ Clonage de serveur DNS
 (DNS Pharming)
 Voir Détournement de nom de domaine.
 
+Cloud Access Security Broker - CASB
+Logiciel sur site ou basé sur le cloud qui se situe entre les utilisateurs de services cloud et les applications cloud. Ce logiciel surveille les activités et applique les politiques de sécurité (source Lexique Glimps).
+
 Cloud computing 
 (Informatique en nuages ou infonuagique)
 Le journal Officiel du 6 juin 2010 donne du cloud computing la définition suivante : mode de traitement des données d'un client, dont l'exploitation s'effectue par l'internet, sous la forme de services fournis par un prestataire. L'informatique en nuage est une forme particulière de gérance de l'informatique, dans laquelle l'emplacement et le fonctionnement du nuage ne sont pas portés à la connaissance des clients. Le cloud computing est une organisation des systèmes d’information permettant l’utilisation à distance de ressources matérielles ou logicielles via l’Internet. Concrètement, les entreprises peuvent faire appel à un service distant, dédié, permettant d’héberger des données ou des applications métiers. L’offre de service s’étoffe, et de plus en plus d’internautes font aujourd’hui appel à ce type de service pour le stockage de contenus multimédia (photo, vidéo, musique). Un cloud est dit public quand les ressources sont partagées entre plusieurs entreprises ou clients, privé lorsque les ressources sont mutualisées au sein d’une même entreprise, communautaire ou encore hybride (combinaison avec une technologie commune pour garantir l’interopérabilité).
