@@ -209,6 +209,9 @@ La Commission nationale informatique et liberté est une autorité française in
 Sa mission est donc de veiller à ce que l’informatique soit au service du citoyen et qu’elle ne porte atteinte ni à l’identité humaine, ni aux droits de l’homme, ni à la vie privée, ni aux libertés individuelles ou publiques. Elle exerce ses missions conformément à la loi informatique et libertés qui la qualifie d'autorité administrative indépendante.
 Dans le cadre de sa mission elle recense les fichiers, effectue des contrôles et garantit le droit d’accès des citoyens sur les données les concernant. 
 
+Cobalt Strike
+Outil commercial de sécurité développé en 2012, il est employé par les experts en tests d'intrusion pour émuler une activité cybercriminelle sur un réseau. Toutefois, il est de plus en plus utilisé par les cybercriminels car il simplifie et automatise certaines étapes d'une intrusion. Outils assez complet souvent qualifié de "couteau suisse", il permet la génération de payload permettant la connexion vers le serveur de commande et de contrôle. L'outil écolue et est souvent associé à certaines APT. Ainsi, APT29 utilise des chargeurs personnalisés de Cobalt Strike Beacon pour se fondre dans le trafic légitime ou échapper à l'analyse (source : https://www.proofpoint.com/fr/blog/threat-insight/cobalt-strike-favorite-tool-apt-crimeware).
+
 Code
 (Code)
 Ensemble de règles qui permettent de convertir de l’information afin de la rendre exploitable, copiable, transportable. Ainsi, la principale fonction d’un code est de représenter une information dans le but de pouvoir la transmettre. L’écriture est un code qui répond à cette définition.
