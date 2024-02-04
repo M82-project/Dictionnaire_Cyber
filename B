@@ -208,6 +208,9 @@ Bombe logique
 (logic bomb)
 Par analogie avec le monde réel et les actions terroristes, une bombe logique est un code malveillant implanté dans un système d’information dont l’objectif est de détruire ou modifier des données lorsque des conditions particulières sont atteintes. La « bombe » peut ainsi être « déclenchée » à une date prédéfinie, lorsque l’utilisateur tape un mot clé ou accède à certaines applications. La terminologie française retient également le terme de bombe programmée.
 
+Bootkit
+
+Un bootkit est un virus informatique s'installant dans le secteur de démarrage d'un ordinateur. Il modifie la chaine de démarrage dans le but de s'injecter au niveau du noyau du système d'exploitation et ensuite de l'espace utilisateur. Le but est d'avoir une persistance totale sur la machine compromise. Si le système d'exploitation est ré installé, le bootkit reste à la même place. 
 
 Botnet  
 (botnet)
