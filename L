@@ -123,6 +123,9 @@ LMI - Local Management Interface
 Dans un réseau à relais de trame (Frame relay*), LMI est un protocole local qui contrôle le lien entre un utilisateur et le réseau. Il permet de connaître l’état des circuits vir-tuels et diffuse des messages de disponibilité des circuits.
 Voir Frame Relay.
 
+LMI - Lutte contre la manipulation de l'information
+La manipulation de l'information est une action délibérée (intention de nuire), clandestine (les victimes sont inconscientes) de diffusion d’information falsifiées, déformées ou forgées. La LMI regroupe l'ensemble des mesures prises afin de détecter, caractèriser et dénoncer les acteurs et les modes d'action de la manipulation de l'information.
+
 Log 
 (Log)
 Les logs désignent, dans un système informatique, l’historique des évènements qui affectent les processus (et par extension le fichier dans lequel ils sont stockés). Ils sont un élément essentiel de la sécurité car leur enregis-trement chronologique au sein d’un journal (journalisa-tion*) permet d’analyser pas à pas le comportement d’un système et de détecter des événements suspects ou encore des attaques. Dans son Livre blanc sur les logs, un groupe de travail de l’OSSIR (Observatoire de la sécurité des sys-tèmes d’information et des réseaux) souligne qu’il n’existe pas de définition formelle du terme en droit fran-çais. Ainsi, le terme log regroupe de nombreuses notions telle que : données relatives au trafic (Code des postes et des communications électroniques), données de con-nexion à des services de communications électroniques (Loi pour la confiance dans l’économie numérique) ou encore, données de connexion et fichiers de journalisa-tion des connexions. Le groupe de travail estime ainsi que pour une meilleure compréhension il est nécessaire de distinguer les « logs » des « traces* » et propose les défi-nitions suivantes : 
