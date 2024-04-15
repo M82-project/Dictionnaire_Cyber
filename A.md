@@ -1,105 +1,116 @@
-ABCDE 
-(Actors, Behaviour, Content, Degree, Effect)
-Dans le domaine de la lutte contre la désinformation, ABCDE est un framework créé par Camille François pour décrire et analyser les opérations d'influence. Initialement connu sous les initiales ABC pour "manipulative Actors, deceptive Behavior and Harmful content", le chercheur Alexandre Alaphilippe ajoute une quatrième dimmension "Distribution" puis James Pamment "Effect" pour prendre en compte l'impact de ces opérations (d'après le glossaire du EU Disnfo Lab). 
+---
+title: A
+date: 2024-04-15
+---
 
-Accès
-(Access- hit)
+Contribuez à la mise à jour de ce dictionnaire ici : [mise à jour](https://github.com/M82-project/Dictionnaire_Cyber)
+
+##ABCDE 
+(*Actors, Behaviour, Content, Degree, Effect*)
+Dans le domaine de la lutte contre la désinformation, ABCDE est un framework créé par Camille François pour décrire et analyser les opérations d'influence. Initialement connu sous les initiales ABC pour "manipulative Actors, deceptive Behavior and Harmful content", le chercheur Alexandre Alaphilippe ajoute une quatrième dimmension "Distribution" puis James Pamment "Effect" pour prendre en compte l'impact de ces opérations (d'après le glossaire du EU Disnfo Lab).
+
+##Accès
+(*Access- hit*)
 Qualité qui permet de bénéficier d’un service particulier sous certaines conditions. Ainsi pour bénéficier d’une connexion Internet l’usager doit solliciter un fournisseur d’accès Internet (FAI*). En matière de télécommunication, il existe plusieurs types d’accès, de mécanisme d’accès ainsi que des techniques de contrôle d’accès*. L’accès désigne également le fait d’engager une consultation d’un document sur un serveur. Ainsi, le nombre d’accès est une mesure courante de l’audience d’un site Internet ou de la fréquence de consultation d’un document. Dans cette approche, le terme en anglais le plus juste est hit.
 
-Accès de base et accès primaire
-(Basic Rate Interface – Primary Rate Interface)
+##Accès de base et accès primaire
+(*Basic Rate Interface – Primary Rate Interface*)
 Dans les Réseaux Numérique à Intégration de Services (RNIS*), l’accès de base est le raccordement élémentaire qui fournit deux canaux B à 64 Kbps et un canal de signalisation* à 16 Kbps. Il se distingue de l’accès primaire (Interface S2) qui lui, procure trente canaux B, un canal de signalisation.
 
-Accès direct
-(Direct access – Random access)
+##Accès direct
+(*Direct access – Random access*)
 Mode d’écriture ou de lecture de données se faisant au moyen d’adresses qui repèrent l’emplacement des données.
 
-Accès multiple
-(Multiple Access)
-Technique permettant à un certain nombre de terminaux ou de stations d’utiliser simultanément les ressources d’un moyen de transmission, d’une façon prédéterminée ou en fonction du volume des échanges. Ainsi, dans un réseau local, l’accès des terminaux à une même ligne de transmission est un exemple d’accès multiple. Pour réaliser un accès multiple il est nécessaire de mettre en œuvre des techniques particulières. On peut choisir de répartir dans le temps (chaque équipement dispose d’une fenêtre temporelle spécifique – ex Time Division Multiple Access -TDMA*), d’effectuer une répartition en fréquence (Frequency Division Multiple Access - FDMA*) par détection de porteuse ou étalement de spectre (voir AMRC* ou CDMA Code Division Multiple Access CDMA*).
+##Accès multiple
+(*Multiple Access*)
+Technique permettant à un certain nombre de terminaux ou de stations d’utiliser simultanément les ressources d’un moyen de transmission, d’une façon prédéterminée ou en fonction du volume des échanges. Ainsi, dans un réseau local, l’accès des terminaux à une même ligne de transmission est un exemple d’accès multiple. Pour réaliser un accès multiple il est nécessaire de mettre en œuvre des techniques particulières. On peut choisir de répartir dans le temps (chaque équipement dispose d’une fenêtre temporelle spécifique – ex Time Division Multiple Access -TDMA), d’effectuer une répartition en fréquence (Frequency Division Multiple Access - FDMA) par détection de porteuse ou étalement de spectre (voir AMRC ou CDMA Code Division Multiple Access CDMA).
+
 Voir également AMRC – Accès Multiple par Répartition en Code, AMRF – Accès Multiple par Répartition en Fréquence, AMRT – Accès Multiple par Répartition Temporelle.
 
-Accès séquentiel
-(Serial access)
+##Accès séquentiel
+(*Serial access*)
 L’accès séquentiel désigne un mode d’écriture ou de lecture de données, effectuées en suivant un ordre préétabli de rangement. L’accès séquentiel s’oppose à un accès direct.
 
-Acheminement
-(Routing)
-Processus qui consiste à envoyer un bloc d’information vers sa destination finale via une ou plusieurs stations du réseau [SERVIN 2003]. Dans un environnement IP*, l’acheminement des paquets est ainsi la fonction principale d’un réseau, ce mécanisme fait l’objet de protocoles et d’optimisations permanentes.
+##Acheminement
+(*Routing*)
+Processus qui consiste à envoyer un bloc d’information vers sa destination finale via une ou plusieurs stations du réseau [SERVIN 2003](https://books.google.fr/books?id=2SrKCQAAQBAJ&printsec=frontcover&hl=fr&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false). Dans un environnement IP, l’acheminement des paquets est ainsi la fonction principale d’un réseau, ce mécanisme fait l’objet de protocoles et d’optimisations permanentes.
  
-ACL - Acces Control List
+##ACL - *Acces Control List*
 (Liste de contrôle d’accès)
-Une liste de contrôle d’accès établit les personnes, machines, fonctions ou protocoles qui peuvent accéder à une ressource (fichier, machine, service réseau, etc.). En matière de réseau, une ACL définit par exemple les ports*, adresses MAC*, adresses IP* et protocoles* autorisés à franchir un équipement actif (pare-feu*, routeur, etc.).
+Une liste de contrôle d’accès établit les personnes, machines, fonctions ou protocoles qui peuvent accéder à une ressource (fichier, machine, service réseau, etc.). En matière de réseau, une ACL définit par exemple les ports*, adresses MAC*, adresses IP* et protocoles* autorisés à franchir un équipement actif (pare-feu*, routeur*, etc.).
 
-Acquittement
-(Acknoledgement) (ACK)
+#Acquittement
+(*Acknoledgement* - ACK)
 Message d’accusé de réception positif dans une procédure de transmission.
 
 Action de lutte informatique défensive - LID
-(Computer Network Defense)
-Dans le cadre des opérations dans le cyberespace*, action consistant à surveiller, analyser, détecter et réagir face à des attaques, intrusions ou perturbations qui pourraient compromettre, paralyser ou détruire nos systèmes, réseaux et données.
+(*Computer Network Defense - CND*)
+Dans le cadre des opérations dans le cyberespace*, action consistant à surveiller, analyser, détecter et réagir face à des attaques, intrusions ou perturbations qui pourraient compromettre, paralyser ou détruire les systèmes, réseaux et données.
 
-Action de lutte informatique offensive – LIO
-(Computer Network Attacks - CNA)
+##Action de lutte informatique offensive – LIO
+(*Computer Network Attacks - CNA*)
 Dans le cadre des opérations dans le cyberespace*, action non physique entreprise dans le cyberespace contre des systèmes d’information ou des données pour les perturber, les modifier, les dégrader ou les détruire.
 
-Action d’exploitation informatique - EI
-(Computer Network Exploitation – CNE)
+##Action d’exploitation informatique - EI
+(*Computer Network Exploitation – CNE*)
 Dans le cadre des opérations dans le cyberespace*, action conduite dans le cyberespace en vue d’obtenir l’accès aux logiciels, configurations matérielles et données des réseaux informatiques. Elle vise à exploiter les données issues de systèmes d’information ou de réseaux cibles et à recueillir du renseignement sur ces systèmes et réseaux pour alimenter le renseignement d’intérêt cyberdéfense* (RIC).
 
-Action d’influence
-(Influence Activity)
+##Action d’influence
+(*Influence Activity*)
 Dans la terminologie militaire française, ensemble des activités intentionnelles pour obtenir un effet sur les perceptions en vue de modifier les attitudes et/ou les comportements.
 
-Action d’information
-(Information Activity)
+##Action d’information
+(*Information Activity*)
 Les actions d'information désignent les activités offensives et défensives portant sur les données, les contenus informationnels (messages et connaissances) ou les systèmes d’information. 
 
-Active Directory (AD)
-L'Active Directory est l’implémentation par Microsoft d’un annuaire LDAP. Un annuaire est une base de données centrale contenant l’ensemble des données et informations d’authentification des utilisateurs d’un réseau informatique (source Glossaire GLIMPS). L'accès à l'AD sur un système d'information est un des objectifs majeurs pour un attaquant. 
+##*Active Directory (AD)*
+L'Active Directory est l’implémentation par Microsoft d’un annuaire LDAP*. Un annuaire est une base de données centrale contenant l’ensemble des données et informations d’authentification des utilisateurs d’un réseau informatique (source Glossaire GLIMPS). L'accès à l'AD sur un système d'information est un des objectifs majeurs pour un attaquant. 
 
-Add-on
-(Additif – Module complémentaire - Plug-in)
+##Add-on
+(*Additif – Module complémentaire - Plug-in*)
 En informatique, un add-on est un module complémentaire d’un logiciel (ou d’un matériel) qui lui confère des améliorations ou des fonctionnalités supplémentaires. L’add-on ne peut fonctionner qu’avec son logiciel maître et peut être ajouté indépendamment de l’installation de ce dernier. A titre d’illustration, le navigateur libre Mozilla Firefox dispose de multiples modules complémentaires qui permettent par exemple de bloquer la publicité, d’afficher la localisation du serveur* sur lequel vous êtes connecté, son certificat* de sécurité ou encore forcer l’utilisation du protocole sécurisé HTTPS* lorsque cela est possible.
 
-Administration de réseau
-(Network management)
+##Administration de réseau
+(*Network management*)
 Action qui consiste à assurer le fonctionnement d’un réseau (de ses équipements, interconnexions et des ressources qui le constituent en général), ainsi que sa gestion fonctionnelle (ajout, modification ou suppression d’équipements, d’interconnexions, de fonctionnalités, configuration, etc.). 
 
-Adressage
-(Addressing)
+#Adressage
+(*Addressing*)
 Ensemble des moyens permettant d’accéder à une entité déterminée. On distingue plusieurs types d’adressage :
-•	Adressage absolu : adressage pour lequel on accède à l’entité via une chaine de caractères absolu, il n’y a alors aucune relations entre les adresses.
-•	Adressage hiérarchique : ensemble de moyens permettant d’accéder à une ressource via une succession de champs qui déterminent une localisation au sein de sous-ensembles hiérarchisés. Les adresses IP* en sont une forme, un numéro de téléphone également.
-•	Adressage logique : type d’adressage qui permet d’identifier et de joindre une entité sur un réseau sans nécessairement connaître sa localisation physique. L’adressage logique intervient sur la couche 3 (réseau) du modèle OSI et identifie l’interface réseau d’une machine. Une adresse logique n’est donc pas déterminée par son emplacement géographique. L’adresse IP* est un exemple d’adresse logique.
-•	Adressage physique : ensemble de moyens permettant d’accéder à une entité physique. L’adresse MAC* est, par exemple, utilisée dans ce type d’adressage pour identifier un équipement physique au sein d’un réseau (ordinateur, routeur, etc.)
+* Adressage absolu : adressage pour lequel on accède à l’entité via une chaine de caractères absolu, il n’y a alors aucune relations entre les adresses.
+* Adressage hiérarchique : ensemble de moyens permettant d’accéder à une ressource via une succession de champs qui déterminent une localisation au sein de sous-ensembles hiérarchisés. Les adresses IP* en sont une forme, un numéro de téléphone également.
+* Adressage logique : type d’adressage qui permet d’identifier et de joindre une entité sur un réseau sans nécessairement connaître sa localisation physique. L’adressage logique intervient sur la couche 3 (réseau) du modèle OSI et identifie l’interface réseau d’une machine. Une adresse logique n’est donc pas déterminée par son emplacement géographique. L’adresse IP* est un exemple d’adresse logique.
+* Adressage physique : ensemble de moyens permettant d’accéder à une entité physique. L’adresse MAC* est, par exemple, utilisée dans ce type d’adressage pour identifier un équipement physique au sein d’un réseau (ordinateur, routeur, etc.)
 Voir Adresse IP, Adresse MAC, Adresse.
 
-Adresse
-(Address)
+##Adresse
+(*Address*)
 Ensemble de données structurées qui permet de désigner tout ou partie d’une ressource (équipement informatique, réseau, bloc de stockage mémoire, portion de programme informatique, etc.) et le plus souvent, de l’identifier de façon unique parmi d’autres ressources dans un périmètre défini et à un instant donné.
 
-Adresse IP
-(IP address)
+##Adresse IP
+(*IP address*)
 L’adresse IP permet d’identifier une ressource informatique (ordinateur, imprimante, téléphone) au sein d’un réseau qui repose sur le protocole de communication IP – Internet Protocol*. Cette identification peut être permanente ou provisoire et demeure un élément essentiel pour permettre l’acheminement des paquets* de données*. Dans tout les cas elle est unique. L’adresse IP est codée sur 32 bits* (4 octets) pour la version 4 et sur 128 bits (16 octets) pour la version 6 (voir IP V6*).
 C’est l’Internet Corporation for Assigned Names and Numbers (ICANN*) qui a la responsabilité de la gestion des adresses IP et de leur distribution. Ce rôle est évidemment extrêmement important dans la gestion de l’Internet et de sa gouvernance.
 Voir également IP V4 et IP V6.
 
-Pour aller plus loin 
+***
+>Pour aller plus loin 
 
-Les classes d’adresse IP : face à l’augmentation rapide du nombre de réseau et d’adresse à distribuer, il a été nécessaire d’organiser la façon dont on attribuait ces adresses. En 1981, la RFC* 790, Assigned numbers, est publiée, elle organise le mécanisme d’adressage. Ainsi, une adresse IP est divisée en deux parties, l’une servant à identifier le réseau (net id) l’autre servant à identifier la machine (host id). Partant, cinq classes d’adresses sont définies :
+>Les classes d’adresse IP : face à l’augmentation rapide du nombre de réseau et d’adresse à distribuer, il a été nécessaire d’organiser la façon dont on attribuait ces adresses. En 1981, la RFC* 790, Assigned numbers, est publiée, elle organise le mécanisme d’adressage. Ainsi, une adresse IP est divisée en deux parties, l’une servant à identifier le réseau (net id) l’autre servant à identifier la machine (host id). Partant, cinq classes d’adresses sont définies :
 • Classe A : un octet pour définir l’adresse réseau : XXX.000.000.000.
 • Classe B : deux octets pour l’adresse réseau : XXX.XXX.000.000.
 • Classe C : trois octets pour l’adresse réseau : XXX.XXX.XXX.000.
 • Classe D et E : adresses particulières.
-Ainsi, en fonction de la taille du réseau l’ICANN assigne une « plage d’adresse » de la classe associée. Par exemple avec la classe C, il est possible d’identifier 2 097 152 réseaux distincts de 254 machines chacun. L’ICANN réserve également des adresses « privées » pour chaque classe. Ces adresses peuvent être attribuées librement (sans contrôle de l’ICANN) à une ressource informatique, sous réserve qu’elle ne soit pas directement connectée à Internet. Toutefois, l’accès de ces équipements à Internet peut s’effectuer par l’intermédiaire d’un équipement qui dispose lui, d’une adresse (publique) attribuée par l’ICANN. C’est le cas des ordinateurs de votre réseau domestique (qui disposent d’adresses IP privées de classe C le plus souvent, de type 192.168.X.Y.) qui accèdent à Internet par l’intermédiaire de votre « box », disposant elle-même d’une adresse attribuée par l’ICANN. 
+>Ainsi, en fonction de la taille du réseau l’ICANN assigne une « plage d’adresse » de la classe associée. Par exemple avec la classe C, il est possible d’identifier 2 097 152 réseaux distincts de 254 machines chacun. L’ICANN réserve également des adresses « privées » pour chaque classe. Ces adresses peuvent être attribuées librement (sans contrôle de l’ICANN) à une ressource informatique, sous réserve qu’elle ne soit pas directement connectée à Internet. Toutefois, l’accès de ces équipements à Internet peut s’effectuer par l’intermédiaire d’un équipement qui dispose lui, d’une adresse (publique) attribuée par l’ICANN. C’est le cas des ordinateurs de votre réseau domestique (qui disposent d’adresses IP privées de classe C le plus souvent, de type 192.168.X.Y.) qui accèdent à Internet par l’intermédiaire de votre « box », disposant elle-même d’une adresse attribuée par l’ICANN. 
 
 
-Les sous-réseaux :
+>Les sous-réseaux :
 Pour assurer un niveau supplémentaire de répartition des adresses IP,    la notion de sous-réseau est introduite, en 1984, dans la RFC 917, Internet subnets. Ce fractionnement, qui ne remet pas en cause la notion de classe mais permet une utilisation plus flexible de l’espace d’adressage de chaque classe, en permettant la construction de sous-réseaux de taille arbitraire, grâce à l’utilisation d’un « masque ». Le masque de sous-réseau permet, lorsqu’il est appliqué à une adresse IP (par le biais d’une opération booléenne de type « ET ») de déterminer le sous-réseau associé à une adresse. Le masque de sous-réseau a donc la même longueur qu’une adresse IP et se présente, en notation binaire, comme une suite de 1 puis de 0. En notation décimale à point, un masque de classe C se présente ainsi : 255.255.255.0
 
-Adresse MAC
-(Medium Access Control address)
+***
+
+##Adresse MAC
+(*Medium Access Control address*)
 L’adresse MAC est l’adresse unique qui identifie un matériel électronique de communication réseau compatible avec le standard* Ethernet* (typiquement, une carte réseau d’ordinateur). Elle est codée sur 6 octets. Cette adresse est attribuée dès la construction, et constitue l’adresse « matérielle » d’un objet connecté. L’adresse est divisée en deux champs : le premier identifie le constructeur de l’interface matérielle, et le second est un numéro séquentiel attribué par le constructeur. L’adresse MAC est aussi appelée adresse « physique », par opposition à l’adresse « logique » (par exemple l’adresse IP*) de l’équipement informatique associé.
 
 Adress munging
