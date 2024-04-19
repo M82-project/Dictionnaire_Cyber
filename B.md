@@ -1,3 +1,11 @@
+---
+title: B
+date: 2024-04-19
+---
+
+Contribuez à la mise à jour de cette liste ici : [mise à jour](https:/)
+
+
 Backbone Internet 
 (Dorsale Internet)
 Le terme désigne les liaisons très haut débit qui constituent le cœur du réseau Internet. Il s’agit principalement des câbles terrestres et sous-marins qui relient les continents entre eux et permettent donc l’interconnexion des réseaux de plus petite taille.
