@@ -3,39 +3,42 @@ title: B
 date: 2024-04-19
 ---
 
-Contribuez à la mise à jour de cette liste ici : [mise à jour](https:/)
+Contribuez à la mise à jour de cette liste ici : [mise à jour](https://github.com/M82-project/Dictionnaire_Cyber/)
 
 
-Backbone Internet 
+## *Backbone Internet* 
 (Dorsale Internet)
+
 Le terme désigne les liaisons très haut débit qui constituent le cœur du réseau Internet. Il s’agit principalement des câbles terrestres et sous-marins qui relient les continents entre eux et permettent donc l’interconnexion des réseaux de plus petite taille.
 
 
-Backdoor 
+## *Backdoor* 
 (Porte dérobée)
-Les backdoors désignent des accès cachés sur un système ou sur une application présents dès la conception ou à la suite d’une implantation malveillante a posteriori. L’objectif est de générer un comportement particulier après l’activation par une commande spécifique. L’utilisation d’une backdoor permet donc à un acteur tiers (par exemple un attaquant informatique) de disposer d’un accès sur un système à l’insu de son propriétaire. 
+
+Les backdoors désignent des accès cachés sur un système ou sur une application présents dès la conception ou à la suite d’une implantation malveillante a posteriori. L’objectif est de générer un comportement particulier après l’activation par une commande spécifique. L’utilisation d’une backdoor permet donc à un acteur tiers (par exemple un attaquant informatique) de disposer d’un accès sur un système à l’insu de son propriétaire. En matière de fonctionnalités, les backdoors sont similaires à n’importe quel système d’administration conçus et distribués par les éditeurs de logiciels. 
+Voir [l'encyclopédie Kaspersky](https://encyclopedia.kaspersky.fr/knowledge/backdoor/)
 
 
-Bad USB
-BadUSB est une attaque informatique utilisant des périphériques USB infectant le micrologiciel (firmware) des contrôleurs USB. Ces périphériques USB embarquent des composants programmables permettant de les transformer en vecteurs malveillants par compromission du micrologiciel des contrôleurs USB vulnérables et de piloter les fonctions de base de l’ordinateur cible.
-Par exemple, une clé USB embarquant un microcontrôleur Intel 8051, pourrait facilement être détournée, reconnue automatiquement et servir de vecteur d’attaque en émulant un clavier et en prenant le contrôle à distance d’un ordinateur.
-Révélée à la conférence Black Hat en 2014 par Karsten Nohl, Sascha Krißler et Jakob Lell, une 1ère parade a été proposée en 2017 sous forme d’un dongle agissant comme un pare-feu matériel.
+## *Bad USB*
+BadUSB est une attaque informatique utilisant des périphériques USB infectant le micrologiciel (firmware) des contrôleurs USB. Ces périphériques USB embarquent des composants programmables permettant de les transformer en vecteurs malveillants par compromission du micrologiciel des contrôleurs USB vulnérables et de piloter les fonctions de base de l’ordinateur cible. Par exemple, une clé USB embarquant un microcontrôleur Intel 8051, pourrait facilement être détournée, reconnue automatiquement et servir de vecteur d’attaque en émulant un clavier et en prenant le contrôle à distance d’un ordinateur.
+Révélée à la conférence Black Hat en 2014 par Karsten Nohl, Sascha Krißler et Jakob Lell, une 1ère parade a été proposée en 2017 sous forme d’un *dongle* agissant comme un pare-feu matériel.
 
 
-Balayage de ports
-(Ports scanning)
+## Balayage de ports
+(*Ports scanning*)
+
 Le balayage de ports* est une technique utilisée en sécurité informatique qui consiste à envoyer des paquets* vers les différents ports* d’une machine. La réponse de la machine permet de déterminer l’état des différents ports (ouverts, fermés, filtrés) ainsi que les services fonctionnant.
 Voir Port, Scan, Ping.
 
 
-Balise
-(Tag)
+## Balise
+(*Tag*)
 Dans un langage de description de documents, marque destinée à l’identification, la description ou la mise en forme d’un élément de document. Le format de notation XML* utilise, par exemple, des balises pour structurer et faciliter le traitement des informations.
 Voir XML, HTML.
 
 
-Balise (voie)
-(Beacon Channel)
+## Balise (voie)
+(*Beacon Channel*)
 En téléphonie mobile, il est nécessaire de gérer et partager entre utilisateurs la bande radio (qui est une ressource rare et donc…chère). Pour ce faire, il faux disposer de canaux logiques entre le mobile et la station de base afin de garantir le service. Dans ce cadre, la voie balise permet au mobile de se raccrocher en permanence à la station la plus favorable. Le mobile mesure en permanence la puissance en réception de la voie balise et scrute les autres voies pour connaître les autres stations susceptibles de l’accueillir si nécessaire. 
 
 
