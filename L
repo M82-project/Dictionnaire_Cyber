@@ -1,3 +1,8 @@
+L2I - Lutte Informatique d’Influence
+Source : https://www.defense.gouv.fr/comcyber/nos-operations/lutte-informatique-dinfluence-l2i
+La lutte informatique d’influence (L2I) désigne les opérations militaires conduites dans la couche informationnelle du cyberespace pour détecter, caractériser et contrer les attaques, appuyer la StratCom, renseigner ou faire de la déception, de façon autonome ou en combinaison avec d’autres opérations.
+La L2I fait l'objet d'une Doctrine au sein du Ministère des Armées.
+
 LA – Location Area
 (Zone de localisation)
 Dans une architecture GSM*, une aire de service placée sous le contrôle d’un MSC*/VLR*, est composée de plu-sieurs zone de localisation (LA – Location Area). Chaque LA est identifiée par une adresse unique la LAI – Local Area Identification.
