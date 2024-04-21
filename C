@@ -472,9 +472,11 @@ Ensemble des infractions pénales qui sont commises dans le cyberespace. On dist
 Note de l'ANSSI : l'ANSSI parle le plus souvent de cybercriminalité lorsqu'elle est amenée à s'exprimer sur des cyberattaques menées à des fins lucratives (exemple : rançongiciel).
 
 Cyberdéfense 
-(Cyberdefence)
-Ensemble des mesures techniques et non techniques permettant à un État de défendre dans le cyberespace* les systèmes d’information jugés essentiels.
-Pour le ministère français de la Défense, ensemble des activités qu’il conduit afin d’intervenir militairement ou non dans le cyberespace pour garantir l’efficacité de l’action des forces armées, la réalisation des missions confiées et le bon fonctionnement du ministère. 
+(Cyber defense, Cyberdefence)
+Source : https://cyber.gouv.fr/glossaire
+Ensemble des moyens mis en place par un État pour défendre dans le cyberespace* les systèmes d’information jugés d’importance vitale (SIIV)*, qui contribuent à assurer la cybersécurité.
+La cyberdéfense met notamment en œuvre la lutte informatique défensive (LID)* et la lutte informatique offensive (LIO)*.
+Note de l'ANSSI : en matière de cyberdéfense, l'ANSSI n'intervient que sur le volet défensif, le volet offensif étant de la responsabilité d'autres acteurs. Dans ce cadre, l'agence développe et structure les capacités de détection de l’État et organise au niveau national l’assistance aux victimes de cyberattaques.
 
 Cyberdéfense militaire
 (Millitary Cyberdefence)
