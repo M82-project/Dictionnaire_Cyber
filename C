@@ -466,8 +466,10 @@ Planifier, coordonner, intégrer, synchroniser et conduire des activités pour :
 Il compte au début de l’année 2013 environ 900 personnes et devrait voir ses effectifs croître très nettement dans les années à venir.
 
 Cybercriminalité 
-(Cybercriminality)
-Actes contrevenants aux traités internationaux ou aux lois nationales, utilisant les réseaux ou les systèmes d’information comme moyen de réalisation d’un délit ou d’un crime, ou les ayant pour cible. 
+(Cybercriminality, Cybercrime)
+Source : https://cyber.gouv.fr/glossaire
+Ensemble des infractions pénales qui sont commises dans le cyberespace. On distingue les infractions intrinsèquement liées aux nouvelles technologies (diffusion de virus, piratage, copie illicite de logiciels ou d’œuvres audiovisuelles, etc.) et celles pour lesquelles le cyberespace n’est qu’un nouveau lieu d’expression et un nouveau vecteur de transmission (apologie du racisme, diffusion de contenus pédophiles, harcèlement, etc.).
+Note de l'ANSSI : l'ANSSI parle le plus souvent de cybercriminalité lorsqu'elle est amenée à s'exprimer sur des cyberattaques menées à des fins lucratives (exemple : rançongiciel).
 
 Cyberdéfense 
 (Cyberdefence)
