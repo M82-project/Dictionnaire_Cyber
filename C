@@ -530,6 +530,7 @@ La résilience se définit comme la capacité d’une organisation à faire face
 Cybersécurité
 (Cybersecurity)
 État recherché pour un système d’information lui permettant de résister à des événements issus du cyberespace susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité desconfidentialités des données stockées, traitées ou transmises et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. La cybersécurité fait appel à des techniques de sécurité des systèmes d’information et s’appuie sur la lutte contre la cybercriminalité et sur la mise en place d’une cyberdéfense.
+Note de l'ANSSI : il est fréquent de voir les termes cybersécurité et sécurité numérique employés tour à tour comme des synonymes. Pourtant, il est communément accepté que la cybersécurité - à l'image d'autres termes dotés du préfixe cyber - renvoie à la sécurité des systèmes d'information tandis que la sécurité numérique renvoie plus largement à la sécurité des systèmes et des pratiques numériques. Ainsi, les bonnes pratiques de sécurité numérique sont aussi bien techniques que comportementales.
 
 Cybersquat
 (Cybersquatting)
