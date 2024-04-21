@@ -96,10 +96,12 @@ LID - Lutte Informatique Défensive
 Source : INSTRUCTION N° 101000/ARM/CAB relative à la politique de lutte informatique et défensive du ministère des armées. https://www.legifrance.gouv.fr/circulaire/id/44356
 Ensemble coordonné d'actions menées par un État, qui consistent à détecter, à analyser et à prévenir des cyberattaques, et à y réagir le cas échéant.
 La LID est donc l'ensemble des actions, techniques et non techniques, adaptées pour faire face à un niveau de menace ou à une attaque réelle, visant à préserver notre liberté d'action dans le cyberespace.
+La LID fait l'objet d'une Doctrine au sein du Ministère des Armées.
 
 LIO - Lutte Informatique Offensive
 Source : https://www.defense.gouv.fr/comcyber/nos-operations/lutte-informatique-offensive-lio
 La lutte informatique offensive à des fins militaires (LIO) recouvre l’ensemble des actions entreprises dans le cyberespace*, conduites de façon autonome ou en combinaison des moyens militaires conventionnels. L’arme cyber vise, dans le strict respect des règles internationales, à produire des effets à l’encontre d’un système adverse pour en altérer la disponibilité ou la confidentialité des données.
+La LIO fait l'objet d'une Doctrine au sein du Ministère des Armées.
 
 Lien
 (Link) 
