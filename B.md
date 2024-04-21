@@ -28,69 +28,81 @@ Révélée à la conférence Black Hat en 2014 par Karsten Nohl, Sascha Krißler
 (*Ports scanning*)
 
 Le balayage de ports* est une technique utilisée en sécurité informatique qui consiste à envoyer des paquets* vers les différents ports* d’une machine. La réponse de la machine permet de déterminer l’état des différents ports (ouverts, fermés, filtrés) ainsi que les services fonctionnant.
+
 Voir Port, Scan, Ping.
 
 
 ## Balise
 (*Tag*)
+
 Dans un langage de description de documents, marque destinée à l’identification, la description ou la mise en forme d’un élément de document. Le format de notation XML* utilise, par exemple, des balises pour structurer et faciliter le traitement des informations.
+
 Voir XML, HTML.
 
 
 ## Balise (voie)
 (*Beacon Channel*)
+
 En téléphonie mobile, il est nécessaire de gérer et partager entre utilisateurs la bande radio (qui est une ressource rare et donc…chère). Pour ce faire, il faux disposer de canaux logiques entre le mobile et la station de base afin de garantir le service. Dans ce cadre, la voie balise permet au mobile de se raccrocher en permanence à la station la plus favorable. Le mobile mesure en permanence la puissance en réception de la voie balise et scrute les autres voies pour connaître les autres stations susceptibles de l’accueillir si nécessaire. 
 
 
-Balisage
-(Beaconing)
+## Balisage
+(*Beaconing*)
+
 Signal* envoyé (à intervalle régulier en général) par un système vers un autre au sein d’un réseau. La norme 802.11 (Wifi*) définit, dans son mode infrastructure, une hiérarchie entre le point d’accès* et les stations. Ainsi, dans un réseau sans fil en mode infrastructure, le point d’accès (box) diffuse régulièrement une trame* balise (beacon) donnant les informations nécessaires au rattachement des stations. Toute les 0,1 secondes, une trame indiquant les caractéristiques du point d’accès est diffusée, on y retrouve généralement le BSSID et l’ESSID (si l’option n’est pas désactivée).
 Dans le contexte d’une attaque informatique, le beaconing caractérise le signal envoyé par un système infecté vers une infrastructure de contrôle afin de signaler à l’attaquant que la contamination est active. L’attaquant peut alors transmettre des commandes vers la victime. Le même phénomène est également appelé heartbeat dans la terminologie anglaise.
 
 
-Bande de fréquence banalisée
-(Citizen’s band – CB)
+## Bande de fréquence banalisée
+(*Citizen’s band – CB*)
+
 Bande de fréquence publique, elle est mise à disposition du public dans des conditions déterminées pour assurer, à titre privé et avec des émetteurs de faible puissance, des communications personnelles.
 
 
-Bande passante 
-(bandwidth)
-En informatique et réseaux, la bande passante désigne un débit d’informations, il s’agit d’un débit binaire* maximal sur le canal de communication. C’est une donnée qui est généralement utilisée par les fournisseurs d’accès* pour désigner le débit maximal d’un abonnement (en bits par seconde, ou en octets par seconde, en bauds).
+## Bande passante 
+(*bandwidth*)
+
+En informatique et réseaux, la bande passante désigne un débit d’informations, il s’agit d’un débit binaire* maximal sur le canal de communication. C’est une donnée qui est généralement utilisée par les fournisseurs d’accès* pour désigner le débit maximal d’un abonnement (en bits par seconde, en octets par seconde, ou en bauds).
 En téléphonie analogique*, elle caractérise la largeur d’une voie de transmission et se mesure en Hertz (Hz).
 Pour une fibre optique*, la bande passante représente la fréquence maximale de transmission pour laquelle le signal subit un affaiblissement* de 3dB. Cette bande passante dépend donc des paramètres physiques de la fibre et des paramètres de transmission (longueur d’onde). La Commission Electrotechnique Internationale* la définit comme la bande de fréquence dans laquelle l’affaiblissement reste inférieur à une valeur spécifique.
 
 
-Banque de données
-(Data bank)
+## Banque de données
+(*Data bank*)
+
 Ensemble de données relatif à un domaine défini de connaissances et organisé pour être offert aux consultations des utilisateurs. A ne pas confondre avec une base de données*.
+
 Voir Base de données.
 
 
-Barrière
+## Barrière
 Dans le cadre de la défense en profondeur* d’un système d’information, une barrière est un moyen de sécurité capable de protéger une partie du système d'information contre au moins une menace. Une barrière peut être humaine, procédurale ou technique, statique ou dynamique, manuelle ou automatique. Elle doit bénéficier d'un moyen de contrôle de son état. 
+
 Voir Défense en profondeur.
 
 
-Base 64
-Système d'encodage de l'information utilisé en informatique. Il repose sur un alaphet de 65 caractères dont le caractère (=) utilisé comme complèment à la fin du processus de codage du message. Avec ce système il est donc possible de représenter 6 bits par un caractère (exemple : 000000 codé en A, 000001 en B, etc.). Dans le processus d'encodage, chaque groupe de 24 bits est codé par une chaine de 4 caractères. Le but de cet encodage est de transformer tout type de donnée en caractères ascii pour être transmis (exemple image dans les emails et les pages HTML)
+## Base 64
+Système d'encodage de l'information utilisé en informatique. Il repose sur un alaphet de 65 caractères dont le caractère (=) utilisé comme complèment à la fin du processus de codage du message. Avec ce système il est donc possible de représenter 6 bits par un caractère (exemple : 000000 codé en A, 000001 en B, etc.). Dans le processus d'encodage, chaque groupe de 24 bits est codé par une chaine de 4 caractères. Le but de cet encodage est de transformer tout type de donnée en caractères ascii pour être transmis (exemple image dans les emails et les pages HTML).
 
 
-Base de données
-(Data base)
-Ensemble de stockage de données structurées. La structuration en base permet de parcourir rapidement des données ou d’effectuer des requêtes exhaustives. L’organisation, la gestion et la sécurité des bases de données doivent faire l’objet d’une attention particulière au sein d’un système d’information. Enfin, les bases de données sont au cœur du développement du marché de la donnée* et de son exploitation dans le cadre notamment du big data*.
+## Base de données
+(*Data base*)
+
+Ensemble de stockage de données structurées. La structuration en base permet de parcourir rapidement des données ou d’effectuer des requêtes exhaustives. L’organisation, la gestion et la sécurité des bases de données doivent faire l’objet d’une attention particulière au sein d’un système d’information. Enfin, les bases de données sont au cœur du développement du marché de la donnée* et de son exploitation dans le cadre notamment du big data* et de l'intelligence artificielle (IA)*.
+
 Voir SQL, Big data, Data minig.
 
 
-Bash - Bourne Again Shell
+## *Bash - Bourne Again Shell*
 Bash est un interpréteur de commandes (shell*) qui permet à un utilisateur d’interagir avec un système d’exploitation* par l’intermédiaire de lignes de commandes. Il permet par exemple, de passer des instructions au système d’exploitation (opérations de fichiers), mais il possède également les attributs d’un langage de programmation. Bash est un outil intégré dans la majorité des distributions* Linux et de nombreux autres systèmes (Mac OS X, systèmes embarqués). 
 
-BASIC (langage) - Beginner's All-purpose Symbolic Instruction Code
-Langage de programmation de haut niveau dont la première version La première version est diffusée en 1964 par John George Kemeny et Thomas Eugene Kurtz. Ce langage, populaire dans les années 70 et 80, connait une phase de décroissance à partir des années 90 avec le développement du Pascal et du C.
+## BASIC (langage) - *Beginner's All-purpose Symbolic Instruction Code*
+Langage de programmation de haut niveau dont la première version est diffusée en 1964 par John George Kemeny et Thomas Eugene Kurtz. Ce langage, populaire dans les années 70 et 80, connait une phase de décroissance à partir des années 90 avec le développement du Pascal et du C.
 
-BATX 
+## BATX - Baidu, Alibaba, Tencent et Xiaomi
 Acronyme pour Baidu, Alibaba, Tencent et Xiaomi, entreprises chinoises de télécommunication et du numérique concurentes des GAFAM (Google, Amazon, Facebook, Apple, Microsoft).
 
-BECN - Backward explicit congestion notification
+## BECN - *Backward explicit congestion notification*
 Dans un réseau Frame Relay*, le BECN est un bit* d’en-tête de trame* transmis par le destinataire pour avertir la source de problèmes de congestion. La source doit donc limiter ou réduire les envois vers la destination afin d’éviter l’engorgement du réseau et des pertes de paquets. Le FECN*, Forward Explicit Congestion Notification, est le mécanisme inverse.
 
 BGP - Border Gateway Protocol
