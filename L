@@ -87,6 +87,11 @@ Liaison de télécommunication d’une station terrienne vers une station spatia
 LIB - Label Information Base
 Dans la technologie MPLS*, les routeurs* LSR*, Label Switching Router constituent une table qui leur permet de savoir comment transmettre les différents paquets en fonction des labels associés. Cette table est la LIB.
 
+LID - Lutte Informatique Défensive 
+Source : INSTRUCTION N° 101000/ARM/CAB relative à la politique de lutte informatique et défensive du ministère des armées. https://www.legifrance.gouv.fr/circulaire/id/44356
+Ensemble coordonné d'actions menées par un État, qui consistent à détecter, à analyser et à prévenir des cyberattaques, et à y réagir le cas échéant.
+La LID est donc l'ensemble des actions, techniques et non techniques, adaptées pour faire face à un niveau de menace ou à une attaque réelle, visant à préserver notre liberté d'action dans le cyberespace.
+
 Lien
 (Link) 
 En informatique, un lien est une partie de programme qui transfère la commande et transmet les paramètres entre deux tronçons de programme distincts. Dans un en-vi¬ronnement Web, un lien ou lien hypertexte* est une ré-férence qui permet de consulter un document lié à la page courante. 

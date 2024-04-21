@@ -453,9 +453,11 @@ Cyber
 Préfixe issu de la contraction du terme cybernétique. Ce dernier apparaît en 1948 dans une publication de Norber Wiener et est défini comme une science qui s’intéresse à l’étude des processus de commande et de communication chez les êtres vivants, dans les machines et les systèmes sociologiques et économiques. Wiener découvrira plus tard que le terme avait déjà été utilisé par Ampère au début du XIXème siècle dans un cadre diffèrent. Le mot dérive du grec κῠβερνήτης (kubernêtês) « pilote, gouverneur ». Le préfixe est très largement utilisé à partir des années 2000 pour évoquer toute question se rapportant de près ou de loin à l’usage d’Internet, des télécommunications et au traitement automatique de l’information. Sans périmètre clair de définition, tout devient « cyber » et permet de rendre populaire des disciplines techniques parfois ardues (la sécurité des systèmes d’information, l’architecture de réseau, les processus de traitement industriels). Ainsi, parle-t-on de cybercriminalité* pour évoquer l’usage des nouvelles technologies de l’information pour commettre des délits, de cyberattaques* et de cyberdéfense*. Enfin, les réseaux sociaux ont permis l’émergence du cyberharcélement*. La multiplication de l’usage du préfixe cyber s’accompagne parfois d’un phénomène de rejet de la part des experts techniques qui n’y voient que l’expression de l’ignorance et un moyen de paraître « à la mode ». 
 
 Cyberattaque
-(Cyber Attack) 
-La notion de cyberattaque n’est pas juridiquement définie, au contraire de « l’accès ou du maintien de manière frauduleuse  dans un système automatisé de traitement de données». Dans la terminologie militaire française on la présente comme une action volontaire, offensive et malveillante, menée au travers du cyberespace et destinée à provoquer un dommage (en disponibilité, intégrité ou confidentialité) aux informations ou aux systèmes qui les traitent, pouvant ainsi nuire aux activités dont ils sont le support. Elaborée dans le but d’atteindre un objectif, une cyberattaque peut être ponctuelle ou s’inscrire dans la durée. Elle peut alors être évolutive et capable de s’adapter aux mesures défensives qu’elle rencontre. Dans ce cas, une cyberattaque pourrait donc être une forme d'attaque informatique, qui vise à endommager, détruire, modifier ou subtiliser tout ou partie d’un système de traitement automatique de données. La cyberattaque est conduite via des moyens numériques qui peuvent être qualifiés d’armes informatiques. Dans ce cadre, une arme informatique est un code malveillant, spécifiquement développé afin de produire un effet visant à neutraliser ou perturber le fonctionnement normal d’une cible. Le mode de transmission ou d’infection importe peu (clé USB, Wifi, site Internet…), c’est l’intention spécifique du développeur qui confère le statut d’arme au code malveillant [BOYER, 2014]. L’arme informatique n’est donc que l’outil de la cyberattaque, elle même n’étant qu’une forme particulière de combat numérique.
-
+(Cyber Attack, Cyberattack)
+Source : https://cyber.gouv.fr/glossaire
+Ensemble coordonné d’actions menées dans le cyberespace qui visent des informations ou les systèmes qui les traitent, en portant atteinte à leur disponibilité, à leur intégrité ou à leur confidentialité.
+Une cyberattaque peut être ponctuelle ou s’inscrire dans la durée.
+Note de l'ANSSI : l'ANSSI identifie quatre grandes familles de cybermenaces : la cybercriminalité à visée lucrative, l'espionnage, la déstabilisation et le sabotage. Selon la motivation de l'attaquant et le mode opératoire adopté, chaque cyberattaque pourra être associée à l'une de ces menaces.
 
 Cybercommand 
 (Cybercommand)
@@ -464,13 +466,17 @@ Planifier, coordonner, intégrer, synchroniser et conduire des activités pour :
 Il compte au début de l’année 2013 environ 900 personnes et devrait voir ses effectifs croître très nettement dans les années à venir.
 
 Cybercriminalité 
-(Cybercriminality)
-Actes contrevenants aux traités internationaux ou aux lois nationales, utilisant les réseaux ou les systèmes d’information comme moyen de réalisation d’un délit ou d’un crime, ou les ayant pour cible. 
+(Cybercriminality, Cybercrime)
+Source : https://cyber.gouv.fr/glossaire
+Ensemble des infractions pénales qui sont commises dans le cyberespace. On distingue les infractions intrinsèquement liées aux nouvelles technologies (diffusion de virus, piratage, copie illicite de logiciels ou d’œuvres audiovisuelles, etc.) et celles pour lesquelles le cyberespace n’est qu’un nouveau lieu d’expression et un nouveau vecteur de transmission (apologie du racisme, diffusion de contenus pédophiles, harcèlement, etc.).
+Note de l'ANSSI : l'ANSSI parle le plus souvent de cybercriminalité lorsqu'elle est amenée à s'exprimer sur des cyberattaques menées à des fins lucratives (exemple : rançongiciel).
 
 Cyberdéfense 
-(Cyberdefence)
-Ensemble des mesures techniques et non techniques permettant à un État de défendre dans le cyberespace* les systèmes d’information jugés essentiels.
-Pour le ministère français de la Défense, ensemble des activités qu’il conduit afin d’intervenir militairement ou non dans le cyberespace pour garantir l’efficacité de l’action des forces armées, la réalisation des missions confiées et le bon fonctionnement du ministère. 
+(Cyber defense, Cyberdefence)
+Source : https://cyber.gouv.fr/glossaire
+Ensemble des moyens mis en place par un État pour défendre dans le cyberespace* les systèmes d’information jugés d’importance vitale (SIIV)*, qui contribuent à assurer la cybersécurité.
+La cyberdéfense met notamment en œuvre la lutte informatique défensive (LID)* et la lutte informatique offensive (LIO)*.
+Note de l'ANSSI : en matière de cyberdéfense, l'ANSSI n'intervient que sur le volet défensif, le volet offensif étant de la responsabilité d'autres acteurs. Dans ce cadre, l'agence développe et structure les capacités de détection de l’État et organise au niveau national l’assistance aux victimes de cyberattaques.
 
 Cyberdéfense militaire
 (Millitary Cyberdefence)
@@ -484,18 +490,21 @@ Le débat stratégique s’est très tôt intéressé au parallèle entre la dis
 
 Cyberespace 
 (Cyberspace)
-Il existe plusieurs définitions du terme cyberespace, chacune insistant sur un volet particulier ou une notion spécifique en fonction de l’organisme rédacteur. En France, l’ANSSI* en donne la définition suivante : Espace de communication constitué par l’interconnexion mondiale d’équipements de traitement automatisé de données numériques. 
+Il existe plusieurs définitions du terme cyberespace, chacune insistant sur un volet particulier ou une notion spécifique en fonction de l’organisme rédacteur. En France, l’ANSSI* en donne la définition suivante : Espace de communication constitué par l’interconnexion mondiale d’équipements de traitement automatisé de données numériques tout en précisant que perçu comme un nouveau territoire, le cyberespace est un espace difficile à définir car il repose sur un ancrage à la fois physique et informationnel. 
 Les Armées retiennent pour leur part : Le cyberespace est un domaine global constitué du réseau maillé des infrastructures des technologies de l’information (dont internet), des réseaux de télécommunications, des systèmes informatiques, des processeurs et des mécanismes de contrôle intégrés. Il inclut l’information numérique transportée ainsi que les opérateurs des services en ligne. 
 Enfin, Olivier Kempf dans son Introduction à la cyberstratégie : Le cyberespace est l’espace constitué des systèmes d’informatiques de toute sorte connectés en réseaux et permettant la communication technique et sociale d’informations par des utilisateurs individuels ou collectifs. 
 
-Les trois niveaux du cyberespace
-
-
-Même s’il n’est pas complètement borné juridiquement, le cyberespace est toutefois structuré autour de trois niveaux qui sont tous soumis à des droits spécifiques : 
+Les trois niveaux du cyberespace : même s’il n’est pas complètement borné juridiquement, le cyberespace est toutefois structuré autour de trois niveaux qui sont tous soumis à des droits spécifiques : 
 La couche physique*, qui comprend les systèmes porteurs d’Internet et les infrastructures réseaux. Sur cette couche apparaissent les serveurs racines, les data center, les réseaux de téléphonie mobile, les câbles sous-marins et les fibres optiques terrestres. Cette couche physique dépend pour une large part des législations nationales. Les compagnies opérant les infrastructures de la couche physique sont liées aux pratiques et réglementations des États qui les accueillent. Cette couche peut être attaquée soit via le réseau soit par des vecteurs plus classiques. Ces installations sont en général jugées d’importances vitales et font l’objet de mesures de sécurité particulières de la part des États. Les besoins en énergie et les accès physiques sont les principales vulnérabilités de cette couche ;
 la couche logique, englobe pour sa part l’ensemble des programmes permettant d’accéder au réseau, d’effectuer des requêtes, d’obtenir des services et d’assurer le transport des données (routage). Les logiciels sont, par ailleurs, les éléments fondamentaux de cette couche et permettent d’utiliser la puissance de calcul d’un système électronique en vue de lui faire effectuer les actions prescrites. Le mot logiciel est apparu en France au début des années 70 pour servir de traduction au terme anglais « software ». Typiquement on les classe suivant deux catégories distinctes, les logiciels systèmes et les logiciels applications. Concernant cette couche particulière, la législation est balbutiante mais les instances de régulation œuvrent pour harmoniser cet espace. C’est bien évidement sur cette couche que l’on compte les vulnérabilités les plus classiques et où les hackers et les spécialistes de développement de solutions sécurisées se livrent une bataille quotidienne. Loin de l’image romanesque, les enjeux de la sécurisation de la couche logique sont énormes et les préjudices financiers qui peuvent en découler difficilement chiffrables ;
 la couche cognitive, qui s’attache au contenu, à l’information qui est véhiculée sur les pages Internet ou à l’aide des diverses formes d’interaction possible sur le  Web 2.0. Cette couche est la couche « haute » du cyberespace celle où se mêlent les perceptions de la réalité et les capacités de gestion de la connaissance. Le développement de cette couche s’est d’abord effectué au travers des systèmes de messagerie (mail, Webmail) et des contenus de pages adressées puis a connu une mutation profonde avec l'émergence de réseaux sociaux (myspace, facebook*...) et du microblogging (twitter). Les vulnérabilités de cette couche sont légion. En premier lieu, le nombre de pages interdit un contrôle systématique de la part des hébergeurs et laisse donc ouverte la possibilité de diffuser à peu près tout et n’importe quoi. Par ailleurs, les capacités de duplication de l’information permettent une « traçabilité » accrue des usagers des réseaux. Les infractions liées à l’usurpation d’identité ou les atteintes à la réputation en ligne (e-réputation) ont atteint un niveau préoccupant. Les législations nationales s’adaptent difficilement à cette couche par nature « supra-nationale » et où la distinction entre vie privée et vie publique n’est pas toujours clairement fixée. Dans ce domaine, les bonnes intentions ne franchissent que rarement les frontières...
 
+Cyberespionnage
+(Cyber espionage, Cyber spying)
+Source : https://cyber.gouv.fr/glossaire
+Ensemble d’actions menées dans le cyberespace consistant à infiltrer, clandestinement ou sous de faux prétextes, les systèmes informatiques d’une organisation ou d’un individu, et à s’emparer de données pour les exploiter.
+Le cyberespionnage se pratique notamment par le biais de logiciels malveillants ou espions, de cyberattaques* persistantes, ou en mettant à profit les vulnérabilités* des systèmes informatiques.
+Note de l'ANSSI : le cyberespionnage constitue l'une des menaces les plus redoutées par l'ANSSI*. Les auteurs de ces actes recourent le plus souvent à des méthodes très pointues, ils peuvent rester tapis très longtemps dans un système d'information sans jamais se faire repérer. Les conséquences de l'espionnage peuvent être désastreuses pour la ou les organisations qui en sont victimes.
 
 Cyberguerre 
 (Cyberwar)
@@ -521,6 +530,7 @@ La résilience se définit comme la capacité d’une organisation à faire face
 Cybersécurité
 (Cybersecurity)
 État recherché pour un système d’information lui permettant de résister à des événements issus du cyberespace susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité desconfidentialités des données stockées, traitées ou transmises et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. La cybersécurité fait appel à des techniques de sécurité des systèmes d’information et s’appuie sur la lutte contre la cybercriminalité et sur la mise en place d’une cyberdéfense.
+Note de l'ANSSI : il est fréquent de voir les termes cybersécurité et sécurité numérique employés tour à tour comme des synonymes. Pourtant, il est communément accepté que la cybersécurité - à l'image d'autres termes dotés du préfixe cyber - renvoie à la sécurité des systèmes d'information tandis que la sécurité numérique renvoie plus largement à la sécurité des systèmes et des pratiques numériques. Ainsi, les bonnes pratiques de sécurité numérique sont aussi bien techniques que comportementales.
 
 Cybersquat
 (Cybersquatting)
