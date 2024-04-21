@@ -92,6 +92,10 @@ Source : INSTRUCTION N° 101000/ARM/CAB relative à la politique de lutte inform
 Ensemble coordonné d'actions menées par un État, qui consistent à détecter, à analyser et à prévenir des cyberattaques, et à y réagir le cas échéant.
 La LID est donc l'ensemble des actions, techniques et non techniques, adaptées pour faire face à un niveau de menace ou à une attaque réelle, visant à préserver notre liberté d'action dans le cyberespace.
 
+LIO - Lutte Informatique Offensive
+Source : https://www.defense.gouv.fr/comcyber/nos-operations/lutte-informatique-offensive-lio
+La lutte informatique offensive à des fins militaires (LIO) recouvre l’ensemble des actions entreprises dans le cyberespace*, conduites de façon autonome ou en combinaison des moyens militaires conventionnels. L’arme cyber vise, dans le strict respect des règles internationales, à produire des effets à l’encontre d’un système adverse pour en altérer la disponibilité ou la confidentialité des données.
+
 Lien
 (Link) 
 En informatique, un lien est une partie de programme qui transfère la commande et transmet les paramètres entre deux tronçons de programme distincts. Dans un en-vi¬ronnement Web, un lien ou lien hypertexte* est une ré-férence qui permet de consulter un document lié à la page courante. 
