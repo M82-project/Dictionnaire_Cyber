@@ -52,7 +52,7 @@ Carte SIM
 (Subscriber Identity Mobile card)
 Carte à puce présente dans les téléphones mobiles (existe également sous format « micro » ou « nano »). Elle contient des informations qui permettent l’identification de l’usager sur son réseau ainsi que des paramètres d’accès. Elle contient un processeur et trois types de mémoire (ROM* – EPROM – RAM*). La carte SIM contient ainsi les données obligatoires (information administratives, IMSI*, information de localisation, liste des fréquences radio à utiliser, les derniers réseaux utilisés, la clé de chiffrement Kc), les données de sécurité (clé d’authentification Ki, code CHV1 ou PIN*) et les données facultatives (raccourcis numéros, opérateur, types de messages acceptés…). 
 
-## Cartographie de menace numérique de l’écosystèmeBesoin de sécurité
+## Cartographie de menace numérique de l’écosystème
 (*Ecosystem digital threat mapping*)
 
 Représentation visuelle (exemple : radar) du niveau de dangerosité numérique des parties prenantes de l’écosystème vis-à-vis de l’objet étudié.
