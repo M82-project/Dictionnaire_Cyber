@@ -18,6 +18,14 @@ La méthode EBIOS est une méthode utilisée en sécurité des systèmes d’inf
 Lors de la conversion d’un signal analogique* en un signal numérique*, action qui consiste à prélever de façon pé-riodique un échantillon du signal analogique source. 
 Voir Numérique, Numérisation, Shannon (Théorème), Analogique.
 
+## Ecosystème
+(*Ecosystem*)
+
+Ensemble des parties prenantes en interaction avec l’objet de l’étude. On entend par interaction toute relation intervenant dans le fonctionnement normal de l’objet de l’étude. Les sources
+de risque ne sont pas considérées a priori comme des parties prenantes, sauf si elles peuvent avoir un effet sur le fonctionnement de l’objet de l’étude.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
+
 EFF- Electronic Fontier Foundation 
 L’EFF est une organisation non gouvernementale dont l’objectif est de défendre « les droits et libertés des ci-toyens dans un monde numérique ». Fondée en 1990 aux Etats-Unis, l’EFF œuvre quotidiennement pour la liberté d’expression sur Internet et l’accompagnement du déve-loppement des nouvelles technologies pour préserver les droits fondamentaux. L’EFF défend, à ce titre, le droit des journalistes à préserver l’identité de leurs sources. Depuis les révélations d’Edward Snowden en 2013 sur les pro-grammes de surveillance de masse, l’EFF s’est engagé dans des campagnes de sensibilisation et de dénonciation de ce type d’activités jugées liberticides. 
 
@@ -125,6 +133,27 @@ Un ETTD ou DTE en anglais (Data Terminal Equipe-ment) désigne dans le vocabulai
 Evanouissement
 (Fading)
 En radiocommunication, l’évanouissement ou le fading, est une diminution momentanée de la puissance d’un si-gnal radioélectrique à l’entrée d’un récepteur ; par exten-sion, variation de la puissance du signal, due aux condi-tions de propagation des ondes . Les causes de l’évanouissement peuvent être une dérive de l’oscillateur local (petites ondes et ondes courtes) ou une interférence destructrice entre l’onde directe et l’onde réfléchie par l’ionosphère (grandes ondes). Ce phénomène est aléatoire et varie dans le temps .
+
+## Evènement intermédiaire
+(*Intermediate event*)
+
+Dans la séquence d’un scénario stratégique, un événement intermédiaire peut être généré par la source de risque à l’égard d’une partie prenante de l’écosystème en vue de faciliter
+l’atteinte de son objectif.
+Exemples : création d’un canal d’exfiltration depuis l’infrastructure du prestataire, attaque en déni de service du fournisseur d’informatique en nuage de la cible
+Note : dans la norme ISO 27005, l’évènement intermédiaire correspond à une « conséquence intermédiaire ».
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
+
+## Evènement redouté
+(*Feared event*)
+
+Un événement redouté est associé à une valeur métier et porte atteinte à un critère ou besoin de sécurité de la valeur métier (exemples : indisponibilité d’un service, modification illégitime du
+seuil de température haute d’un processus industriel, divulgation de données classifiées, modification d’une base de données).
+Les événements redoutés à exploiter sont ceux des scénarios stratégiques et se rapportent à l’impact d’une attaque sur une valeur métier. Chaque événement redouté est estimé selon le
+niveau de gravité des conséquences, à partir d’une métrique.
+Note : dans la norme ISO 27005, les évènements redoutés correspondent aux « conséquences ».
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 Evénement lié à la sécurité de l’information
 Au cœur de la sécurité des systèmes d’information, de la détection et du traitement d’incident, la notion d’événement lié à la sécurité de l’information se définit comme une occurrence identifiée de l’état d'un système, d'un service  ou d'un réseau indiquant une faille possible dans la politique de sécurité de l’information ou un échec des mesures de sécurité ou encore une situation inconnue jusqu’alors et pouvant relever de la sécurité de l’information .
