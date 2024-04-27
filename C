@@ -52,6 +52,20 @@ Carte SIM
 (Subscriber Identity Mobile card)
 Carte à puce présente dans les téléphones mobiles (existe également sous format « micro » ou « nano »). Elle contient des informations qui permettent l’identification de l’usager sur son réseau ainsi que des paramètres d’accès. Elle contient un processeur et trois types de mémoire (ROM* – EPROM – RAM*). La carte SIM contient ainsi les données obligatoires (information administratives, IMSI*, information de localisation, liste des fréquences radio à utiliser, les derniers réseaux utilisés, la clé de chiffrement Kc), les données de sécurité (clé d’authentification Ki, code CHV1 ou PIN*) et les données facultatives (raccourcis numéros, opérateur, types de messages acceptés…). 
 
+## Cartographie de menace numérique de l’écosystèmeBesoin de sécurité
+(*Ecosystem digital threat mapping*)
+
+Représentation visuelle (exemple : radar) du niveau de dangerosité numérique des parties prenantes de l’écosystème vis-à-vis de l’objet étudié.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
+
+## Cartographie du risque
+(*Risk mapping*)
+
+Représentation visuelle (exemple : radar, diagramme de Farmer) des risques issus des activités d’appréciation du risque.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
+
 CASE - Common Application Services Elements
 Au niveau application du modèle OSI* (soit la dernière des sept couches du modèle), les CASE regroupent des ensembles normalisés de protocoles utilisables par des applica-
 tions. Connu aujourd’hui sous l’acronyme ACSE – Application Common Service Elements.
@@ -110,6 +124,13 @@ Le terme blackhat désigne également une société organisatrice de conférence
 
 Chaos Computer Club (CCC)
 Le Chaos Computer Club est une association de hackers* née dans les années 80 à Berlin, qui milite pour la liberté de l’information et de la communication. Le CCC est ainsi une plateforme de dialogue et d’échange pour hackers principalement active en Europe. L’histoire du groupe est entourée de zones d’ombre en raison des liens (réels ou supposés) de ses membres avec certains services de renseignement (des membres du CCC auraient revendu au KGB des données dérobées sur un site de l’OTAN en 1989). Un congrès annuel également baptisé CCC (Chaos Computer Congres) a lieu à Berlin ou Hambourg et réunit de nombreux experts en sécurité.
+
+## Chemin d'attaque
+(*(Attack path*)
+
+Suite d’événements distincts que la source de risque devra probablement générer pour atteindre son objectif. Cette terminologie concerne les scénarios stratégiques.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 Cheval de Troie
 (Trojan) 
