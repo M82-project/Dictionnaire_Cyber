@@ -86,8 +86,13 @@ Hoax
 Information vraie ou fausse, souvent transmise par mes-sagerie électronique ou dans un forum, et incitant les des-tinataires à effectuer des opérations ou à prendre des ini-tiatives, souvent dommageables.
 Remarques : Il peut s’agir d’une fausse alerte aux virus, de chaîne de solidarité, pétition, promesse de cadeaux, etc. Quelques canulars fréquents sont répertoriés sur des sites dédiés comme « Hoaxbuster » ou « Hoaxkiller ». 
 
-Homologation de sécurité
-Processus d’information et de responsabilisation qui aboutit à une décision, prise par le responsable de l’organisation. Cette décision constitue un acte formel par lequel il atteste de sa connaissance du système d’information et des me-sures de sécurité (techniques, organisationnelles ou juri-diques) mises en œuvre et il accepte les risques qui de-meurent, qu’on appelle risques résiduels .
+## Homologation de sécurité
+(*Security accreditation*)
+
+Validation par une autorité dite d’homologation, que le niveau de sécurité atteint par l’organisation est conforme aux attentes et que les risques résiduels sont acceptés dans le cadre de l’étude.
+Processus d’information et de responsabilisation qui aboutit à une décision, prise par le responsable de l’organisation. Cette décision constitue un acte formel par lequel il atteste de sa connaissance du système d’information et des mesures de sécurité (techniques, organisationnelles ou juridiques) mises en œuvre et il accepte les risques qui demeurent, qu’on appelle risques résiduels.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 Honey Pot 
 (Pot de miel)
