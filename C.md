@@ -18,42 +18,50 @@ Unité militaire française en charge de la cyberdéfense des réseaux du minist
 
 Un canal caché est un canal de communication qui permet à un processus malveillant de transférer des informations en exploitant un mécanisme qui n’est pas censé servir à la communication. Par exemple : protocoles de signalisation, bits de bourrage, gigue de temps, etc.
 
-Canal de fréquence
-(Frequency channel – channel)
+## Canal de fréquence
+(*Frequency channel – channel*)
+
 Un canal de fréquence est une partie du spectre des fréquences comprise entre deux fréquences spécifiées et destinée à être utilisée pour une transmission. Il peut être caractérisé par sa fréquence centrale et la largeur de bande associée.
 
-Canal de transmission
-(Channel)
+## Canal de transmission
+(*Channel*)
+
 En télécommunication, un canal de transmission désigne un ensemble de moyens nécessaires pour assurer une transmission de signaux dans un seul sens entre deux points. On parle également de voie de transmission. Ainsi plusieurs voies de transmission peuvent partager un même support physique (câble).
 
-CAPEC – Common Attack Pattern Enumeration and Classification
+## CAPEC – Common Attack Pattern Enumeration and Classification
 Développé par le MITRE*, le CAPEC est une typologie très large des différents modèles d’attaques connues. CAPEC se veut un outil au profit, entre autre, des analystes en charge de la cybersécurité permettant de mieux comprendre les modes d’action des attaquants. On peut effectuer des recherche par domaine d’attaque (exemple : social engineering*, supply chain, Software…) ou par mécanisme d’attaque (exemple : flooding, sniffing…). Chaque mécanisme fait l’objet d’une fiche descriptive où l’on retrouve la description de l’attaque, les prérequis nécessaires, les mécanismes de protection éventuels… La base est accessible en ligne à l’adresse : http://capec.mitre.org/ — Voir STIX*.
 
-Capture The Flag - CTF
+## *Capture The Flag* - CTF
 (Capture du drapeau)
+
 En sécurité informatique, un CTF est un challenge qui consiste, seul ou en équipe, à s’introduire dans un système d’information désigné et accomplir une action qui prouve l’intrusion. 
 
-Caractérisation
-(Characterization)
+## Caractérisation
+(*Characterization*)
 Pour un composant électronique, la caractérisation est l’action de vérifier la conformité d’un produit à ses spécifications par un ensemble de tests physiques ou électriques. 
 
-Carte électronique
-(Electronic board)
+## Carte électronique
+(*Electronic board*)
 En électronique, il s’agit d’un circuit imprimé équipé de composants.
 
-Carte fille
-(Daughter board – Daughtercard)
+## Carte fille
+(*Daughter board – Daughtercard*)
+
 Carte électronique enfichée sur une autre carte, en général la carte mère.
-Carte mère
-(Mother board – mothercard)
+
+## Carte mère
+(*Mother board – mothercard*)
+
 Carte électronique qui sert de support aux composants principaux d’un ensemble électronique et éventuellement aux cartes filles.
 
-Carte réseau
-(NIC – Network Interface Card)
+## Carte réseau
+(*NIC – Network Interface Card*)
+
 Eléments physiques (composants électroniques) reliés sur circuit imprimé dont la fonction est d’assurer l’interface* entre la machine à laquelle elle appartient et l’ensemble des autres équipements connectés sur le même réseau.
 
-Carte SIM
-(Subscriber Identity Mobile card)
+## Carte SIM
+(*Subscriber Identity Mobile card*)
+
 Carte à puce présente dans les téléphones mobiles (existe également sous format « micro » ou « nano »). Elle contient des informations qui permettent l’identification de l’usager sur son réseau ainsi que des paramètres d’accès. Elle contient un processeur et trois types de mémoire (ROM* – EPROM – RAM*). La carte SIM contient ainsi les données obligatoires (information administratives, IMSI*, information de localisation, liste des fréquences radio à utiliser, les derniers réseaux utilisés, la clé de chiffrement Kc), les données de sécurité (clé d’authentification Ki, code CHV1 ou PIN*) et les données facultatives (raccourcis numéros, opérateur, types de messages acceptés…). 
 
 ## Cartographie de menace numérique de l’écosystème
