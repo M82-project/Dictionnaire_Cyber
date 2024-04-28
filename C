@@ -1,18 +1,21 @@
-Câblage
-(Wiring)
+
+## Câblage
+(*Wiring*)
 
 Action qui consiste à connecter les divers éléments d’un système de communication.
 
-Cache
-(Cache) 
+## Cache
+(*Cache*)
+
 Le cache ou mémoire cache est une composante de la mémoire, habituellement plus rapide mais plus limité en taille, qui stocke des données de façon transparente et transitoire afin qu’elles soient retrouvées plus rapidement. Un processeur contient habituellement plusieurs niveaux de cache, de rapidité décroissante et de capacité croissante. La mémoire cache, d’accès plus rapide que la mémoire centrale, est utilisée pour stocker temporairement les données d’une opération arithmétique ou logique.
 Dans le cas de la navigation Internet, les données sont stockées localement au sein d'un cache, elles peuvent avoir été consultées préalablement et sont ainsi immédiatement disponible en cas de nouvelles requêtes (ce qui évite d’effectuer une nouvelle résolution DNS*). 
 
-CALID – Centre d’Analyse et de Lutte Informatique Défensive
+## CALID – Centre d’Analyse et de Lutte Informatique Défensive
 Unité militaire française en charge de la cyberdéfense des réseaux du ministère de la défense. La mission englobe également les forces projetées. Les équipes analysent en temps réels les événements collectés par des sondes réseaux déployées.
 
-Canal caché
-(Covert channel)
+## Canal caché
+(*Covert channel*)
+
 Un canal caché est un canal de communication qui permet à un processus malveillant de transférer des informations en exploitant un mécanisme qui n’est pas censé servir à la communication. Par exemple : protocoles de signalisation, bits de bourrage, gigue de temps, etc.
 
 Canal de fréquence
