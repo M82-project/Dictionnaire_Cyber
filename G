@@ -78,8 +78,13 @@ GPS - Global Positioning System
 (Système de géolocalisation mondial)
 Le système GPS est une technologie américaine permet-tant de localiser un récepteur (avec une précision sub-métrique dans certaines applications). Ce système repose sur une constellation de 24 satellites synchronisés (NAVS-TAR) en orbite moyenne (20 200 km) qui diffusent un si-gnal interprété par les récepteurs terrestres. Aujourd’hui largement utilisé dans tous les systèmes de navigation (aérien, maritime et terrestre) le GPS est également em-ployé par les particuliers (GPS de voiture). La taille des récepteurs ne cesse de diminuer et ils sont aujourd’hui in-tégrés dans les montres ou les téléphones mobiles. Le sys-tème étant sous le contrôle des Etats-Unis, la dépendance stratégique qui en découle a conduit au développement de plusieurs autres infrastructures. Ainsi, du côté russe, le système Glonass, un temps tombé en désuétude, est de nouveau opérationnel et se présente comme une alterna-tive au système américain. L’Europe pour sa part déve-loppe le système Galiléo en test depuis 2005. Les premiers satellites de la constellation ont été lancés en 2011 et le dé-ploiement final est prévu en 2019 environ. On peut éga-lement noter les initiatives régionales de l’Inde et de la Chine qui cherchent à se doter de systèmes de géolocalisa-tion par satellite géostationnaire ne couvrant qu’une par-tie du globe (projet Beidou et IRNSS)
 
-Gravité
-En sécurité informatique, la gravité d’un événement de sécurité mesure l'impact réel de l'événement en fonction de la criticité du bien (cas où un événement a une consé-quence directe sur un bien) ou l'impact potentiel de cet événement sur le bien menacé en fonction du nombre de lignes de défense restantes et de la criticité de ce bien (cas ou l'événement n'a pas d'impact sur le bien mais sur ses moyens de défense)  .
+## Gravité
+(*Severity*)
+
+Estimation du niveau et de l’intensité des effets d’un risque. La gravité fournit une mesure des impacts préjudiciables perçus, qu’ils soient directs ou indirects.
+Exemples : négligeable, mineure, majeure, critique, maximale.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 GRE - Generic Routing Encapsulation 
 (Routage Générique par encapsulation)

@@ -75,7 +75,15 @@ Dans la terminologie militaire française, ensemble des activités intentionnell
 ## Action d’information
 (*Information Activity*)
 
-Les actions d'information désignent les activités offensives et défensives portant sur les données, les contenus informationnels (messages et connaissances) ou les systèmes d’information. 
+Les actions d'information désignent les activités offensives et défensives portant sur les données, les contenus informationnels (messages et connaissances) ou les systèmes d’information.
+
+## Action élémentaire
+(*Elementary action*)
+
+Action unitaire exécutée par une source de risque sur un bien support dans le cadre d’un scénario opérationnel.
+Exemples : exploiter une vulnérabilité, envoyer un email piégé, effacer des traces, augmenter des privilèges.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 ## *Active Directory (AD)*
 L'Active Directory est l’implémentation par Microsoft d’un annuaire LDAP*. Un annuaire est une base de données centrale contenant l’ensemble des données et informations d’authentification des utilisateurs d’un réseau informatique (source [Glossaire GLIMPS](https://www.glimps.fr/lexique/)). L'accès à l'AD sur un système d'information est un des objectifs majeurs pour un attaquant. 
@@ -337,6 +345,13 @@ Action qui consiste à échanger du trafic Internet avec des pairs. Les opérate
 (Application)
 
 En informatique, une application est un ensemble de fonctionnalités regroupées dans une même famille d’activité. Le traitement de texte, par exemple, est une application courante de bureautique, comme la messagerie électronique. Le terme regroupe également l’outil qui supporte l’activité. Ainsi, Microsoft Word est une application de traitement de texte et Libre Office Calc une application de tableur.
+
+## Appréciation des risques
+(*Risk assessment*)
+
+Ensemble du processus d’identification, d’analyse et d’estimation des risques (ISO 31000:2018). Dans la démarche EBIOS RM, cela correspond aux ateliers 2 (sources de risque), 3 (scénarios stratégiques) et 4 (scénarios opérationnels).
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 ## APT - *Advanced Persistant Threat*
 Terme utilisé dans le milieu de la sécurité informatique et de l’analyse des menaces cyber pour désigner autant un type d’attaque qu’un groupe d’attaquants méthodiques, à des fins d’espionnage informatique. Plusieurs définitions du terme coexistent mais paraissent souvent ne traiter qu’un aspect du problème. Ainsi, le groupe de sécurité américain Mandiant (à qui l’on doit le rapport sur l’unité chinoise en charge de la lutte informatique offensive – APT1) parle d’« un groupe d'attaquants sophistiqués, déterminés et coordonnés, qui ont systématiquement compromis le gouvernement des États-Unis et les réseaux informatiques commerciaux depuis des années. ». Pour Dell SecureWorks : « APT, terme le plus couramment utilisé pour se référer à des activités de cyberespionnage menées contre les gouvernements, activistes et industries. ». Enfin, pour le NIST* : « un adversaire qui possède un niveau d'expertise sophistiqué et des ressources importantes, qui lui permettent de créer des opportunités pour atteindre ses objectifs et utilisant de multiples vecteurs d'attaques. Ces objectifs sont typiquement l'établissement et l'extension d’une compromission dans l’infrastructure informatique dans le but d'exfiltrer de l'information, décourager ou entraver des aspects critiques d'une mission, d’un programme ou organisation ; ou se placer en position de remplir ces objectifs dans le futur ».

@@ -1,6 +1,6 @@
 ---
 title: B
-date: 2024-04-19
+date: 2024-04-27
 ---
 
 Contribuez à la mise à jour de cette liste ici : [mise à jour](https://github.com/M82-project/Dictionnaire_Cyber/)
@@ -105,6 +105,15 @@ Acronyme pour Baidu, Alibaba, Tencent et Xiaomi, entreprises chinoises de télé
 ## BECN - *Backward explicit congestion notification*
 Dans un réseau Frame Relay*, le BECN est un bit* d’en-tête de trame* transmis par le destinataire pour avertir la source de problèmes de congestion. La source doit donc limiter ou réduire les envois vers la destination afin d’éviter l’engorgement du réseau et des pertes de paquets. Le FECN*, Forward Explicit Congestion Notification, est le mécanisme inverse.
 
+## Besoin de sécurité
+(*Security need*)
+
+Propriété de sécurité à garantir pour une valeur métier. Elle traduit un enjeu de sécurité pour la valeur métier.
+Exemples : disponibilité, intégrité, confidentialité, traçabilité.
+Note : dans la norme ISO 27005 les besoins de sécurité correspondent aux « objectifs de sécurité ».
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
+
 ## BGP - *Border Gateway Protocol*
 BGP est un protocole de routage* entre Systèmes Autonomes* (AS), il est défini par le standard RFC* 4271. BGP est donc responsable du routage sur Internet entre opérateurs, il échange des informations entre routeurs sur l’accessibilité entre AS (les préfixes*). Ces informations permettent aux routeurs de connaître les « parcelles » d’Internet accessibles à chaque AS. Les routeurs voisins BGP utilisent TCP* comme protocole de transport via une session* sur le port* 179.
 Les routeurs BGP sont appelés annonceurs (ils annoncent des routes à leurs voisins).
@@ -149,6 +158,21 @@ Voir GSM.
 ## Bien informationnel (patrimoine informationnel)
 Expression issue du monde de l’intelligence économique et progressivement adoptée par le milieu de la sécurité. Le patrimoine informationnel de l’entreprise regroupe l’ensemble des informations qui peuvent présenter un intérêt pour un concurrent. Ces données recouvrent ainsi ce qui relève de la recherche et développement, les négociations contractuelles, les données administratives des employés, les données comptables… Le spectre est donc souvent assez large. Dans tous les cas, le patrimoine informationnel de l’entreprise doit faire l’objet de mesures de protection adaptées.
 Ces données sont donc un « actif » de l’entreprise qui, bien souvent, n’en a pas forcément conscience. Au-delà de la protection de ce patrimoine, l’entreprise doit également s’attacher à valoriser ce patrimoine, c’est à dire, mettre en place des actions pour créer de la valeur à partir de ces informations.
+
+## Bien support
+(*Supporting asset*)
+
+Composante du système d’information sur laquelle repose une ou plusieurs valeurs métier. Un bien support peut être de nature numérique, physique ou organisationnelle.
+Exemples : serveur, réseau de téléphonie, passerelle d’interconnexion, local technique, dispositif de vidéo protection, équipe en charge du projet, administrateurs, département de R&D.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
+
+## Bien support critique
+(*Critical supporting asset*)
+
+Bien support jugé très susceptible d’être ciblé par une source de risque pour atteindre son objectif. Les biens supports critiques sont ceux qui apparaissent dans les scénarios opérationnels.
+
+Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
 ## Big Brother
 Dans le roman de George Orwell, 1984 paru en 1949, Big Brother désigne le personnage à la tête du Parti et dirigeant l’Oceania. Le Parti et Big Brother assurent une surveillance permanente sur la population. Par extension, l’expression Big Brother désigne tout système qui limiterait les libertés individuelles. Ce terme a ainsi été utilisé pour qualifier les programmes de surveillance de masse de l’Internet de la NSA*, dévoilés par Edward Snowden. 
