@@ -1,14 +1,17 @@
-MA – Mobile Allocation
+## MA – *Mobile Allocation*
 (Allocation mobile)
+
 Dans un réseau GSM*, le mobile allocation (MA) corres-pond à la liste des numéros de fréquences qui sont utili-sables pour le saut de fréquence.
 
-MAC – Media Access Control
+## MAC – *Media Access Control*
 (Contrôle d’accès au support)
+
 Dans le modèle OSI*, la couche MAC est la sous-couche basse de la couche 2 (liaison de données). Elle assure le contrôle de l’accès au support physique de communica-tion. L’objectif des protocoles* de la sous-couche MAC est de réguler les émissions de plusieurs stations sur un même support. Dans ce cadre, les protocoles de la sous-couche MAC doivent pouvoir détecter le début et la fin d’une trame* (donc les mécanismes de séparation de trames). Plusieurs techniques existent dont notamment le bourrage d’octets et le bourrage de bits qui permettent d’identifier une série de bits spécifique en début et fin de trame. 
 Voir également Adresse MAC.
 
-Machine Learning
+## *Machine Learning*
 (Apprentissage automatique)
+
 Le machine Learning ou apprentissage automatique est un domaine d’étude et de recherche qui porte sur le déve-loppement de l’intelligence artificielle. Il s’agit de déve-lopper des algorithmes d’apprentissage qui permettent aux machines de remplir des tâches plus complexes. Le développement de ce champ de recherche est poussé par l’émergence du big data* qui rend possible l’analyse pré-dictive par l’exploitation d’une quantité suffisante de données.
 
 MAEC - Malware Attribute Enumeration and Charac-terization
