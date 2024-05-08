@@ -1,11 +1,11 @@
-Hack 
+## Hack 
 Un « hack » désigne une méthode, ou une technique ori-ginale qui repose sur le détournement d’un objet de son usage principal afin de résoudre un problème. Il peut s’agir également d’une méthode ou un ensemble de tech-niques utilisées pour obtenir un accès non autorisé et non coopératif à un réseau ou un système d’information. Un hack sanctionne alors la démonstration effective du con-tournement des barrières mises en place pour garantir la sécurité et l’intégrité d’un système. 
 
-Hacker
+## Hacker
 De façon triviale, un « hacker » désigne la personne qui réalise un hack*, un exploit technique. Le mot est sujet à de nombreuses controverses, improprement traduit, en français, pas le terme « pirate », la figure du hacker a ainsi très tôt été associée à l’action criminelle et illégale. Toute-fois, une autre interprétation du terme se rapproche de son origine (les courants de la contre culture américaine des années 60) et contribue à donner une image plus ac-ceptable du terme. Il est d’ailleurs intéressant de noter que le mot n’est que rarement utilisé par les intéressés eux-mêmes, ainsi un spécialiste de la sécurité informa-tique ou un informaticien chevronné ne se présentera quasiment jamais en utilisant le terme de hacker. Une in-terprétation plus large du mot désigne une personne qui cherche à comprendre et maitriser une technologie. Il existe une typologie des hackers, établie en fonction de leur motivation ou de leur niveau technique. On trouve ainsi les white hats (animés d’intentions positivies et cherchant à améliorer la sécurité d’un produit) auxquels on oppose les black hats*. Le terme skripkiddies désigne des personnes qui se contentent d’utiliser des outils d’attaque informatique sans en maitriser totalement le fonctionnement. Enfin on évoque également les newbie ou n00b termes qui désignent les débutants dans le do-maine du hack*.
 
-Hachage
-(Hash code)
+## Hachage
+(*Hash code*)
 Voir Fonction de hachage.
 
 HADOPI - Haute Autorité pour la Diffusion des Œuvres et la Protection des droits sur Internet.
