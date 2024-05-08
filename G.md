@@ -1,5 +1,5 @@
-Gain
-(Gain)
+## Gain
+(*Gain*)
 En télécommunication, le gain fait partie des paramètres fondamentaux d’une antenne (avec l’impédance, la puis-sance maximale admissible, la bande de fréquence de fonctionnement et le diagramme de rayonnement). Le gain et le diagramme de rayonnement permettent de dé-finir la manière dont l’antenne rayonne. Classiquement on caractérise une antenne en comparant son rayonne-ment à celui d’une antenne isotrope idéale. La différence entre la puissance maximale rayonnée et celle de l’antenne isotrope de référence est appelée « gain » (gain de l’antenne, gain d’antenne) . Le gain est exprimé en décibel (dB) l’usage veut que l’on utilise la notation dBi pour iso-trope.
 
 
