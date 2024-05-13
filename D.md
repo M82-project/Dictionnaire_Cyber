@@ -62,8 +62,8 @@ Exprimé en Bit* par seconde, ou en bauds, le débit correspond à la quantité 
 
 Voir Bit, Bande passante. 
 
-Déception (manœuvre de)
-(Deception)
+## Déception (manœuvre de)
+(*Deception*)
 Dans la terminologie militaire une manœuvre de déception est un ensemble de mesures visant à induire l’ennemi en erreur. Ces manœuvres utilisent des trucages, de la désinformation des falsifications, en vue d’inciter l’adversaire à réagir d’une manière préjudiciable à ses propres intérêts. Un exemple parfaitement illustratif de manœuvre de déception est l’opération Fortitude qui fut conduite par les forces Alliés durant l’année 1944 et qui avait pour objectif de laisser penser à un débarquement dans la région du Pas de Calais et non en Normandie.
 
 ## Déchiffrement
