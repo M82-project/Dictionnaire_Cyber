@@ -78,59 +78,69 @@ Représentation visuelle (exemple : radar, diagramme de Farmer) des risques issu
 
 Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
-CASE - Common Application Services Elements
+## CASE - *Common Application Services Elements*
 Au niveau application du modèle OSI* (soit la dernière des sept couches du modèle), les CASE regroupent des ensembles normalisés de protocoles utilisables par des applica-
 tions. Connu aujourd’hui sous l’acronyme ACSE – Application Common Service Elements.
 
-CBAC - Context-Based Access Control
+## CBAC - *Context-Based Access Control*
 Le CBAC est une application intégrée aux matériels Cisco (routeurs*) qui permet le filtrage avancé de sessions de paquets. La CBAC s’obtient par la configuration des listes de contrôle d’accès (ACL*), il est alors possible de refuser le transfert du trafic et son traitement par l’équipement.
 
-CBC - Cipher Block Chaining 
+## CBC - *Cipher Block Chaining* 
 (Chiffrement par enchaînement des blocs)
+
 Mode de chiffrement par blocs utilisé par l’algorithme DES*. Avec CBC, chaque bloc de données chiffrées est l’opérande d’une opération sur le bloc de données suivant avant le chiffrement de ce dernier, rajoutant ainsi de la complexité aux données chiffrées finales.
+
 Voir Chiffrement.
 
-CBR - Constant Bit Rate 
+## CBR - *Constant Bit Rate* 
 (Taux d’échantillonnage fixe)
+
 Trafic à débit constant. Utilisée pour transmettre des flux numérisés comme la voix ou la vidéo. Un CBR signifie donc qu’une piste audio ou vidéo est encodée avec un taux d’échantillonnage constant. Ce mode est à opposer au VBR* variable bit rate. 
+
 Voir VBR.
 
-CDN - Content Delivery Network
+## CDN - *Content Delivery Network*
 (Réseau de distribution de contenus)
+
 Le CDN ou réseau de livraison de contenus est une architecture permettant d’accélérer la diffusion du trafic vers un client en « rapprochant » les contenus de l’usager. Le CDN s’appuie sur un réseau de serveurs sur lesquels l’information initiale est stockée en cache*. Ce système assure aux sites très fréquentés une meilleure gestion des pics d’affluence, une meilleure répartition du trafic de consultation, et une utilisation optimale de la bande passante*.
 
-CEI – Commission Electrotechnique Internationale
+## CEI – *Commission Electrotechnique Internationale*
 (IEC -  International Electrotechnical Commission)
+
 La CEI est l’organisme international de normalisation pour les domaines de l’électricité, électronique et des nanotechnologies. Créée en 1906, elle rassemble 60 états membres et 23 associés qui édictent des normes reconnues dans une centaine de pays. On lui doit ainsi la normalisation d’unités de mesure comme le Gauss et l’Hertz.
 
-Cellule
-(Cell)
+## Cellule
+(*Cell*)
+
 La cellule en télécommunication fait référence à une zone élémentaire d’un réseau de radio communication à laquelle est affectée un ensemble de fréquences non réutilisables. La cellule désigne ainsi la zone de couverture radio d’une station de base* (BTS). De cette définition découle l’expression « téléphone cellulaire » employée lors des premiers déploiements de la téléphonie mobile dans les années 90.
 Le terme cellule désigne également un paquet* comprenant un nombre fixe d’éléments binaires dans un mode le transfert asynchrone*. La cellule est donc l’unité de transport du protocole ATM*.
 
-Centre de commutation radio mobile
+## Centre de commutation radio mobile
 Voir MSC.
 
-CERT - Computer Emergency Response Team
+## CERT - *Computer Emergency Response Team*
 Les CERT ou centre de réponse d’urgence aux incidents informatiques, sont des organismes chargés d’assurer, entre autre, la réponse aux incidents de sécurité informatiques détectés. Leurs fonctions dépassent ce cadre car ils établissent et diffusent des bases de données qui répertorient les vulnérabilités. Ils assurent également une fonction de prévention en diffusant des « guides de bonnes pratiques ». Enfin, ils contribuent à une meilleure connaissance de la menace en échangeant leurs informations avec d’autres CERT. Certains CERT ont une vocation privée (industriels, grands groupes), sectorielle, locale ou nationales.
 Le premier a été créé aux Etats-Unis par la DARPA* en 1988 à la suite de l’incident du ver Morris. En France, plusieurs organismes font fonction de CERT. Ainsi, le CERT-FR (successeur du CERTA) dépend de l’ANSSI et a pour principal périmètre les administrations françaises, le CERT-RENATER est le CERT de la communauté des membres du GIP RENATER (Réseau National de télécommunications pour la Technologie, l'Enseignement et la Recherche), le CERT Société Générale est celui du groupe bancaire du même nom, sans oublier les industriels qui offrent des prestations de réponse à incident.
 Le terme CERT est une marque déposée par l’université Carnegie Mellon aux Etats-Unis, son utilisation est en principe soumise à une autorisation et à un enregistrement. Le terme générique associé est CSIRT (Computer Security Incident Response Team).
 
-Certificat
-(Certificate) 
+## Certificat
+(*Certificate*)
+
 Un certificat est un message indiquant qu’une clé publique* appartient bel et bien à une personne (ou un système). Ce message est signé numériquement à l’aide de la clé privée* d’une, ou de plusieurs parties de confiance (autorité de certification* - AC).
 Dans le cadre d’un échange électronique (entre un particulier et un serveur de vente en ligne par exemple), un certificat numérique peut être utilisé. Ce certificat est alors un document certifiant l’identité de l’émetteur ou du récepteur (il spécifie également, la date d’expiration du certificat, l’algorithme utilisé et l’autorité de certification). Le vol ou l’usurpation de certificat est donc un mode d’action très efficace pour conduire une attaque car il permet à l’attaquant d’obtenir des droits légitimes.
 Les certificats sont essentiels pour l’établissement d’une session* chiffrée entre un client et un serveur (déclaration d’imposition en ligne par exemple). D’autres sont en revanche utilisés pour l’identification de certains équipement réseau comme des firewall* ou des routeurs* (dans le cas de certificats IPSEC*).
+
 Voir Autorité de certification, Chiffrement, signature électronique.
 
-Certification de sécurité
+## Certification de sécurité
 Délivrée pour la France par l’ANSSI, une certification de sécurité porte sur des produits de sécurité (matériels ou logiciels). Elle atteste de la conformité d’un produit de sécurité à un niveau de sécurité donné. Il s’agit d’une évaluation à l’état de l’art réalisée en fonction d’une cible de sécurité et d’un niveau de sécurité visé. Elle est matérialisée par un rapport de certification et un certificat tous deux signés par le Directeur Général de l’Agence. Le catalogue des produits de sécurité certifiés, accompagnés de leur cible de sécurité et de leur rapport de certification est publié sur le site Web de l’Agence. On parle de certification « premier niveau » (CSPN) ou de certification « Critères Communs* ». Cette certification est délivrée par l’ANSSI sur la base des travaux dévaluation menés par un CESTI (Centre d’Evaluation de la Sécurité des Technologies de l’Information). Les CESTI sont des laboratoires accrédités par le COFRAC (Comité Français d’Accréditation) et agréés par l’ANSSI. Le catalogue des CESTI est publié sur le site Web de l’Agence. Au sein de l’ANSSI, c’est le Centre National de Certification de la Sous-direction Expertise qui remplit ces missions.
 
-Certification de sécurité de premier niveau – CSPN
+## Certification de sécurité de premier niveau – CSPN
 La Certification de Sécurité de Premier Niveau (CSPN) mise en place par l’ANSSI en 2008 consiste en des tests en « boîte noire » effectués en temps (2 mois) et charge (25 ou 35 hommes x jours) contraints. La CSPN est une alternative aux évaluations Critères Communs, dont le coût et la durée peuvent être un obstacle, lorsque le niveau de confiance visé est moins élevé.
 
-Chapeau blanc – chapeau noir 
+## Chapeau blanc – chapeau noir 
 (whitehat - blackhat)
+
 Terminologie utilisée pour désigner différents groupes de hackers* en fonction de leurs intentions. Ainsi, whitehat désigne un hacker cherchant à améliorer la sécurité d’un système, les éditeurs concernés sont prévenus puis les failles découvertes publiées. A l’inverse, le blackhat cherche à nuire, et à générer des profits des découvertes qu’il peut faire. Cette distinction est évidemment très réductrice et fait l’objet de nombreuses polémiques sur la toile.
 Le terme blackhat désigne également une société organisatrice de conférences de sécurité informatique. Ces conférences très originales et attendues par la communauté de la sécurité regroupent de nombreux experts dont plusieurs hackers de renom. Chaque conférence est le lieu privilégié pour de nouvelles révélations sur ce qu’il est possible de faire (hacker un système de navigation, une voiture…) et présenter des « preuves de concepts » qui seront ensuite discutées. Cet événement se tient annuellement à Las Vegas en marge d’une autre conférence de sécurité plus académique la Defcon*. Amsterdam et Tokyo accueillent également une blackhat.
 
@@ -144,41 +154,40 @@ Suite d’événements distincts que la source de risque devra probablement gén
 
 Voir [La méthode EBIOS Risk Manager sur le site de l'ANSSI](https://cyber.gouv.fr/la-methode-ebios-risk-manager)
 
-Cheval de Troie
-(Trojan) 
+## Cheval de Troie
+(*Trojan*)
+
 En informatique, un cheval de Troie est un programme malveillant* caché dans un autre réputé sûr aux yeux de l’utilisateur. Un cheval de Troie peut voler des mots de passe, copier des données sensibles, ouvrir une brèche dans un réseau en autorisant des accès à des parties protégées. Le cheval de Troie n’est pas nécessairement un virus* car il n’a pas forcément vocation à se reproduire pour infecter d’autres machines. Le mode de propagation le plus classique demeure la messagerie électronique en utilisant une pièce jointe infectée. Il existe deux types de chevaux de Troie qui diffèrent essentiellement sur le mode de prise de contrôle par le hacker. En connexion directe (peu fréquent) il est nécessaire de disposer de l’adresse IP* de la cible afin d’établir la liaison, en mode remote connexion c’est l’ordinateur de la victime qui va se connecter de façon autonome à l’ordinateur du pirate.
 
-Chien de garde 
-(watchdog)
+## Chien de garde 
+(*watchdog*)
+
 Association informelle, individus ou ONG, qui pratiquent une veille thématique ayant pour objectif de dénoncer les abus ou les détournements. Leurs activités touchent ainsi le comportement des entreprises (dénonçant l’usage d’enfants ou les conditions de travail précaires), les gouvernements et les médias. Le groupe « copwatch » par exemple, surveille en permanence le comportement des forces de police aux Etats-Unis, filmant les interpellations et dénonçant les comportements inappropriés.
 En informatique industrielle, un chien de garde désigne un dispositif électronique ou logiciel qui s’assure qu’un processus de traitement ne demeure pas bloqué à une étape particulière. Il vérifie ainsi que certaines conditions de fonctionnement sont remplies et peut donc contribuer à la défense d’un système d’information ou de production. 
 
-Chiffrement
-(Encryption) 
+## Chiffrement
+(*Encryption*)
+
 Le chiffrement est un processus cryptographique qui vise à modifier une information afin de la rendre inintelligible, tout en permettant un retour à sa forme initiale. Il s’agit donc de dissimuler le sens d’un message afin d’augmenter sa confidentialité. Dans ce cadre le chiffrement est l’action qui consiste à transformer un message clair en un autre qui sera dit chiffré. L’action inverse est appelée déchiffrement.
 La sécurité du chiffrement réside dans la détention d’un élément secret, la clé. Les méthodes de chiffrement différent de la stéganographie* où le message est simplement « caché » sur un autre support mais demeure intelligible.
 
 
+>Pour aller plus loin…
+
+>## Une petite histoire de chiffre, du monoalphabétique au carré de Vigenère
+
+>La dissimulation de l’information est un phénomène ancien, les premières techniques de chiffrement connues remontent ainsi à l’antiquité. David Khan dans son ouvrage, « la guerre des codes secrets » considère qu’une inscription d’un scribe égyptien datant de 1900 av JC et utilisant des hiéroglyphes non conformes à l’usage classique est la première trace de chiffrement de l’histoire qui nous soit parvenue. Pus tard vers 1500 av.JC, des tablettes mésopotamiennes chiffrées contenant des formules pour la réalisation de vernis de poteries ont été réalisées par des artisans babyloniens (Khan,1980). Le premier exemple de chiffre de substitution est développé par des scribes hébreux pour la transcription du livre de Jérémie entre 600 et 500 av JC. Ce code simple, dit d’Atbash (ville où il aurait été imaginé) est une substitution simple monoalphabétique de l’alphabet hébreux. Ainsi, la première lettre est remplacée par la dernière, la seconde par l’avant dernière et ainsi de suite. Suivant un principe similaire de substitution, le code Cesar apparaît entre 60 et 40 av JC et fut largement utilisé par son créateur Jules César. Son principe réside dans un simple décalage fixe. Ainsi pour un décalage de deux, la lettre A du message clair devient C dans le message chiffré. 
+>Le premier chiffre polyalphabétique est mis au point par Leon Battista Alberti en 1466 qui développa également un cadran permettant de réaliser le chiffrement plus rapidement. Il rédige en outre ce qui semble être le premier traité de cryptanalyse* occidental dans lequel il analyse la fréquence d’utilisation des lettres et en déduit des méthodes pour décrypter les messages. D’autres sources attribuent l’invention du chiffre polyalphabétique à Giovan Battista Bellaso dans son traité publié en 1553. Giovani Battista della Porta (1535 - 1615) est pour sa part l’inventeur de la substitution bigrammatique (deux lettres sont représentées par un seul symbole) mais réalise surtout la première classification des principes majeurs cryptographiques : substitution et transposition. L’Italie de la renaissance est bien le creuset de la cryptographie moderne.
+>Blaise de Vigenère, diplomate français du XVIème siècle développe une méthode de chiffrement polyalphabétique originale qui résiste à l’analyse des fréquences. Vigenère en s’inspirant visiblement des travaux de Bellaso et della Porta, publie le traité des chiffres en 1586 dans lequel il présente sa méthode. La véritable originalité de la technique est qu’elle introduit pour la première fois une notion de clé de chiffrement raffinée avec un procédé dit autoclave*, c’est à dire où la clé de chiffrement utilise le texte clair. Ainsi, le concept de Vigenère consiste à utiliser le chiffre de César mais avec un décalage qui dépend de la lettre utilisée (qui est donnée par la clé). Pour réaliser ces différentes substitutions on réalise une table composée de 26 alphabets dans l’ordre mais décalés d’une lettre à chaque ligne. 
+>Le code de Vigenère n’a été cassé qu’en 1863 par un officier prussien.
 
 
-
-Pour aller plus loin…
-
-
-Une petite histoire de chiffre, du monoalphabétique au carré de Vigenère
-
-
-La dissimulation de l’information est un phénomène ancien, les premières techniques de chiffrement connues remontent ainsi à l’antiquité. David Khan dans son ouvrage, « la guerre des codes secrets » considère qu’une inscription d’un scribe égyptien datant de 1900 av JC et utilisant des hiéroglyphes non conformes à l’usage classique est la première trace de chiffrement de l’histoire qui nous soit parvenue. Pus tard vers 1500 av.JC, des tablettes mésopotamiennes chiffrées contenant des formules pour la réalisation de vernis de poteries ont été réalisées par des artisans babyloniens [Khan,1980]. Le premier exemple de chiffre de substitution est développé par des scribes hébreux pour la transcription du livre de Jérémie entre 600 et 500 av JC. Ce code simple, dit d’Atbash (ville où il aurait été imaginé) est une substitution simple monoalphabétique de l’alphabet hébreux. Ainsi, la première lettre est remplacée par la dernière, la seconde par l’avant dernière et ainsi de suite. Suivant un principe similaire de substitution, le code Cesar apparaît entre 60 et 40 av JC et fut largement utilisé par son créateur Jules César. Son principe réside dans un simple décalage fixe. Ainsi pour un décalage de deux, la lettre A du message clair devient C dans le message chiffré. 
-Le premier chiffre polyalphabétique est mis au point par Leon Battista Alberti en 1466 qui développa également un cadran permettant de réaliser le chiffrement plus rapidement. Il rédige en outre ce qui semble être le premier traité de cryptanalyse* occidental dans lequel il analyse la fréquence d’utilisation des lettres et en déduit des méthodes pour décrypter les messages. D’autres sources attribuent l’invention du chiffre polyalphabétique à Giovan Battista Bellaso dans son traité publié en 1553. Giovani Battista della Porta (1535 - 1615) est pour sa part l’inventeur de la substitution bigrammatique (deux lettres sont représentées par un seul symbole) mais réalise surtout la première classification des principes majeurs cryptographiques : substitution et transposition. L’Italie de la renaissance est bien le creuset de la cryptographie moderne.
-Blaise de Vigenère, diplomate français du XVIème siècle développe une méthode de chiffrement polyalphabétique originale qui résiste à l’analyse des fréquences. Vigenère en s’inspirant visiblement des travaux de Bellaso et della Porta, publie le traité des chiffres en 1586 dans lequel il présente sa méthode. La véritable originalité de la technique est qu’elle introduit pour la première fois une notion de clé de chiffrement raffinée avec un procédé dit autoclave*, c’est à dire où la clé de chiffrement utilise le texte clair. Ainsi, le concept de Vigenère consiste à utiliser le chiffre de César mais avec un décalage qui dépend de la lettre utilisée (qui est donnée par la clé). Pour réaliser ces différentes substitutions on réalise une table composée de 26 alphabets dans l’ordre mais décalés d’une lettre à chaque ligne. 
-Le code de Vigenère n’a été cassé qu’en 1863 par un officier prussien.
-
-
-Chroot Jail
+## *Chroot Jail*
 Dans un système Unix, un chroot (contraction de change et root, changement de racine) est une opération qui réduit l’arborescence du système de fichiers à un de ses sous-ensemble, pour un processus donné. Au sein d’un environnement « chroot » on ne peut remonter à la racine du système de fichiers initial. Il s’agit donc d’une arborescence de fichiers modifiée qui masque la visibilité du système de fichiers complet à un processus. Le mécanisme jail (prison), introduit par le système FreeBSD, contraint quant à lui un processus à s’exécuter au sein d’un environnement (fichier, bibliothèques logicielles, droits d’accès, etc.) minimaliste reproduisant celui du système d’exploitation* initial.
 
-Cible
-(target)
+## Cible
+(*target*)
+
 Le mot cible désigne le système ou l’équipement qui est visé par une attaque informatique. En marketing il désigne le public visé par une campagne de publicité ou un message particulier. Dans ce cadre il est synonyme d’audience. 
 La notion de cible est essentielle dans les opérations numériques car elle se distingue de l’adversaire au sens classique du terme. La cible est une représentation matérielle de cet adversaire, un objet physique sur lequel va porter l’action mais dont on attend des effets ailleurs et typiquement sur l’adversaire. 
 
@@ -537,34 +546,39 @@ Cyberespionnage
 Source : https://cyber.gouv.fr/glossaire
 Ensemble d’actions menées dans le cyberespace consistant à infiltrer, clandestinement ou sous de faux prétextes, les systèmes informatiques d’une organisation ou d’un individu, et à s’emparer de données pour les exploiter.
 Le cyberespionnage se pratique notamment par le biais de logiciels malveillants ou espions, de cyberattaques* persistantes, ou en mettant à profit les vulnérabilités* des systèmes informatiques.
-Note de l'ANSSI : le cyberespionnage constitue l'une des menaces les plus redoutées par l'ANSSI*. Les auteurs de ces actes recourent le plus souvent à des méthodes très pointues, ils peuvent rester tapis très longtemps dans un système d'information sans jamais se faire repérer. Les conséquences de l'espionnage peuvent être désastreuses pour la ou les organisations qui en sont victimes.
+>Note de l'ANSSI : le cyberespionnage constitue l'une des menaces les plus redoutées par l'ANSSI*. Les auteurs de ces actes recourent le plus souvent à des méthodes très pointues, ils peuvent rester tapis très longtemps dans un système d'information sans jamais se faire repérer. Les conséquences de l'espionnage peuvent être désastreuses pour la ou les organisations qui en sont victimes.
 
-Cyberguerre 
-(Cyberwar)
+## Cyberguerre 
+(*Cyberwar*)
+
 Il n’existe pas à proprement parler de définition de la « cyberguerre ». Cette notion est souvent confondue avec les cyberattaques. Ainsi, les intrusions informatiques et les vols de données sont régulièrement qualifiés de « cyberguerre ». Dans Cyberstratégie, l’art de la guerre numérique, nous proposions la définition suivante : 
 La cyberguerre (guerre numérique) regroupe l’ensemble des actions militaires visant à la maîtrise du cyberespace afin, soit d’y conduire des opérations spécifiques soit de préparer l’exploitation vers un autre espace de conflit (terre, air, mer). Dans ce cas, la guerre numérique agit comme un démultiplicateur de forces au profit des armées. Elle est conduite par des services de l’État et prend des formes diverses qui embrassent les trois couches du cyberespace : physique, logique et cognitive.
 Selon cette approche, la cyberguerre est donc un domaine réservé de l’action étatique, elle est conduite par des forces armées (donc dans un cadre légal strict). Ces opérations visent le contrôle du milieu et sont intégrées à l’action globale sur les trois couches du cyberespace. Ainsi, les actions conduites par des groupes d’activistes plus ou moins doués techniquement, ne rentrent pas dans ce cadre stricto sensu. 
 
-Cyberharcèlement 
-(Cyberstalking) 
+## Cyberharcèlement 
+(*Cyberstalking*)
+
 Forme de harcèlement en ligne (généralement via des réseaux sociaux) qui comprend l’usage du dénigrement répété et des menaces.
 Des premiers cas de suicide d’adolescents ayant été victimes de cette forme de harcèlement ont été signalés dès 2013 amenant les autorités de plusieurs pays à prendre en compte ces phénomènes.
 
-Cyberprotection
-(Cyberprotection)
-Ensemble des mesures techniques et non techniques de protection permettant à un système d’information de résister à des évènements susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité des données stockées, traitées ou transmises, et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. 
-Synonyme :
-Sécurité des systèmes d’information* (SSI).
+## Cyberprotection
+(*Cyberprotection*)
 
-Cyberrésilience
-(Cyber résilience)
+Ensemble des mesures techniques et non techniques de protection permettant à un système d’information de résister à des évènements susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité des données stockées, traitées ou transmises, et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. 
+Synonyme :Sécurité des systèmes d’information* (SSI).
+
+## Cyberrésilience
+(*Cyber résilience*)
+
 La résilience se définit comme la capacité d’une organisation à faire face à des évènements (incident ou agression), à leur résister et à se rétablir. Appliquée au cyberespace, elle est appelée cyberrésilience et (se) définit comme la capacité d’un système d’information à résister à une panne ou une cyberattaque et à revenir à son état initial après l’incident.
 
-Cybersécurité
-(Cybersecurity)
-État recherché pour un système d’information lui permettant de résister à des événements issus du cyberespace susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité desconfidentialités des données stockées, traitées ou transmises et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. La cybersécurité fait appel à des techniques de sécurité des systèmes d’information et s’appuie sur la lutte contre la cybercriminalité et sur la mise en place d’une cyberdéfense.
-Note de l'ANSSI : il est fréquent de voir les termes cybersécurité et sécurité numérique employés tour à tour comme des synonymes. Pourtant, il est communément accepté que la cybersécurité - à l'image d'autres termes dotés du préfixe cyber - renvoie à la sécurité des systèmes d'information tandis que la sécurité numérique renvoie plus largement à la sécurité des systèmes et des pratiques numériques. Ainsi, les bonnes pratiques de sécurité numérique sont aussi bien techniques que comportementales.
+## Cybersécurité
+(*Cybersecurity*)
 
-Cybersquat
-(Cybersquatting)
+État recherché pour un système d’information lui permettant de résister à des événements issus du cyberespace susceptibles de compromettre la disponibilité, l’intégrité ou la confidentialité desconfidentialités des données stockées, traitées ou transmises et des services connexes que ces systèmes offrent ou qu’ils rendent accessibles. La cybersécurité fait appel à des techniques de sécurité des systèmes d’information et s’appuie sur la lutte contre la cybercriminalité et sur la mise en place d’une cyberdéfense.
+>Note de l'ANSSI : il est fréquent de voir les termes cybersécurité et sécurité numérique employés tour à tour comme des synonymes. Pourtant, il est communément accepté que la cybersécurité - à l'image d'autres termes dotés du préfixe cyber - renvoie à la sécurité des systèmes d'information tandis que la sécurité numérique renvoie plus largement à la sécurité des systèmes et des pratiques numériques. Ainsi, les bonnes pratiques de sécurité numérique sont aussi bien techniques que comportementales.
+
+## Cybersquat
+(*Cybersquatting*)
+
 Le cybersquat est une pratique qui consiste à acquérir des noms de domaines d’une marque, d’un pseudonyme, ou proche afin d’en tirer un profit (matériel ou moral).  Ainsi, un particulier peut enregistrer un nom de domaine* s’appuyant sur le nom d’une personnalité ou d’une entreprise en vue de lui revendre (spéculation au nom de domaine). Pour l’heure cette pratique n’est pas sanctionnée au pénal en France mais peut faire l’objet d’une plainte dans le cadre du respect de la propriété intellectuelle. Le cybersquat peut aussi être utilisé pour nuire à l’image d’une personnalité. Cette pratique est courante en politique et exponentielle en période électorale. Ainsi, le domaine sarkozy2017.fr et hollande2017.fr ont été enregistrés dès le mois d’octobre 2011.
