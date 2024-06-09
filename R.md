@@ -72,6 +72,14 @@ Il se compose de deux parties distinctes, le client, installé sur l’ordinateu
 On peut rencontrer également l’expression Remote Access Trojan qui désigne un ensemble réunissant un cheval de Troie* (de type backdoor par exemple), pour les fonctions d’accès à la machine cible, auquel on adjoint un outil d’administration à distance (pour prendre le contrôle du système cible). 
 Voir Cheval de Troie, Logiciel malveillant.
 
+## Ratio
+Sur Twitter (X), « ratio » signifie : avoir plus de réponses ou plus de « citations de tweet » que de réactions « j’aime ».  « Ratio » signifie aussi, et le plus souvent, sur ce réseau social, qu’une réponse à un tweet a eu plus de retweets ou de « j’aime » que le tweet d’origine. 
+
+Le « ratio » témoigne en général de la polémique que fait naître un tweet controversé, ou de l’impopularité d’un tweet. Le « ratio » entre les réactions négatives et les réactions positives, c’est-à-dire le rapport entre ces deux grandeurs, est défavorable à la personne qui a tweeté en premier. 
+
+Certains utilisateurs cherchent souvent le « ratio » de certains comptes dont ils désapprouvent l’orientation politique ou l’opinion générale sur un quelconque sujet. C’est une façon de discréditer son adversaire, de signaler que sa façon de voir les choses est minoritaire et qu’il n’est pas soutenu. Il a plus de poids quand il touche le compte d’une personnalité influente qui a de nombreux abonnés. Cela signifie qu’il est n’est pas soutenu par les siens. Chaque tweet donc vu comme une sorte de petite bataille d’influence.
+Source: [la culture générale](https://www.laculturegenerale.com/ratio-twitter-signification-definition-explication/)
+
 ## RBL
 (*Realtime Blackhole List*)
 Dans le cadre de la lutte anti-spam (anti-pourriels), les RBL sont des listes de serveurs, d’adresses IP*, de domaines (URIBL), connus pour héberger, produire ou faciliter les spams. 
