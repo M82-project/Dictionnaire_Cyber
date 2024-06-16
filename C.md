@@ -38,10 +38,12 @@ En sécurité informatique, un CTF est un challenge qui consiste, seul ou en éq
 
 ## Caractérisation
 (*Characterization*)
+
 Pour un composant électronique, la caractérisation est l’action de vérifier la conformité d’un produit à ses spécifications par un ensemble de tests physiques ou électriques. 
 
 ## Carte électronique
 (*Electronic board*)
+
 En électronique, il s’agit d’un circuit imprimé équipé de composants.
 
 ## Carte fille
@@ -191,347 +193,400 @@ Dans un système Unix, un chroot (contraction de change et root, changement de r
 Le mot cible désigne le système ou l’équipement qui est visé par une attaque informatique. En marketing il désigne le public visé par une campagne de publicité ou un message particulier. Dans ce cadre il est synonyme d’audience. 
 La notion de cible est essentielle dans les opérations numériques car elle se distingue de l’adversaire au sens classique du terme. La cible est une représentation matérielle de cet adversaire, un objet physique sur lequel va porter l’action mais dont on attend des effets ailleurs et typiquement sur l’adversaire. 
 
-Circuit
+## Circuit
 (Circuit)
+
 En télécommunication, un circuit est un ensemble de deux voies de transmission associées pour assurer une transmission dans les deux sensentre deux points. Il s’agit plus généralement d’un ensemble de ressources qui met en relation un émetteur et un récepteur, ces ressources n’appartiennent qu’au couple émetteur – récepteur.
 
-Circuit virtuel
+## Circuit virtuel
 (Virtual circuit)
+
 Dans un réseau de données exploité en commutation de paquets*, un circuit virtuel est un ensemble de moyens fournis par le réseau, qui assurent un transfert de données entre stations équivalant à celui qui serait assuré par commutation de circuits*.
 
-Circuit virtuel commuté
+## Circuit virtuel commuté
 (Switched virtual circuit)
+
 Circuit virtuel établi et libéré à l’initiative d’un des correspondants.
 
-Clavardage 
+## Clavardage 
 (Chat) 
+
 Terme utilisé en français du Québec pour désigner une conversation en ligne. Le terme utilisé en France est l’anglicisme : chater. Pour pratiquer le « clavardage », le français du Québec nous offre un autre terme dédié : le clavardoir (chat room) le français utilise lui le bien moins poétique : chat.
 
-Clé de chiffrement
+## Clé de chiffrement
 (Encryption key)
+
 En cryptographie, chiffrer consiste essentiellement en une modification d’une suite d’octet représentant l’information. Ces modifications sont des opérations mathématiques effectuées suivant un algorithme déterminé. Les algorithmes cryptographiques sont connus, il est donc nécessaire d’utiliser un paramètre d’entrée supplémentaire pour garantir le secret de l’opération. Ce paramètre essentiel est la clé de chiffrement. Il existe deux types de clé, fonction du type de système cryptographique utilisé. Le chiffrement reposant essentiellement sur des problèmes mathématiques (notamment arithmétiques pour les problèmes de factorisation), la longueur de la clé, exprimée en bits, permet d’évaluer la robustesse d’un système. Aucun système cryptographique n’est totalement « incassable », à l’exception de OTP* – One Time Pad, qui n’utilise pas de clé de chiffrement. Les clés symétriques ont une longueur minimale de 128 bits aujourd’hui et les clés asymétriques 1024. La longueur des clés doit augmenter en fonction de l’augmentation des capacités de calcul à disposition des attaquants. Cet aspect soulève deux problématiques liées aux clés de chiffrement en cryptographie :
-• La longueur des clés, qui est liée à la capacité à la casser ;
-• La périodicité de renouvellement qui est liée à la probabilité de compromission ou au volume de données échangé.
-	Clé symétrique :
+* La longueur des clés, qui est liée à la capacité à la casser ;
+* La périodicité de renouvellement qui est liée à la probabilité de compromission ou au volume de données échangé.
+
+## Clé symétrique 
 Les clés symétriques sont associées au mode de chiffrement symétrique. Dans ce cas lorsqu’Alice veut échanger un message avec Bob, il est nécessaire que les deux personnages disposent de la même clé. Alice chiffre avec sa clé et Bob déchiffre avec la même clé. Le secret est partagé entre Alice et Bob. Ainsi une clé symétrique sert aussi bien lors de l’étape de chiffrement que lors du déchiffrement. Ce mode cryptographique très utilisé pendant des siècles (et encore aujourd’hui) est très robuste et rapide en termes de calcul mais soulève un problème de taille : la distribution des clés. En effet si Alice veut communiquer avec Bob, il est nécessaire de partager la même clé, donc celle-ci doit être générée puis distribuée. Or cette étape est très risquée puisqu’il suffit alors à Max (acteur malveillant) d’intercepter une clé pour pouvoir lui aussi déchiffrer l’ensemble du trafic. Enfin cette technique ne garantit que la confidentialité des données, il n’y a pas d’authentification (preuve cryptographique que le message provient bien de l’émetteur prétendu).
-	Clés asymétriques : clé privée – clé publique
+
+## Clés asymétriques : clé privée – clé publique
 Mis en œuvre dans le processus de chiffrement asymétrique, le principe réside dans la génération d’une paire de clés liées mathématiquement (la clé publique se dérive de la clé privée mais l’opération inverse est très complexe). Ainsi, la clé publique peut être copiée et diffusée alors que la clé privée sera conservée. Lors d’un échange, Alice chiffre son message avec la clé publique de Bob (librement disponible) et seul Bob sera en mesure de déchiffrer ce message avec sa clé privée. 
 Enfin, les modes mixtes (utilisés par exemple par SSL*) se justifient par le fait que le chiffrement asymétrique est beaucoup plus lent que le chiffrement symétrique. Ils consistent à chiffrer la clé symétrique au moyen d’un algorithme asymétrique en préalable à une transmission.
 Voir RSA.
 
-Clé USB à mémoire flash
+## Clé USB à mémoire flash
 (Memory stick) 
+
 Carte mémoire amovible qui se branche sur le port* USB* — Universal Serial Bus. Alimentée directement par le port, elle ne dispose d’aucun élément mécanique contrairement à un disque dur. Très résistante, la clé USB a des capacités de stockage de plus en plus importantes (plusieurs gigas) et est très répandues. 
 Ce succès entraine également le fait que la clé USB est un vecteur courant de propagation de codes malveillants. Allant de machines en machines, sans précautions particulières, les clés USB accumulent généralement de nombreux virus qu’elles diffusent vers leurs hôtes au gré de leurs connexions. Certaines entreprises ou administrations ont donc interdit leur usage afin de limiter les infections ou les attaques ciblées. 
 Voir également USB.
 
-
-Client
+## Client
 (Client)
+
 Le client, en informatique, regroupe les applications qui, sur une machine donnée, vont initier une connexion et effectuer des requêtes. Le client est, dans le mode « client-serveur », l’entité qui reçoit les données sollicitées ou accède à un service distant.
 
-Clonage de serveur DNS 
+## Clonage de serveur DNS 
 (DNS Pharming)
+
 Voir Détournement de nom de domaine.
 
-Cloud Access Security Broker - CASB
+## Cloud Access Security Broker - CASB
 Logiciel sur site ou basé sur le cloud qui se situe entre les utilisateurs de services cloud et les applications cloud. Ce logiciel surveille les activités et applique les politiques de sécurité (source Lexique Glimps).
 
-Cloud computing 
+## Cloud computing 
 (Informatique en nuages ou infonuagique)
+
 Le journal Officiel du 6 juin 2010 donne du cloud computing la définition suivante : mode de traitement des données d'un client, dont l'exploitation s'effectue par l'internet, sous la forme de services fournis par un prestataire. L'informatique en nuage est une forme particulière de gérance de l'informatique, dans laquelle l'emplacement et le fonctionnement du nuage ne sont pas portés à la connaissance des clients. Le cloud computing est une organisation des systèmes d’information permettant l’utilisation à distance de ressources matérielles ou logicielles via l’Internet. Concrètement, les entreprises peuvent faire appel à un service distant, dédié, permettant d’héberger des données ou des applications métiers. L’offre de service s’étoffe, et de plus en plus d’internautes font aujourd’hui appel à ce type de service pour le stockage de contenus multimédia (photo, vidéo, musique). Un cloud est dit public quand les ressources sont partagées entre plusieurs entreprises ou clients, privé lorsque les ressources sont mutualisées au sein d’une même entreprise, communautaire ou encore hybride (combinaison avec une technologie commune pour garantir l’interopérabilité).
 
-CMS - Content Management System 
+## CMS - Content Management System 
 (Système de gestion de contenu)
+
 Le CMS ou système de gestion de contenu est une suite logicielle utilisée pour la conception et l’administration de sites Web. Il offre différentes fonctionnalités dont le workflow, qui permet la mise en ligne de documents, le travail collaboratif, la structuration de contenu et la gestion des mises à jour. Les CMS sont l’objet de nombreuses attaques et sont souvent à l’origine des intrusions par l’exploitation de leurs vulnérabilités. Les principaux CMS à ce jour sont : SPIP, MAMBO, JOOMLA, TYPO3.
 
-
-CNIL - Commission Nationale Informatique et Liberté
+## CNIL - Commission Nationale Informatique et Liberté
 La Commission nationale informatique et liberté est une autorité française indépendante composée de parlementaires de fonctionnaires et de personnes qualifiées. Créée par la loi n° 78-17 du 6 janvier 1978 modifiée dite "informatique et libertés", la CNIL a pour mission essentielle de veiller à la protection des données personnelles, et au respect de la loi.
 Sa mission est donc de veiller à ce que l’informatique soit au service du citoyen et qu’elle ne porte atteinte ni à l’identité humaine, ni aux droits de l’homme, ni à la vie privée, ni aux libertés individuelles ou publiques. Elle exerce ses missions conformément à la loi informatique et libertés qui la qualifie d'autorité administrative indépendante.
 Dans le cadre de sa mission elle recense les fichiers, effectue des contrôles et garantit le droit d’accès des citoyens sur les données les concernant. 
 
-Cobalt Strike
+## Cobalt Strike
 Outil commercial de sécurité développé en 2012, il est employé par les experts en tests d'intrusion pour émuler une activité cybercriminelle sur un réseau. Toutefois, il est de plus en plus utilisé par les cybercriminels car il simplifie et automatise certaines étapes d'une intrusion. Outils assez complet souvent qualifié de "couteau suisse", il permet la génération de payload permettant la connexion vers le serveur de commande et de contrôle. L'outil écolue et est souvent associé à certaines APT. Ainsi, APT29 utilise des chargeurs personnalisés de Cobalt Strike Beacon pour se fondre dans le trafic légitime ou échapper à l'analyse (source : https://www.proofpoint.com/fr/blog/threat-insight/cobalt-strike-favorite-tool-apt-crimeware).
 
-Code
+## Code
 (Code)
+
 Ensemble de règles qui permettent de convertir de l’information afin de la rendre exploitable, copiable, transportable. Ainsi, la principale fonction d’un code est de représenter une information dans le but de pouvoir la transmettre. L’écriture est un code qui répond à cette définition.
 En informatique, on parle généralement de code source, il s’agit ici d’une suite d’instructions qui seront exécutées par le microprocesseur de l’ordinateur une fois compilée. Un code source se présente sous la forme d’un texte écrit dans un langage de programmation (exemple C++, Java*, Python). Ces textes ne sont pas directement exploitables par le processeur et doivent être convertis en suite de 0 et de 1, le code binaire*.
 Voir Compiler, Assembleur.
 
-Code malveillant
+## Code malveillant
 (Malware)
+
 Un code malveillant est un programme s’installant dans un système d’information à l’insu des utilisateurs légitimes, en vue de porter atteinte à l’un des piliers de la sécurité (confidentialité, intégrité, disponibilité). 
 Voir Logiciel malveillant.
  
-Commentaire
+## Commentaire
 (Comment)
+
 Message dont la plupart des internautes pourraient se passer… Le commentaire est en général publié en réponse à un article ou un post de blog. Il peut être « modéré », c’est à dire passé au filtre d’un modérateur qui est chargé de supprimer les contenus haineux ou diffamatoires. En règle générale le commentaire est l’aliment préféré des Trolls*.
 
-Communauté 
+## Communauté 
 (Community)
+
 Regroupement informel d’individus autour d’un sujet d’intérêt commun. Le terme est très répandu dans le monde numérique où l’on rencontre des communautés d’utilisateurs de systèmes particuliers, des communautés de développeurs… la nature du lien qui rassemble une communauté est assez spécifique, on peut ainsi appartenir à plusieurs communautés en même temps de façon non exclusive. L’appartenance à une communauté repose sur la volonté individuelle et rarement sur un processus formel de sélection, d’adhésion ou de cotisation.
 
-Commutation de circuits
+## Commutation de circuits
 (Circuit switching)
+
 La commutation de circuits est une technique de communication réseau dans laquelle un chemin est construit entre l’émetteur et le récepteur en s’appuyant sur les liaisons d’un réseau commuté. Le circuit est créé pour chaque transmission puis libéré pour permettre les autres communications (exemple de la téléphonie fixe RTC*). 
 
-Pour aller plus loin
+>Pour aller plus loin
 
+>Dans un réseau à commutation de circuit, il est donc nécessaire d’établir la connexion lors de chaque appel. Dans cette phase, l’émetteur envoie une requête (demande de connexion) vers le nœud le plus proche du réseau. Ce dernier analyse la requête et réserve un canal vers le nœud suivant. De proche en proche un circuit est établi par les canaux réservés jusqu’à la station réceptrice.
+>Le circuit permet alors la transmission des données. L’une ou l’autre des stations peut prendre l’initiative de cesser la communication (libération de la ligne).
 
-Dans un réseau à commutation de circuit, il est donc nécessaire d’établir la connexion lors de chaque appel. Dans cette phase, l’émetteur envoie une requête (demande de connexion) vers le nœud le plus proche du réseau. Ce dernier analyse la requête et réserve un canal vers le nœud suivant. De proche en proche un circuit est établi par les canaux réservés jusqu’à la station réceptrice.
-Le circuit permet alors la transmission des données. L’une ou l’autre des stations peut prendre l’initiative de cesser la communication (libération de la ligne).
-
-Commutation de paquets
+## Commutation de paquets
 (Packet switching)
+
 Mode d’acheminement de messages dans un réseau de télécommunication, où les messages sont préalablement découpés en paquets munis d’une adresse ; dans les nœuds du réseau, ces paquets sont reçus, mis en mémoire et retransmis sur la ou les voies de transmission appropriées ; à l’arrivée, le message est reconstitué à partir des paquets reçus. Dans ce cas, un paquet n’occupe une voie que pendant sa durée de transmission, la voie étant ensuite disponible pour la transmission d’autres paquets appartenant soit au même, soit à d’autres messages.
 La commutation de paquets est apparue pour faire face aux contraintes de la transmission de données. En effet, la commutation de circuit, en réservant la totalité de la ressource au profit d’une seule voie de transmission, ne permet pas de supporter la charge liée à l’interconnexion de plusieurs équipements informatiques. La commutation de paquets est par ailleurs plus résiliente dans la mesure où elle ne dépend pas de la fiabilité d’un seul circuit et que des mécanismes de contrôle peuvent être implémentés. Pour les réseaux locaux, la commutation a permis d’étendre la taille des réseaux et d’augmenter les débits.
 Voir TCP.
 
-Communications électroniques
+## Communications électroniques
 (Electronic communications)
+
 En France, la loi du 9 juillet 2004 présente les communications électroniques comme : les émissions, transmissions, ou réceptions de signes, de signaux, d’écrits, d’images ou de son par voies électromagnétiques.
 
-Compiler
+## Compiler
 (Compile)
+
 Action qui consiste à traduire un programme écrit dans un langage évolué (code* source) en un programme en langage machine en vue de son exécution. La compilation est effectuée à l’aide d’un programme spécifique, le compilateur. 
 Voir Assembleur, Code.
 
-Compromission
+## Compromission
 (Compromission)
+
 Une compromission est une atteinte à l’intégrité ou à la confidentialité d’un objet désigné (information, ordinateur, individu). L’IGI 1300 en donne, pour le domaine du secret de la défense nationale, la définition suivante, prise de connaissance, certaine ou probable, d’une information ou support protégé par une ou plusieurs personnes non autorisées. 
 
-Computer Network Operations - CNO
+## *Computer Network Operations* - CNO
 (Opérations Informatiques)
+
 Terminologie utilisée par la doctrine américaine de combat dans le cyberespace*, les CNO regroupent le Computer Network Attack* (CNA) ainsi que le Computer Network Exploitation* (CNE) mais également le Computer Network Defense (CND). 
 Le terme de Computer Network Operations (CNO) a été remplacé, depuis 2009 par celui plus large de Cyberspace Opérations (CO). Il s’agit, selon la définition de la Joint terminology for cyberspace operations [CM-0856-09 1 Sep 09] de l’emploi de capacités cyber dans le but premier d’atteindre des objectifs dans ou par le cyberespace. De telles opérations comprennent les opérations en réseau CNO et les activités qui visent à défendre ou agir dans le spectre global de l’information.
 
-Computer Network Attack - CNA
+## *Computer Network Attack* - CNA
 (Lutte informatique offensive – lutte informatique active)
+
 Terminologie utilisée par la doctrine américaine de combat dans le cyberespace*, le CNA désigne suivant la Joint terminology for cyberspace operations [CM-0856-09 1 Sep 09] une catégorie de feux utilisés à des fins offensives et conduit en utilisant des ordinateurs en réseau dans le but de perturber, interdire, dégrader, manipuler ou détruire des informations dans le système d’information cible ou dans un réseau, ou le réseau et le système lui-même. L’effet final n’est pas nécessairement porté sur le système visé, mais peut appuyer un effort plus large tel que des opérations d’information ou de contre-terrorisme, i.e altérer ou mystifier des communications particulières ou créer un accès ou interdire l’accès aux communications adverses ou à leurs flux logistiques.
 Note : cette définition modifie la précédente définition de CNA en 1) l’identifiant clairement à une forme de « feu » offensif, 2) établissant la différence entre CNA et les counter-cyber ops qui ciblent préférentiellement l’usage du cyberespace par l’adversaire, et 3) identifiant le CNA comme un élément essentiel des opérations d’information et des efforts qui lui sont reliés.
 
-Computer Network Defense - CND
+## *Computer Network Defense* - CND
 (Lutte Informatique Défensive - LID)
+
 Terminologie utilisée par la doctrine américaine de combat dans le cyberespace*, le CND désigne suivant la Joint terminology for cyberspace operations [CM-0856-09 1 Sep 09] l’ensemble des actions qui utilisent les réseaux informatiques dans l’objectif de détecter, analyser et répondre aux intrusions, attaques et autres tentatives d’accès non autorisés.
 
-Computer Network Exploitation - CNE
+## *Computer Network Exploitation* - CNE
 (Action d’exploitation informatique)
+
 Concept développé dans la doctrine américaine de combat dans le cyberespace*, le Computer Network Exploitation (CNE) vise à développer les capacités de collecte d’information par l’exploitation de réseaux d’ordinateurs afin de recueillir des données sur des cibles ou sur les systèmes d’information adverses. La terminologie française parle pour sa part d’actions d’exploitation informatique*.
 Voir Action d’exploitation informatique.
 
-Concentrateur
+## Concentrateur
 (Hub)
+
 Un concentrateur est un équipement réseau qui concentre et distribue les communications de données*. Un concentrateur n’assure pas de routage* ni de commutation et répète la trame* reçue sur l’ensemble de ses ports*. Il Différent ainsi du Switch*.
 
-Confiance, tiers de confiance
+## Confiance, tiers de confiance
 (Trust – trusted third party TTP)
+
 La confiance est au cœur des problématiques de sécurité informatique. Le réseau n’est en définitive que le support des échanges entre machines et donc indirectement entre personnes physiques. L’échange implique la confiance. Dans toute transaction électronique (de la simple connexion à un site à l’achat en ligne en passant par les mécanismes de contrôle industriel) l’usager doit pouvoir se fier aux données qu’il reçoit. Lorsqu’un système est attaqué, la première victime est la confiance que les utilisateurs accordent à leur système d’information. Comment alors garantir la confiance dans l’ère numérique ? Comment et qui peut incarner ce rôle sans toutefois devenir omnipotent ?
 La cryptographie* nous permet de penser des mécanismes de confiance par l’intermédiaire des signatures électroniques* par exemple. Dans ce cadre, un tiers de confiance* est une autorité habilitée qui met en œuvre ces signatures. Ce tiers peut être une autorité de certification* (en charge de la politique de gestion des certificats, dite politique de certification), une autorité d’enregistrement* (qui s’assure de l’identité du demandeur d’une signature électronique) ou encore un opérateur de certification (qui met en œuvre la gestion des certificats). En France, la FNTC (fédération nationale des tiers de confiance) regroupe les tiers de confiance et des acteurs du monde de l’économie numérique. La FNTC est donc une fédération de professionnels qui vise à structurer et normaliser les échanges et les moyens techniques associés.
 Voir Autorité de certification, Certificat, Signature électronique.
 
-Confidentialité
+## Confidentialité
 (Confidentiality)
+
 La confidentialité est une notion essentielle en sécurité informatique, elle en est même le premier objectif. Aujourd’hui, la sécurité informatique poursuit trois objectifs principaux:
-• la confidentialité des informations ;
-• l’intégrité* ;
-• la disponibilité (ou accessibilité).
+* la confidentialité des informations ;
+* l’intégrité* ;
+* la disponibilité (ou accessibilité).
 On rajoute souvent à ces objectifs, la non-répudiation (qui permet de garantir que l’on ne puisse nier une action ou une transaction) ainsi que l’authentification*. Dans ce cadre, la confidentialité vise à s’assurer que seules les personnes autorisées peuvent accéder à l’information, pour les autres elle sera inintelligible ou inaccessible. Dans un système d’information, la confidentialité est atteinte par l’utilisation de la cryptographie* et la mise en place d’une politique de sécurité qui détermine des droits d’accès et leur gestion. 
 La confidentialité est attachée à une donnée, elle la caractérise par rapport à l’ensemble des utilisateurs. Dans le langage commun on parle ainsi « d’informations confidentielles » pour souligner leur caractère « secret », c’est à dire non disponible au public. 
+
 L’instruction générale interministérielle 1300 en donne ainsi la définition suivante : caractère réservé d'une information ou d’un traitement dont l’accès est limité aux seules personnes admises à la (le) connaître pour les besoins du service, ou aux entités ou processus autorisés. 
 
-Conflit
+## Conflit
 (Conflict)
+
 Le conflit, qu’il se matérialise dans le monde physique ou numérique se caractérise par une violente opposition entre au moins deux parties. L’opposition peut naître d’intérêts ou d’opinions divergents et dégénérer en conflit. La forme la plus violente du conflit est l’agression armée. 
 Dans le domaine réseau, un conflit peut apparaître lorsque deux équipements ont la même adresse IP* au sein d’un même réseau (on parle également de collision). On parle alors de conflit d’adressage, le réseau ne peut plus fonctionner normalement car la distribution des paquets ne peut se faire. Les conflits d’adressage résultent généralement de problèmes de configuration réseau (DHCP*, passerelle par défaut). Voir Adresse IP, Routage.
 Connecteur
 (Socket)
 Un connecteur est un mécanisme logiciel de communication entre processus informatiques, souvent utilisé entre une application et un réseau.
 
-Connexion
+## Connexion
 (log in, log on)
+
 Une connexion est une procédure qui permet à un utilisateur d’accéder à une ressource informatique. Ce mécanisme peut regrouper les phases d’identification (l’utilisateur déclare qui il est) et d’authentification (l’utilisateur prouve qu’il est bien celui qu’il prétend être). Voir également Authentification.
 
-Constat d’audit
+## Constat d’audit
 Résultats de l’évaluation des preuves d’audit* recueillies par rapport aux critères d’audit. Voir Audit, Preuve d’audit.
 
-Contenu 
+## Contenu 
 (Content – User Generated Content)
+
 Le contenu désigne l’information véhiculée par un flux réseau. Ainsi, on distingue généralement le contenu du contenant (enveloppe, information supplémentaire rajoutée pour permettre l’acheminement de l’information).
 En revanche, le contenu engendré par les usagers (User Generated Content) désigne un media participatif (en général sur Internet) où le produit final est directement le résultat de contributions d’usagers qui sont également les utilisateurs finaux du média (les wiki* par exemple).
 
-Contournement de la politique de sécurité
+## Contournement de la politique de sécurité
 Toute action ayant pour conséquence la mise en échec des règles ou des mécanismes de sécurité mis en place.
-Contrôle d’accès
+
+## Contrôle d’accès
 (Access Control)
+
 Voir NAC – Network Access Control.
 
-Contrôle parental 
+## Contrôle parental 
 (Parental Controls) 
+
 Le contrôle parental désigne un ensemble d’outils mis à la disposition des parents pour paramétrer leurs équipements afin d'éviter que les enfants n'accèdent à certains contenus Internet jugé inappropriés. Les outils de contrôle parental sont ainsi proposés par les fournisseurs d’accès, les navigateurs internet, éditeurs de logiciels, etc.
 
-Convention d’audit
+## Convention d’audit
 Accord écrit entre un commanditaire et un prestataire d’audit pour la réalisation d’un audit. Cette convention décrit au minimum le périmètre de l’audit (délimite les systèmes et implantations physiques concernés par l’audit), ainsi que les règles desécurité liées à l’audit (protection des systèmes pendant l’audit, protection du rapport d’audit, etc.).
 Voir Audit.
 
-Convergence
+## Convergence
 (Convergence)
+
 Caractéristique des évolutions technologiques qui se traduit par une fusion entre l’informatique, les télécommunications et l’audiovisuel. La convergence désigne ainsi le phénomène de rapprochement, rendu possible par la numérisation, entre les industries des télécommunications, de l’informatique et du « multimédia ».
 
-
-
-Cookie 
+## Cookie 
 (Témoin de connexion)
+
 Un cookie est un fichier texte envoyé par un serveur et stocké sur un client* (votre machine) afin de conserver des informations liées au contexte de navigation. Cet outil permet, entre autre, de faciliter la navigation sur des sites déjà visités, le cookie peut en effet conserver vos paniers d’achats en cours (pour le commerce électronique), dans certaines conditions des éléments d’identification (identifiants – mots de passe)…
 La gestion des cookies est un élément important en sécurité informatique car ils contiennent des éléments d’identification (donc des données personnelles) mais également car ils peuvent être utilisés afin de conduire la première phase d’une attaque informatique (ils fournissent en effet des informations sur les usages internet d’une cible et permettent d’établir un premier profil de cible). Si la plupart des navigateurs aujourd’hui permettent d’accepter ou de refuser les cookies les refuser systématiquement peut dégrader l’accès à certains sites ou certaines applications. Il convient donc de  faire preuve de mesure. Il est également recommandé de supprimer régulièrement les cookies, ceux-ci étant parfois conservés indéfiniment.
  
-Corruption 
+## Corruption 
 (Corruption)
+
 Loin de la définition juridique, la corruption est ici une caractéristique d’un système ou d’une donnée soulignant son altération. Ainsi, en sécurité informatique une donnée corrompue est une donnée dont l’intégrité, la confidentialité ou encore la disponibilité a été modifiée, dégradée par rapport à son état souhaité ou initial. Ainsi, une donnée altérée chiffrée ou compressée ne pourra généralement pas être déchiffrée/décompressée.
 
-Couche physique
+## Couche physique
 (Physical layer)
+
 La couche physique est la couche inférieure du modèle OSI*. Dans ce modèle, cette couche assure la fonction de transmission physique du signal (signal électrique ou optique), elle génère et reçoit les bits* qu’elle transmet sous la forme d’impulsions (lumineuse, électrique, électromagnétique). Cette couche regroupe également les mécanismes d’établissement de la connexion.
 La description du cyberespace* s’appuie également sur la notion de couche physique. Dans ce cadre, la couche physique soutient la couche logique ou logicielle sur laquelle se greffe la couche sémantique ou sociale (voir description du cyberespace* en couche).
 
-Pour aller plus loin
+>Pour aller plus loin
 
+>Appelée également couche matérielle, la couche physique fait référence au modèle OSI* utilisé dans la théorie des réseaux. Elle comprend les appareils terminaux (ordinateurs, téléphone, tablettes, systèmes électroniques), et toutes les infrastructures nécessaires à l’interconnexion (câbles, relais, routeurs, architecture de cœur de réseau). Il faut également inclure sur cette couche les lieux de stockage de l’information, les systèmes de contrôle et de supervision, les objets connectés, etc.
+>Sur cette couche sont donc regroupées les structures techniques qui seront ciblées par les opérations numériques. Ces dernières sont de fait totalement liées à un territoire géographique, et dépendent pour leur fonctionnement de ressources externes en énergie et eau (pour les systèmes de climatisation principalement). Cet enracinement géographique de la couche physique du cyberespace a une conséquence majeure pour les opérations : il est possible d’obtenir un effet sans pour autant utiliser de moyens « numériques ». L’affrontement dans le cyberespace ou pour la domination du cyberespace peut également avoir un volet tout à fait conventionnel.
+>La couche physique est également porteuse d’enjeux industriels et écologiques de long terme. Support des infrastructures de télécommunications, la couche physique peut voir s’affronter des puissances dans le cadre de la diffusion commerciales des équipements clés du réseau.
 
-Appelée également couche matérielle, la couche physique fait référence au modèle OSI* utilisé dans la théorie des réseaux. Elle comprend les appareils terminaux (ordinateurs, téléphone, tablettes, systèmes électroniques), et toutes les infrastructures nécessaires à l’interconnexion (câbles, relais, routeurs, architecture de cœur de réseau). Il faut également inclure sur cette couche les lieux de stockage de l’information, les systèmes de contrôle et de supervision, les objets connectés, etc.
-Sur cette couche sont donc regroupées les structures techniques qui seront ciblées par les opérations numériques. Ces dernières sont de fait totalement liées à un territoire géographique, et dépendent pour leur fonctionnement de ressources externes en énergie et eau (pour les systèmes de climatisation principalement). Cet enracinement géographique de la couche physique du cyberespace a une conséquence majeure pour les opérations : il est possible d’obtenir un effet sans pour autant utiliser de moyens « numériques ». L’affrontement dans le cyberespace ou pour la domination du cyberespace peut également avoir un volet tout à fait conventionnel.
-La couche physique est également porteuse d’enjeux industriels et écologiques de long terme. Support des infrastructures de télécommunications, la couche physique peut voir s’affronter des puissances dans le cadre de la diffusion commerciales des équipements clés du réseau.
-Coupe-feu
+## Coupe-feu
 (Firewall)  Voir Firewall.
 
-Courrier électronique (courriel)
+## Courrier électronique (courriel)
 (E-mail Electronic Mail)
+
 Le courriel est un service qui assure les échanges de messages électroniques entre individus par l’intermédiaire d’un réseau informatique. Le courriel se compose de texte, d’image, de vidéos ou de fichiers informatiques. Pour pouvoir communiquer il est nécessaire de s’appuyer sur un client* de messagerie (généralement assuré par le fournisseur d’accès internet) ou sur un webmail (qui permet d’accéder à sa boite de messagerie par l’intermédiaire d’un navigateur internet). L’adresse de messagerie (ou adresse email) est un élément essentiel du service qui s’appuie également sur des protocoles de routage dédiés.
 Ainsi, le protocole SMTP* (Simple Mail Transfer Protocol) est un protocole qui permet de transférer le courrier entre deux serveurs en connexion point à point. S’appuyant sur le protocole TCP* pour le transport des données, SMTP fonctionne en mode connecté (port* 25 par défaut ou SMTP authentifié sur port 587). SMTP est décrit une première fois par la RFC 821 en 1982 puis RFC 2821 en 2001.
 L’autre famille de protocoles de messagerie est regroupée sous l’acronyme POP* (post office protocol). La version courante est la troisième on parle donc de POP3. Ce protocole est utilisé pour aller récupérer du courrier sur le serveur de messagerie et le rapatrier vers un client (votre machine). Une fois rapatriés sur une machine, les messages peuvent être lus même hors connexion. POP utilise le port 110 par défaut et est défini par la RFC 1939.
 Enfin, le protocole IMAP (Internet Message Acces Protocol), décri par la RFC 3501, est également un protocole de récupération de courrier à l’image de POP mais qui dispose de fonctionnalités plus étendues (gestion de plusieurs boîtes, tri du courrier). Il utilise le port TCP 143. 
 Voir SMTP, POP3.
 
-CPE - Common Platform Enumeration
+## CPE - Common Platform Enumeration
 CPE est une initiative du MITRE* dont les premières spécifications datent de 2007. La CPE a pour objectif la mise au point d’un système de nommage afin de désigner les différents composants d’un système informatique (un serveur, un système d’exploitation, etc.). 
 
-CPL - Courant Porteur en Ligne
+## CPL - Courant Porteur en Ligne
 (Power Line Communication)
 Le principe du CPL consiste à utiliser les lignes de courant domestiques pour faire transiter des informations. Le CPL superpose un signal de haute fréquence sur le courant électrique déjà présent (50 Hz). Il permet de créer des réseaux locaux (à l’intérieur d’un logement par exemple) pour faire communiquer des équipements électroniques.
 
-Creative Commons (CC)
+## Creative Commons (CC)
 Organisation à but non lucratif, Creative Commons propose des licences permettant de libérer les créations du droit de propriété intellectuelle. Selon la présentation du site français de l’association, « Creative Commons est une organisation à but non lucratif qui a pour dessein de faciliter la diffusion et le partage des œuvres tout en accompagnant les nouvelles pratiques de création à l’ère numérique. »
 Il existe plusieurs licences Creative Commons, « elles viennent en complément du droit applicable, elles ne se substituent pas au droit d’auteur. Simples à utiliser et intégrées dans les standards du Web, ces autorisations non exclusives permettent aux titulaires de droits d’autoriser le public à effectuer certaines utilisations, tout en ayant la possibilité de réserver les exploitations commerciales, les œuvres dérivées et les conditions de redistribution. »
 
-Créneau temporel
+## Créneau temporel
 (Time slot)
+
 Désigne un intervalle de temps à occurrence cyclique qu’il est possible de reconnaître et de définir sans ambiguïté. L’expression est notamment utilisée dans la technologie GSM* dans le cadre du multiplexage* temporel. Dans ce contexte, chaque cellule du réseau dispose d’un certain nombre de fréquences (ou de canaux) à répartir entre utilisateurs, qui sont elles même divisées en slot. 
 
-Critère d’audit
+## Critère d’audit
 Ensemble des référentiels, guides, procédures ou exigences applicables à la sécurité du système d’information audité.
 Voir également Audit*, Constat d’audit*, Prestataire d’audit*.
 
-Critères communs (CC)
+## Critères communs (CC)
 (Common criteria)
+
 Référentiel normé par l’ISO 15408 pour l’évaluation des propriétés de sécurité des produits et systèmes des technologies de l’information.
 Les CC définissent notamment différents niveaux de profondeur dans l’évaluation permettant ainsi d’atteindre des niveaux d’assurance plus ou moins élevés dans la sécurité du produit : les EAL (Evaluation Assurance Level). Plus le niveau visé est élevé, plus les contraintes en termes d’éléments de preuve que doit fournir le développeur au laboratoire sont importantes et plus les coûts d’évaluation sont conséquents. Une évaluation CC dure en moyenne entre 6 et 18 mois (selon le type de produit, le niveau visé et la maturité du développeur) et nécessite des moyens financiers importants.
 
-Cross Site Scripting - XSS
+## Cross Site Scripting - XSS
 (Injection de code indirecte)
+
 Type d’attaque qui consiste à injecter du code malveillant sur un site Web dynamique. On peut ainsi faire exécuter du code par un navigateur qui visite la page Web. Ce type d’attaque permet de dérober des identifiants de connexion (session*), et des redirections vers des sites compromis etc.
 
-Crowdfunding
+## Crowdfunding
 (Financement participatif)
+
 Mode de financement de projets qui utilise les possibilités de mise en relation liées au Web participatif et aux réseaux sociaux. Ainsi, un projet personnel, qu’il soit artistique, humanitaire, caritatif ou entrepreneurial peut, par l’intermédiaire de plateforme de crowdfunding recevoir des financements privés d’une multitude d’internautes. Plusieurs modèles de crowdfunding existent, certain avec contrepartie, d’autre limités dans le temps etc. Ce mode de financement est particulièrement développé dans le domaine de la création de start-up et est un marqueur de la culture numérique.
 Ce mode de financement est relativement jeune (moins d’une dizaine d’années) et est en forte croissance depuis deux ans en France. Ainsi, 152 millions d'Euros ont été levés par les 46 plateformes de crowdfunding qui ont communiqué leur collecte pour 2014. C'est deux fois plus qu'en 2013, où les fonds versés par les internautes avaient atteint 78,3 millions d'euros, un montant qui avait quasiment triplé par rapport à 2012. Le don, avec 38,2 millions d'euros collectés, l'investissement en capital (25,4 millions) et le prêt, rémunéré ou non, (88,4 millions) affichent des croissances respectives de 97, 146 et 84% sur une année.
 
-Crowdsourcing
+## Crowdsourcing
 (Production participative)
+
 Le crowdsourcing désigne le phénomène qui consiste à faire appel à l’ensemble des internautes pour réaliser une tâche ou générer des contenus* (voir Contenus et User Generated Content). Le principe s’appuie sur les outils développés depuis l’émergence du Web 2.0 (participatif). Il existe plusieurs sortes de crowdsourcing et plusieurs stratégies pour réaliser une tâche. Ainsi, on peut faire appel à une ressource spécialisée pour contribuer à un projet, ou au contraire laisser ouvert la participation. Par ailleurs, le projet peut être scindé en micro-tâches à répartir entre participants ou peut-être réalisé en parallèle par plusieurs contributeurs. 
 Le crowdsourcing a des applications nombreuses et contribue à la réappropriation de l’espace public par les citoyens. En France, l’association Regards citoyens a ainsi fait appel à plus de 8000 contributeurs pour saisir sous un format intelligible et exploitable les déclarations de patrimoines des parlementaires (manuscrites et parfois illisibles).
 
-Cryptanalyse 
+## Cryptanalyse 
 (Cryptanalysis)
+
 Processus de déchiffrement de données protégées au moyen de cryptographie sans être en possession des clés de chiffrement.
 
-Cryptographie 
+## Cryptographie 
 (Cryptography)
+
 Discipline incluant les principes, moyens et méthodes de transformation des données, dans le but de cacher leur contenu, d’empêcher que leur modification ne passe inaperçue et/ou d’empêcher leur utilisation non autorisée (ISO 7498-2). La conversion de l'information brute (ou claire) en cette nouvelle forme protégée s’appelle alors le chiffrement*, le retour dans une forme intelligible et originale est le déchiffrement*. 
 
-Cryptologie 
+## Cryptologie 
 (Cryptology)
+
 Science englobant la cryptographie et la cryptanalyse. 
 
-CSIRT - Computer Security Incident Response Team
+## CSIRT - Computer Security Incident Response Team
 Voir CERT.
 
-CSS – Cascading Style Sheets
+## CSS – Cascading Style Sheets
 (Feuilles de styles en cascade)
+
 En conception de page Web, le CSS est un langage qui permet de décrire la présentation et la mise en page de documents HTML* (et XML*). Interprétées par les navigateurs, les pages CSS associées aux pages HTML permettent de définir totalement l’apparence d’une page. Si l’on peut insérer du CSS dans un code HTML, il est recommandé de rédiger les deux de façon séparée. Les CSS sont aujourd’hui un standard du W3C*.
 
-CTR - Common Technical Regulation
+## CTR - Common Technical Regulation
 Ensemble de règles techniques qui fixent les modalités d’accès au réseau des terminaux mobiles. Les CTR sont applicables à l’ensemble des pays membres de l’Union Européenne.
 
-Curation
+## Curation
 (Curation – data curation – content curation)
+
 Le terme curation est un anglicisme pour décrire les activités et les logiciels qui visent à mieux appréhender les phénomènes d’infobésité*. La curation consiste donc à présenter sous forme pertinente des contenus issus de différentes sources (sites Internet, blogs, réseaux sociaux). Cette forme de sélection thématique vise à agréger l’ensemble des informations utiles sur une même plateforme et éviter la perte de temps liée à la consultation aléatoire de sources. Voir Donnée.
 
-CVE - Common Vulnerability Enumeration
+## CVE - Common Vulnerability Enumeration
 Les CVE sont un standard de nommage des vulnérabilités lancées en 1999 dont le principe est d’associer une référence unique à chaque vulnérabilité découverte. Ainsi, la CVE-2015-1637 fait l’objet du bulletin de sécurité de Microsoft MS 15-031 (en date du 10 mars 2015) et décrit une vulnérabilité dans Schannel qui pourrait permettre un contournement de la fonctionnalité de sécurité. Le site CVE Details présente chaque CVE en détail ainsi que son score CVSS* associé.
 Voir CVSS.
 
-CVSS – Common Vulnerability Scoring System
+## CVSS – Common Vulnerability Scoring System
 CVSS est un système de notation utilisé pour évaluer le niveau de dangerosité d’une vulnérabilité. Chaque référence CVE* fait l’objet d’une note CVSS qui repose sur trois métriques principales : 
-• la métrique de base : porte sur la vulnérabilité elle-même, comment la vulnérabilité est exploitée (local, à distance), mais également la difficulté à exploiter cette vulnérabilité ;
-• la métrique temporelle : qui caractérise l’existence d’un code d’exploitation ; 
-• la métrique environnementale : qui porte notamment sur les éventuels dommages collatéraux de l’exploitation de la vulnérabilité.
+* la métrique de base : porte sur la vulnérabilité elle-même, comment la vulnérabilité est exploitée (local, à distance), mais également la difficulté à exploiter cette vulnérabilité ;
+* la métrique temporelle : qui caractérise l’existence d’un code d’exploitation ;
+* la métrique environnementale : qui porte notamment sur les éventuels dommages collatéraux de l’exploitation de la vulnérabilité.
 Un calculateur en ligne est disponible sur le site du NIST.
 
-CWE - Common Weakness Enumeration
+## CWE - Common Weakness Enumeration
 Projet du MITRE* qui consiste à lister l’ensemble des types de vulnérabilités que l’on peut retrouver dans différents logiciels. Ainsi la CWE – 16 porte, par exemple, sur les vulnérabilités liées à la configuration (indépendamment du logiciel). La fiche liste les méthodes de détection et les CVE associées.
 Voir https://cwe.mitre.org/ qui présente le projet et https://nvd.nist.gov/cwe.cfm qui liste les CWE.
-Cyber
+
+## Cyber
 (Cyber) 
+
 Préfixe issu de la contraction du terme cybernétique. Ce dernier apparaît en 1948 dans une publication de Norber Wiener et est défini comme une science qui s’intéresse à l’étude des processus de commande et de communication chez les êtres vivants, dans les machines et les systèmes sociologiques et économiques. Wiener découvrira plus tard que le terme avait déjà été utilisé par Ampère au début du XIXème siècle dans un cadre diffèrent. Le mot dérive du grec κῠβερνήτης (kubernêtês) « pilote, gouverneur ». Le préfixe est très largement utilisé à partir des années 2000 pour évoquer toute question se rapportant de près ou de loin à l’usage d’Internet, des télécommunications et au traitement automatique de l’information. Sans périmètre clair de définition, tout devient « cyber » et permet de rendre populaire des disciplines techniques parfois ardues (la sécurité des systèmes d’information, l’architecture de réseau, les processus de traitement industriels). Ainsi, parle-t-on de cybercriminalité* pour évoquer l’usage des nouvelles technologies de l’information pour commettre des délits, de cyberattaques* et de cyberdéfense*. Enfin, les réseaux sociaux ont permis l’émergence du cyberharcélement*. La multiplication de l’usage du préfixe cyber s’accompagne parfois d’un phénomène de rejet de la part des experts techniques qui n’y voient que l’expression de l’ignorance et un moyen de paraître « à la mode ». 
 
-Cyberattaque
+## Cyberattaque
 (Cyber Attack, Cyberattack)
-Source : https://cyber.gouv.fr/glossaire
+
+[Source](https://cyber.gouv.fr/glossaire)
 Ensemble coordonné d’actions menées dans le cyberespace qui visent des informations ou les systèmes qui les traitent, en portant atteinte à leur disponibilité, à leur intégrité ou à leur confidentialité.
 Une cyberattaque peut être ponctuelle ou s’inscrire dans la durée.
 Note de l'ANSSI : l'ANSSI identifie quatre grandes familles de cybermenaces : la cybercriminalité à visée lucrative, l'espionnage, la déstabilisation et le sabotage. Selon la motivation de l'attaquant et le mode opératoire adopté, chaque cyberattaque pourra être associée à l'une de ces menaces.
 
-Cybercommand 
+## Cybercommand 
 (Cybercommand)
-L’United States Cyber Command (USCYBERCOM) est un sous commandement interarmées des forces américaines, placé sous l’autorité de l’US Strategic Command. Actif depuis le 21 mai 2010 et placé initialement sous le commandement du général Keith B. Alexander (alors également directeur de la NSA) puis de l’amiral Rogers en 2014, il a pour mission de :
-Planifier, coordonner, intégrer, synchroniser et conduire des activités pour : diriger les opérations et la défense de certains réseaux d’information du Département de la Défense, et préparer et, au besoin, conduire, tout le spectre d’opérations militaires du cyberespace dans le but de permettre des actions dans tous les domaines, assurer la liberté d’action des États-Unis et de leurs alliés dans le cyberespace, et la dénier à leurs adversaires.
-Il compte au début de l’année 2013 environ 900 personnes et devrait voir ses effectifs croître très nettement dans les années à venir.
 
-Cybercriminalité 
+L’United States Cyber Command (USCYBERCOM) est un sous commandement interarmées des forces américaines, placé initialement sous l’autorité de l’US Strategic Command jusqu'au 4 mai 2018, il devient un commandement indépendant par décret du Président Donald Trump. Actif depuis le 21 mai 2010 et placé initialement sous le commandement du général Keith B. Alexander (alors également directeur de la NSA) il a pour mission de :
+Planifier, coordonner, intégrer, synchroniser et conduire des activités pour : diriger les opérations et la défense de certains réseaux d’information du Département de la Défense, et préparer et, au besoin, conduire, tout le spectre d’opérations militaires du cyberespace dans le but de permettre des actions dans tous les domaines, assurer la liberté d’action des États-Unis et de leurs alliés dans le cyberespace, et la dénier à leurs adversaires.
+Il compte au début de l’année 2013 environ 900 personnes et devrait voir ses effectifs croître très nettement dans les années à venir. 
+
+## Cybercriminalité 
 (Cybercriminality, Cybercrime)
-Source : https://cyber.gouv.fr/glossaire
+
+[Source](https://cyber.gouv.fr/glossaire)
 Ensemble des infractions pénales qui sont commises dans le cyberespace. On distingue les infractions intrinsèquement liées aux nouvelles technologies (diffusion de virus, piratage, copie illicite de logiciels ou d’œuvres audiovisuelles, etc.) et celles pour lesquelles le cyberespace n’est qu’un nouveau lieu d’expression et un nouveau vecteur de transmission (apologie du racisme, diffusion de contenus pédophiles, harcèlement, etc.).
 Note de l'ANSSI : l'ANSSI parle le plus souvent de cybercriminalité lorsqu'elle est amenée à s'exprimer sur des cyberattaques menées à des fins lucratives (exemple : rançongiciel).
 
-Cyberdéfense 
+## Cyberdéfense 
 (Cyber defense, Cyberdefence)
-Source : https://cyber.gouv.fr/glossaire
+
+[Source](https://cyber.gouv.fr/glossaire)
 Ensemble des moyens mis en place par un État pour défendre dans le cyberespace* les systèmes d’information jugés d’importance vitale (SIIV)*, qui contribuent à assurer la cybersécurité.
 La cyberdéfense met notamment en œuvre la lutte informatique défensive (LID)* et la lutte informatique offensive (LIO)*.
 Note de l'ANSSI : en matière de cyberdéfense, l'ANSSI n'intervient que sur le volet défensif, le volet offensif étant de la responsabilité d'autres acteurs. Dans ce cadre, l'agence développe et structure les capacités de détection de l’État et organise au niveau national l’assistance aux victimes de cyberattaques.
 
-Cyberdéfense militaire
+## Cyberdéfense militaire
 (Millitary Cyberdefence)
+
 Au sein du ministère de la défense français, le concept de cyberdéfense militaire est présenté comme, l’ensemble des actions défensives ou offensives conduites dans le cyberespace en préparation ou dans la planification et la conduite des opérations militaires, notamment pour garantir l’efficacité de l’action des forces armées et le bon fonctionnement du ministère.
 Note : La cyberdéfense militaire complète les mesures de protection des réseaux, des systèmes et de l’information (cyberprotection*, ou SSI) par une capacité d’opérations dans le cyberespace et une capacité de gestion de crise cybernétique, couplées aux capacités de résilience des systèmes d’information.
 
-Cyberdissuasion 
+## Cyberdissuasion 
 (Cyberdetterence)
+
 Le débat stratégique s’est très tôt intéressé au parallèle entre la dissuasion nucléaire et le concept de cyberguerre. En évoquant le spectre d’un Hiroshima numérique, ou encore en développant de scénarios catastrophe dans lesquels des pays entiers étaient plongés dans le chaos par des vagues de cyberattaques*, la pensée stratégique a d’abord cru à l’apparition d’une nouvelle forme de guerre s’appuyant sur des armes (numériques) dont la puissance des effets serait comparables à une explosion nucléaire. Quel peut-être alors le sens d’une cyberdissuasion ? Peut-on dissuader dans le cyberespace ? S’il est clair qu’une forme de dissuasion émerge, notamment dans le discours sur les capacités offensives et défensives, on peut douter de son efficacité face à certains adversaires moins sensibles à des formes de rétorsion numériques. Par ailleurs, le problème de l’attribution* demeure central dans un mécanisme de dissuasion. Cette dernière doit être appliquée sur une structure identifiée (Etat, groupe, voire individus). Le modèle de la cyberdissuasion comme simple transposition de la théorie classique de la dissuasion nucléaire semble donc défaillant. On ne peut en revanche nier la contribution du domaine cyber à la dissuasion générale. Disposer de capacités (offensives et défensives) dans ce domaine participe à renforcer la posture globale de défense d’un Etat.
 
-
-Cyberespace 
+## Cyberespace 
 (Cyberspace)
+
 Il existe plusieurs définitions du terme cyberespace, chacune insistant sur un volet particulier ou une notion spécifique en fonction de l’organisme rédacteur. En France, l’ANSSI* en donne la définition suivante : Espace de communication constitué par l’interconnexion mondiale d’équipements de traitement automatisé de données numériques tout en précisant que perçu comme un nouveau territoire, le cyberespace est un espace difficile à définir car il repose sur un ancrage à la fois physique et informationnel. 
 Les Armées retiennent pour leur part : Le cyberespace est un domaine global constitué du réseau maillé des infrastructures des technologies de l’information (dont internet), des réseaux de télécommunications, des systèmes informatiques, des processeurs et des mécanismes de contrôle intégrés. Il inclut l’information numérique transportée ainsi que les opérateurs des services en ligne. 
 Enfin, Olivier Kempf dans son Introduction à la cyberstratégie : Le cyberespace est l’espace constitué des systèmes d’informatiques de toute sorte connectés en réseaux et permettant la communication technique et sociale d’informations par des utilisateurs individuels ou collectifs. 
@@ -541,9 +596,10 @@ La couche physique*, qui comprend les systèmes porteurs d’Internet et les inf
 la couche logique, englobe pour sa part l’ensemble des programmes permettant d’accéder au réseau, d’effectuer des requêtes, d’obtenir des services et d’assurer le transport des données (routage). Les logiciels sont, par ailleurs, les éléments fondamentaux de cette couche et permettent d’utiliser la puissance de calcul d’un système électronique en vue de lui faire effectuer les actions prescrites. Le mot logiciel est apparu en France au début des années 70 pour servir de traduction au terme anglais « software ». Typiquement on les classe suivant deux catégories distinctes, les logiciels systèmes et les logiciels applications. Concernant cette couche particulière, la législation est balbutiante mais les instances de régulation œuvrent pour harmoniser cet espace. C’est bien évidement sur cette couche que l’on compte les vulnérabilités les plus classiques et où les hackers et les spécialistes de développement de solutions sécurisées se livrent une bataille quotidienne. Loin de l’image romanesque, les enjeux de la sécurisation de la couche logique sont énormes et les préjudices financiers qui peuvent en découler difficilement chiffrables ;
 la couche cognitive, qui s’attache au contenu, à l’information qui est véhiculée sur les pages Internet ou à l’aide des diverses formes d’interaction possible sur le  Web 2.0. Cette couche est la couche « haute » du cyberespace celle où se mêlent les perceptions de la réalité et les capacités de gestion de la connaissance. Le développement de cette couche s’est d’abord effectué au travers des systèmes de messagerie (mail, Webmail) et des contenus de pages adressées puis a connu une mutation profonde avec l'émergence de réseaux sociaux (myspace, facebook*...) et du microblogging (twitter). Les vulnérabilités de cette couche sont légion. En premier lieu, le nombre de pages interdit un contrôle systématique de la part des hébergeurs et laisse donc ouverte la possibilité de diffuser à peu près tout et n’importe quoi. Par ailleurs, les capacités de duplication de l’information permettent une « traçabilité » accrue des usagers des réseaux. Les infractions liées à l’usurpation d’identité ou les atteintes à la réputation en ligne (e-réputation) ont atteint un niveau préoccupant. Les législations nationales s’adaptent difficilement à cette couche par nature « supra-nationale » et où la distinction entre vie privée et vie publique n’est pas toujours clairement fixée. Dans ce domaine, les bonnes intentions ne franchissent que rarement les frontières...
 
-Cyberespionnage
+## Cyberespionnage
 (Cyber espionage, Cyber spying)
-Source : https://cyber.gouv.fr/glossaire
+
+[Source](https://cyber.gouv.fr/glossaire)
 Ensemble d’actions menées dans le cyberespace consistant à infiltrer, clandestinement ou sous de faux prétextes, les systèmes informatiques d’une organisation ou d’un individu, et à s’emparer de données pour les exploiter.
 Le cyberespionnage se pratique notamment par le biais de logiciels malveillants ou espions, de cyberattaques* persistantes, ou en mettant à profit les vulnérabilités* des systèmes informatiques.
 >Note de l'ANSSI : le cyberespionnage constitue l'une des menaces les plus redoutées par l'ANSSI*. Les auteurs de ces actes recourent le plus souvent à des méthodes très pointues, ils peuvent rester tapis très longtemps dans un système d'information sans jamais se faire repérer. Les conséquences de l'espionnage peuvent être désastreuses pour la ou les organisations qui en sont victimes.
