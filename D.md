@@ -347,11 +347,11 @@ Enfin, au mois de juin 2015 une nouvelle variante a été découverte par le lab
 Duqu
 
 Au mois de septembre 2011, Duqu, un outil de cyberespionnage est détecté en Iran et au Soudan.
-Type de malware : RAT, Remote Access Trojan.
-	Objectif : Cyberespionnage.
-	Cible : Programme nucléaire iranien.
-	Date de création : estimée au mois de novembre 2010.
-	Date de détection : septembre 2011, par le laboratoire de cryptographie et de sécurité de l’université polytechnique et économique de Budapest  (CrySyS Lab). Symantec  et F-Secure ont également analysé cette attaque et produit des rapports très élaborés.
-	Versions connues : Une quinzaine.
-	Taille : 300 kb.
-	Caractéristiques principales : Duqu est rapidement présenté comme « très proche » de Stuxnet mais avec un objectif totalement différent. Symantec conclut dans son rapport qu’il s’agit ici du précurseur du futur Stuxnet. Duqu, serait donc une opération de reconnaissance avant une nouvelle opération de sabotage. Plusieurs systèmes de commande et de contrôle (C&C) ont pu être identifiés en Inde, Belgique et Vietnam. La localisation de ces serveurs n’apporte toutefois aucun élément sur la nationalité de l’attaquant.
+* Type de malware : RAT, Remote Access Trojan.
+* Objectif : Cyberespionnage.
+* Cible : Programme nucléaire iranien.
+* Date de création : estimée au mois de novembre 2010.
+* Date de détection : septembre 2011, par le laboratoire de cryptographie et de sécurité de l’université polytechnique et économique de Budapest  (CrySyS Lab). Symantec  et F-Secure ont également analysé cette attaque et produit des rapports très élaborés.
+* Versions connues : Une quinzaine.
+* Taille : 300 kb.
+* Caractéristiques principales : Duqu est rapidement présenté comme « très proche » de Stuxnet mais avec un objectif totalement différent. Symantec conclut dans son rapport qu’il s’agit ici du précurseur du futur Stuxnet. Duqu, serait donc une opération de reconnaissance avant une nouvelle opération de sabotage. Plusieurs systèmes de commande et de contrôle (C&C) ont pu être identifiés en Inde, Belgique et Vietnam. La localisation de ces serveurs n’apporte toutefois aucun élément sur la nationalité de l’attaquant.
