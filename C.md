@@ -1,3 +1,7 @@
+---
+title: C
+date: 2024-05-10
+---
 
 ## Câblage
 (*Wiring*)
