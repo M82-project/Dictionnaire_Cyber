@@ -81,8 +81,8 @@ DECT est une norme pour la radiocommunication numérisée point à point [EN 300
 ## Défacement - défaçage - défiguration
 (*Defacing*)
 
-Les sites Web représentent des cibles de choix pour les attaquants qui souhaitent obtenir une forme de reconnaissance au sein de leur communauté. Les défigurations consistent à modifier le contenu d’un site. La modification peut être visible (modification de la page d’accueil) ou plus discrète. Dans ce dernier cas, seul les utilisateurs expérimentés et les administrateurs découvriront que des contenus ont été modifiés. 
-Des opérations de défacement ont été conduites par des hackers russes contre les sites gouvernementaux géorgiens en 2008 et plus récemment par l’Armée Syrienne Electronique (SEA) contre des sites d’information occidentaux. Le défacage est un mode d’action régulièrement employé par des groupes cherchant à produire un effet médiatique immédiat.
+Les sites Web représentent des cibles de choix pour les attaquants qui souhaitent obtenir une forme de reconnaissance au sein de leur communauté. Les défigurations consistent à modifier le contenu d’un site, et d'altérer son apparence. La modification peut être visible (modification de la page d’accueil) ou plus discrète. Dans ce dernier cas, seul les utilisateurs expérimentés et les administrateurs découvriront que des contenus ont été modifiés. Ces opérations sont généralement conduites par des hacktivistes afin de déstabilisation.
+Des opérations de défacement ont été conduites par des hackers russes contre les sites gouvernementaux géorgiens en 2008 et puis par l’Armée Syrienne Electronique (SEA) contre des sites d’information occidentaux. Le défacage est un mode d’action régulièrement employé par des groupes cherchant à produire un effet médiatique immédiat.
 
 ## Défaut
 (*Default*)
