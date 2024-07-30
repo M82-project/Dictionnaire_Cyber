@@ -28,7 +28,7 @@ Mode d’écriture ou de lecture de données se faisant au moyen d’adresses qu
 ## Accès initial
 (*Initial Access*)
 
-Point d'entrée utilisé par un acteur malveillant pour s'introduire dans un système d'information. Il peut s'agir, par exemple, d'un compte d'utilisateur légitime d'un système d'accès à distance à des ressources du système d'information (service RDP, VPN, etc.) ayant été préalablement compromis et qui sera détourné pour conduire des actions malveillantes contre ces ressources. L'accès initial avoir été établi par l'acteur malveillant conduisant ces actions, ou par tiers auprès duquel il aura été obtenu, moyennant finances ou non. 
+Point d'entrée utilisé par un acteur malveillant pour s'introduire dans un système d'information. Il peut s'agir, par exemple, d'un compte d'utilisateur légitime d'un système d'accès à distance à des ressources du système d'information (service RDP, VPN, etc.) ayant été préalablement compromis et qui sera détourné pour conduire des actions malveillantes contre ces ressources. L'accès initial peut avoir été établi par l'acteur malveillant conduisant ces actions, ou par tiers auprès duquel il aura été obtenu, moyennant finances ou non. 
 
 ## Accès multiple
 (*Multiple Access*)
