@@ -47,10 +47,11 @@ Voir ROM.
 
 ## Rançongiciel
 (*Ransomware*) 
-Logiciel malveillant qui bloque totalement l'accès aux données d’un utilisateur et qui réclame une contrepartie financière pour les rendre de nouveau disponibles.
-Certains logiciels se contentent de « bloquer » le bureau de l’utilisateur, d’autres chiffrent entièrement le disque dur (cryptolocker).
-Ainsi, Cryptolocker est une forme de ransomware infectant les postes de travail Windows à l’aide d’une pièce jointe piégée d’un message électronique (en général, fichier PDF de facture UPS ou autre).
-Depuis sa découverte en fin d’année 2013, Cryptolocker et ses variantes auraient infecté près de 40 000 machines.
+Logiciel malveillant qui bloque, partiellement ou en totalité, l'accès à des ressources informationnelles, isolées ou intégrées à un système d'information. Une contrepartie financière est demandée pour rendre l'accès à ces ressources.
+Certains rançongiciels se contentent de « bloquer » le bureau de l’utilisateur, d’autres chiffrent un éventail très large de fichiers, partiellement ou en totalité selon leur taille et les optimisations retenues par l'acteur malveillant ayant développé le logiciel malveillant. Ils affectent majoritairement les systèmes Windows, mais certains sont conçus pour toucher les systèmes Unix/Linux, les environnements virtualisés VMware ESXi, voire les NAS et autres systèmes de stockage et de sauvegarde.
+Certains rançongiciels peuvent être exécutés à partir d'une pièce jointe ou tout autre téléchargement malveillant. Mais ceux qui font le plus parler d'eux sont généralement déployés et déclenchés au terme d'une cinétique d'attaque plus ou moins longue impliquant toute une série d'actions manuelles après mise à profit d'un accès initial. Dans ce cas, des données sont généralement dérobées avant le déclenchement du chiffrement : la contrepartie financière recouvre également leur non-divulgation publique ; on parle là de double-extorsion du fait de l'emploi d'un second noyen de pression sur la victime pour obtenir le paiement d'une rançon.
+Notons que les cyberattaques dites avec rançongiciel recouvrent également celles qui ne s'appuient pas sur un maliciel pour le chiffrement mais sur des outils légitimes comme BitLocker sous Windows ou des outils d'archivage et compression de données permettant leur verrouillage par mot de passe.
+Enfin, il n'est pas rare que des acteurs malveillants recourant à des rançongiciels n'en utilisent pas contre des victimes après volé des données, involontairement après avoir été débusqués ou délibérément afin réduire l'impact de l'attaque sur l'activité de la victime et augmenter les chances de paiement par la seule d'atteinte à la réputation et de pénalités financières pour non respect des impératifs réglementaires locaux en matière de protection des données personnelles.
 
 ## Rapport signal / bruit
 Le rapport signal sur bruit compare la valeur d’un signal aux perturbations qui l’altèrent.
