@@ -203,17 +203,17 @@ La notion de cible est essentielle dans les opérations numériques car elle se 
 En télécommunication, un circuit est un ensemble de deux voies de transmission associées pour assurer une transmission dans les deux sensentre deux points. Il s’agit plus généralement d’un ensemble de ressources qui met en relation un émetteur et un récepteur, ces ressources n’appartiennent qu’au couple émetteur – récepteur.
 
 ## Circuit virtuel
-(Virtual circuit)
+(*Virtual circuit*)
 
 Dans un réseau de données exploité en commutation de paquets*, un circuit virtuel est un ensemble de moyens fournis par le réseau, qui assurent un transfert de données entre stations équivalant à celui qui serait assuré par commutation de circuits*.
 
 ## Circuit virtuel commuté
-(Switched virtual circuit)
+(*Switched virtual circuit*)
 
 Circuit virtuel établi et libéré à l’initiative d’un des correspondants.
 
 ## Clavardage 
-(Chat) 
+(*Chat*) 
 
 Terme utilisé en français du Québec pour désigner une conversation en ligne. Le terme utilisé en France est l’anglicisme : chater. Pour pratiquer le « clavardage », le français du Québec nous offre un autre terme dédié : le clavardoir (chat room) le français utilise lui le bien moins poétique : chat.
 
@@ -454,9 +454,9 @@ Enfin, le protocole IMAP (Internet Message Acces Protocol), décri par la RFC 35
 Voir SMTP, POP3.
 
 ## Courtier en accès initial
-(Initial Access Broker)
+(*Initial Access Broker*)
 
-Le courtier en accès initial est acteur malveillant qui obtient et vend des accès initiaux qui seront ulterieurement utilisés par d'autres acteurs malveillants pour conduire des actions préjudiciables sur des ressources des systèmes d'information sur lequels ouvrent les accès ainsi vendus. Ces actions peuvent aller du vol de données au sabotage en passant par la mise en place de mécanismes de persistance furtifs - ou parle parfois de têtes de pont - et le chiffrement de systèmes et données à des fins crapuleuses.
+Le courtier en accès initial est un acteur malveillant qui obtient et vend des accès initiaux qui seront ulterieurement utilisés par d'autres acteurs malveillants pour conduire des actions préjudiciables sur des ressources des systèmes d'information sur lequels ouvrent les accès ainsi vendus. Ces actions peuvent aller du vol de données au sabotage en passant par la mise en place de mécanismes de persistance furtifs - on parle parfois de têtes de pont - et le chiffrement de systèmes et des données à des fins crapuleuses.
 Le courtier peut avoir obtenu lui-même les accès initiaux qu'il vend ou les avoir acquis par ailleurs et se contenter de chercher à les valoriser. 
 
 ## CPE - Common Platform Enumeration
