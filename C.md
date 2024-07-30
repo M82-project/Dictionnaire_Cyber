@@ -453,6 +453,12 @@ L’autre famille de protocoles de messagerie est regroupée sous l’acronyme P
 Enfin, le protocole IMAP (Internet Message Acces Protocol), décri par la RFC 3501, est également un protocole de récupération de courrier à l’image de POP mais qui dispose de fonctionnalités plus étendues (gestion de plusieurs boîtes, tri du courrier). Il utilise le port TCP 143. 
 Voir SMTP, POP3.
 
+## Courtier en accès initial
+(Initial Access Broker)
+
+Le courtier en accès initial est acteur malveillant qui obtient et vend des accès initiaux qui seront ulterieurement utilisés par d'autres acteurs malveillants pour conduire des actions préjudiciables sur des ressources des systèmes d'information sur lequels ouvrent les accès ainsi vendus. Ces actions peuvent aller du vol de données au sabotage en passant par la mise en place de mécanismes de persistance furtifs - ou parle parfois de têtes de pont - et le chiffrement de systèmes et données à des fins crapuleuses.
+Le courtier peut avoir obtenu lui-même les accès initiaux qu'il vend ou les avoir acquis par ailleurs et se contenter de chercher à les valoriser. 
+
 ## CPE - Common Platform Enumeration
 CPE est une initiative du MITRE* dont les premières spécifications datent de 2007. La CPE a pour objectif la mise au point d’un système de nommage afin de désigner les différents composants d’un système informatique (un serveur, un système d’exploitation, etc.). 
 
