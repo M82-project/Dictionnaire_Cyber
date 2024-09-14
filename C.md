@@ -423,7 +423,12 @@ Caractéristique des évolutions technologiques qui se traduit par une fusion en
 
 Un cookie est un fichier texte envoyé par un serveur et stocké sur un client* (votre machine) afin de conserver des informations liées au contexte de navigation. Cet outil permet, entre autre, de faciliter la navigation sur des sites déjà visités, le cookie peut en effet conserver vos paniers d’achats en cours (pour le commerce électronique), dans certaines conditions des éléments d’identification (identifiants – mots de passe)…
 La gestion des cookies est un élément important en sécurité informatique car ils contiennent des éléments d’identification (donc des données personnelles) mais également car ils peuvent être utilisés afin de conduire la première phase d’une attaque informatique (ils fournissent en effet des informations sur les usages internet d’une cible et permettent d’établir un premier profil de cible). Si la plupart des navigateurs aujourd’hui permettent d’accepter ou de refuser les cookies les refuser systématiquement peut dégrader l’accès à certains sites ou certaines applications. Il convient donc de  faire preuve de mesure. Il est également recommandé de supprimer régulièrement les cookies, ceux-ci étant parfois conservés indéfiniment.
- 
+
+## *Copypasta*
+(copie pâtes)
+
+Egalement appelé duplighetti sur certain forums, le copypaste est un bloc de texte copié et collé sur les plateformes Web, les forums, ou dans les réseaux sociaux numériques, généralement sans aucun rapport avec les discussions, dans une optique de troll, de spam. Le terme apparait en 2006 sur 4chan et entre au *urban dictionary* la même année (source [UrbanDictionary](https://www.urbandictionary.com/define.php?term=copypasta))
+
 ## Corruption 
 (Corruption)
 
