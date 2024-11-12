@@ -79,6 +79,9 @@ Le PDN garantit en général une bande passante* aux usagers.
 (Appairage)
 Voir Appairage.
 
+## Pentester
+Spécialiste chargé de tester la sécurité d'un système en analysant et exploitant ses failles en vue de les corriger.
+
 ## Périmètre d’audit
 Environnement physique, logique et organisationnel dans lequel se trouve le système d’information ou la portion du système d’information, sur lequel l’audit est effectué .
 Voir Audit, Preuve d’audit, Prestataire d’audit.
