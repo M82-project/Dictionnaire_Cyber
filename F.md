@@ -201,7 +201,7 @@ La fréquence d’un phénomène périodique correspond au nombre de fois que ce
 
 La fréquence d’échantillonnage correspond au nombre d’échantillons d’un signal prélevé par unité de temps. Cette notion est essentielle pour le traitement numérique de la voix ou de la musique. En effet, le microphone transforme l’onde acoustique de la voix en signal analogique qu’il faut alors échantillonner pour assurer la transmission numérique. Une fréquence d’échantillonnage suffisante est essentielle pour ne pas perdre de l’information (théorème de Nyquist-Shannon).
 
-Le théorème de Nyquist Shannon ou encore théorème de l’échantillonnage indique que pour assurer l’échantillonnage d’un signal (donc pour pouvoir le représenter sous forme discrète), la fréquence d’échantillonnage doit être supérieure au double de la fréquence de ce signal. 
+Le [théorème de Nyquist Shannon](https://www.f-legrand.fr/scidoc/docmml/numerique/tfd/echantillonnage2/echantillonnage2.html) ou encore théorème de l’échantillonnage indique que pour assurer l’échantillonnage d’un signal (donc pour pouvoir le représenter sous forme discrète), la fréquence d’échantillonnage doit être supérieure au double de la fréquence de ce signal. 
 
 Voir Shannon, Numérisation.
 
