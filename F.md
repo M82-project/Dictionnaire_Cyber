@@ -104,6 +104,12 @@ Action qui permet de trier suivant des critères spécifiques le trafic pouvant 
 
 Voir ACL, White list.
 
+## Fingerprinting
+(*empreinte numérique*)
+Le "fingerprinting" (empreinte numérique) est une technique utilisée par certains sites Web pour identifier de manière unique un utilisateur ou un appareil lorsqu'il se connecte au site. Cela peut être fait en utilisant différentes méthodes, telles que l'analyse des caractéristiques de l'appareil, du navigateur ou du système d'exploitation utilisé, ou en utilisant des cookies et d'autres technologies de suivi. 
+
+L'objectif du fingerprinting est souvent de collecter des données sur les utilisateurs pour des fins de ciblage publicitaire ou de suivi de l'utilisation du site. Le fingerprinting peut également être utilisé pour contourner les paramètres de confidentialité et de blocage de la publicité mis en place par les utilisateurs. Source : https://digipad.app/p/299285/a0dee57844c1b
+
 ## Firewall
 (*Pare-feu*)
 
