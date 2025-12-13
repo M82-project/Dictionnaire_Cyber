@@ -31,6 +31,10 @@ Il existe ainsi une série de messages RADIUS définis dans les RFC, on trouve p
 •	Demande de compte : envoyé par un client RADIUS pour spécifier les informations de gestion de compte d'une connexion acceptée. 
 •	Réponse de compte : envoyé par le serveur RADIUS en réponse à un message de demande de compte. Ce message accuse la réception et le traitement du message de demande de compte. 
 
+## Rage bait
+(catalyseur de colère)
+stratégie employée par des créateurs de contenus sur les réseaux sociaux pour provoquer la colère des utilisateurs afin de générer du trafic. Mot de l’année 2025 pour les Presses universitaires d’Oxford le dictionnaire d’Oxford définit le « Rage bait » comme du « contenu en ligne conçu pour susciter la colère ou l’indignation par son caractère frustrant, provocateur ou offensant, généralement publié dans le but d’augmenter le trafic ou l’engagement vers une page web ou un compte de réseau social particulier ».
+
 ## Rainbow tables
 (Table arc-en-ciel)
 Les rainbow tables sont des tables de correspondance utilisées en cryptanalyse* afin de retrouver un mot de passe à partir de son empreinte par une fonction de hachage*.
